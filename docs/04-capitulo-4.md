@@ -132,3 +132,57 @@ En esta sección se desarrolla el diseño táctico de cada Bounded Context ident
 
 ![IrrigationDB](../assets/diagramas-cap4/BD_Irrigation.png)
 
+
+### 4.2.2. Bounded Context: Pest Monitoring
+
+#### 4.2.2.1. Domain Layer
+
+| **Tipo**       | **Clase**                 | **Propósito**                                    |
+|----------------|---------------------------|--------------------------------------------------|
+| Aggregate Root | ObservationPoint          | Vincula parcela, cámara, objetivo y regla.       |
+| Entity         | PestObservation           | Conserva imagen y datos de captura.              |
+| Entity         | PestInference             | Conserva predicción y modelo sin sobrescribirla. |
+| Entity         | HumanValidation           | Registra corrección posterior del usuario.       |
+| Value Object   | ModelVersion              | Identifica artefacto, clases y checksum.         |
+| Value Object   | ConfidenceScore           | Valor entre 0 y 1.                               |
+| Value Object   | PestConfirmationRule      | Umbral, cantidad, ventana y clase objetivo.      |
+| Domain Service | PestConfirmationPolicy    | Evalúa inferencias recientes.                    |
+| Domain Event   | TargetPestConfirmed       | Comunica evidencia confirmada por regla.         |
+| Repository     | PestObservationRepository | Persistencia del agregado y evidencia.           |
+
+#### 4.2.2.2. Interface Layer
+
+- PestObservationController
+- EdgeInferenceConsumer
+- HumanValidationController
+
+#### 4.2.2.3. Application Layer
+
+- RegisterPestInferenceCommandHandler
+- EvaluatePestConfirmationPolicy
+- ValidatePestObservationCommandHandler
+- GetObservationEvidenceQueryHandler
+
+#### 4.2.2.4. Infrastructure Layer
+
+- ObjectStorageAdapter
+- JpaPestObservationRepository
+- ModelRegistryAdapter
+- ImageChecksumService
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Pest](../assets/diagramas-cap4/ComponentDiagram-Irrigation.png)
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+![PestClass](../assets/diagramas-cap4/Class_Pest.png)
+
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+![PestDB](../assets/diagramas-cap4/DB_Pest.png)
+
+
+
