@@ -57,30 +57,78 @@ A continuación se presenta el mapa de contexto de AgroLeak, que define las rela
 
 ### 4.1.3. Software Architecture
 
+En el software architecture context diagram se puede apreciar los componentes mas importantes que componen el sistema,asi como los usuarios y las principales funciones.
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+![Landscape](../assets/diagramas-cap4/SystemLandscape.png)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
+![Context](../assets/diagramas-cap4/SystemContext.png)
+
 #### 4.1.3.3. Software Architecture Container Level Diagrams
+
+![Container](../assets/diagramas-cap4/ContainerDiagram.png)
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
+![Deployment](../assets/diagramas-cap4/DeploymentDiagram.png)
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.1. Bounded Context: [Nombre Bounded Context]
+En esta sección se desarrolla el diseño táctico de cada Bounded Context identificado en la etapa estratégica. Para cada contexto se documenta el Domain Layer (entidades, value objects, enumeraciones, servicios de dominio e interfaces de repositorio), la Interface Layer, la Application Layer, la Infrastructure Layer, y los diagramas de arquitectura a nivel de componentes, clases y base de datos.
 
-#### 4.2.1.1. Application Layer
+### 4.2.1. Bounded Context: Irrigation Protection
 
-#### 4.2.1.2. Domain Layer
+#### 4.2.1.1. Domain Layer
 
-#### 4.2.1.3. Interface Layer
+| **Tipo**       | **Clase**                   | **Propósito**                                 |
+|----------------|-----------------------------|-----------------------------------------------|
+| Aggregate Root | IrrigationSegment           | Mantiene sensores, regla, válvula y estado.   |
+| Entity         | IrrigationSession           | Representa el periodo monitoreado.            |
+| Entity         | FlowReading                 | Conserva valor, punto, tiempo y calidad.      |
+| Value Object   | FlowRate                    | Valor de caudal y unidad.                     |
+| Value Object   | FlowAnomalyRule             | Umbral, persistencia, tolerancia y versión.   |
+| Value Object   | ValveState                  | OPEN, CLOSING, CLOSED, FAULT.                 |
+| Domain Service | FlowAnomalyDetector         | Evalúa diferencia, porcentaje y persistencia. |
+| Domain Event   | FlowAnomalyConfirmed        | Comunica condición confirmada con evidencia.  |
+| Repository     | IrrigationSegmentRepository | Persistencia del agregado.                    |
+
+#### 4.2.1.2. Interface Layer
+
+- FlowTelemetryController
+- IrrigationSegmentController
+- ValveCommandController
+- EdgeFlowConsumer
+
+#### 4.2.1.3. Application Layer
+
+- RegisterFlowReadingCommandHandler
+- ConfigureFlowRuleCommandHandler
+- ConfirmFlowAnomalyPolicy
+- RequestValveClosureCommandHandler
+- AuthorizeValveReopeningCommandHandler
 
 #### 4.2.1.4. Infrastructure Layer
 
+- JpaIrrigationSegmentRepository
+- JpaFlowReadingRepository
+- EdgeActuatorClient
+- PostgreSqlUnitOfWork
+- DomainEventPublisher
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Irrigation](../assets/diagramas-cap4/ComponentDiagram-Irrigation.png)
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
+![IrrigationClass](../assets/diagramas-cap4/Class_Irrigation.png)
+
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+![IrrigationDB](../assets/diagramas-cap4/BD_Irrigation.png)
+
