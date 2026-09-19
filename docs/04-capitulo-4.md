@@ -184,5 +184,56 @@ En esta sección se desarrolla el diseño táctico de cada Bounded Context ident
 
 ![PestDB](../assets/diagramas-cap4/DB_Pest.png)
 
+### 4.2.3. Bounded Context: Actuation Safety
+
+#### 4.2.3.1. Domain Layer
+
+| **Tipo**       | **Clase**                 | **Propósito**                                    |
+|----------------|---------------------------|--------------------------------------------------|
+| Aggregate Root | Actuator                  | Mantiene capacidad, modo, límites y bloqueo.     |
+| Entity         | ActuationRequest          | Expresa acción solicitada y evidencia de origen. |
+| Entity         | HumanApproval             | Registra aprobación, rechazo o expiración.       |
+| Entity         | ActuationExecution        | Conserva comando, feedback y resultado.          |
+| Value Object   | SafetyLimits              | Duración, pausa, máximo diario y horario.        |
+| Value Object   | ActuationCommand          | UUID, acción, parámetros, firma y expiración.    |
+| Domain Service | SafetyInterlockPolicy     | Decide si el comando puede ejecutarse.           |
+| Domain Event   | LocalizedControlActivated | Comunica el inicio de la acción.                 |
+| Domain Event   | SafetyLockoutTriggered    | Informa bloqueo ante condición insegura.         |
+| Repository     | ActuatorRepository        | Persistencia del agregado.                       |
+
+#### 4.2.3.2. Interface Layer
+
+- ActuationRequestController 
+- ApprovalController 
+- EdgeFeedbackConsumer
+
+#### 4.2.3.3. Application Layer
+
+- RequestLocalizedControlCommandHandler 
+- ApproveActuationCommandHandler 
+- IssueActuationCommandHandler 
+- RegisterActuationFeedbackCommandHandler
+- TriggerLockoutPolicy
+
+#### 4.2.3.4. Infrastructure Layer
+
+- JpaActuatorRepository
+- SignedCommandService 
+- EdgeActuatorClient 
+- AuditLogAdapter
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Safety](../assets/diagramas-cap4/ComponentDiagram-Irrigation.png)
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![SafetyClass](../assets/diagramas-cap4/Class_Safety.png)
+
+##### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![SafetyDB](../assets/diagramas-cap4/DB_Safety.png)
 
 
