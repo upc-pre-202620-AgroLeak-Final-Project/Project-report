@@ -24,7 +24,7 @@ La startup integra componentes físicos de Internet de las Cosas (sensores de ca
 
 | Fotografía | Integrantes del equipo | Código de estudiante | Carrera | Conocimientos / Habilidades |
 | :---: | :--- | :---: | :---: | :--- |
-| <img src="../assets/Foto-Kalid.jpg" width="100" alt="David Meza"> | kalid Palacios Jauregui | U201913639 | Ingeniería de Software | conocimientos y habilidades |
+| <img src="../assets/Foto-Kalid.jpg" width="100" alt="David Meza"> | kalid Palacios Jauregui | U201913639 | Ingeniería de Software | Hola, mi nombre es Kalid y soy estudiante de Ingeniería de Software. Tengo conocimientos y experiencia trabajando con lenguajes y tecnologías como C++, HTML, CSS y JavaScript, además de herramientas relacionadas al desarrollo de software. Actualmente sigo desarrollando mis conocimientos y buscando mejorar mis habilidades en el área de programación y tecnología. |
 | imagen2 | nombre2 | codigo2 | Ingeniería de Software | conocimientos y habilidades |
 | imagen3 | nombre2 | codigo3 | Ingeniería de Software | conocimientos y habilidades |
 | <img src="../assets/Foto-David.jpg" width="100" alt="David Meza"> | **Meza Tataje, David** | U202516291 | Ingeniería de Software | Estudiante de Ingeniería de Software de 21 años, con conocimientos intermedios en C++, Java y C#, además de experiencia en el desarrollo de aplicaciones web con HTML, CSS, JavaScript y SQL. Se considera una persona colaboradora y responsable, siempre dispuesto a aprender y trabajar en equipo para lograr los objetivos del proyecto. |
