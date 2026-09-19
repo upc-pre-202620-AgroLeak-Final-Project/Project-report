@@ -25,7 +25,7 @@
 | Código | Apellidos y Nombres |
 | :--- | :--- |
 | U202516291 | Meza Tataje, David |
-| codigo2 | Integrante 2 |
+| U202117475 | Dueñas Canales, Leonardo Manuel |
 | codigo3 | Integrante 3 |
 | codigo4 | Integrante 4 |
 | codigo5 | Integrante 5 |
