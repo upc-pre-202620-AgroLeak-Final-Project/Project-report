@@ -236,4 +236,46 @@ En esta sección se desarrolla el diseño táctico de cada Bounded Context ident
 
 ![SafetyDB](../assets/diagramas-cap4/DB_Safety.png)
 
+### 4.2.4. Bounded Context: Alert Management
+
+#### 4.2.4.1. Domain Layer
+
+| **Tipo**       | **Clase**                 | **Propósito**                                     |
+|----------------|---------------------------|---------------------------------------------------|
+| Aggregate Root | Alert                     | Gestiona estado, severidad y trazabilidad.        |
+| Entity         | AlertAction               | Registra reconocimiento, comentario o resolución. |
+| Value Object   | AlertStatus               | OPEN, ACKNOWLEDGED, RESOLVED.                     |
+| Domain Service | AlertDeduplicationService | Evita duplicados para el mismo incidente.         |
+| Repository     | AlertRepository           | Persistencia del agregado.                        |
+
+#### 4.2.4.2. Interface Layer
+
+- AlertController
+- DomainEventConsumer
+
+#### 4.2.4.3. Application Layer
+
+- RaiseAlertCommandHandler
+- AcknowledgeAlertCommandHandler
+- ResolveAlertCommandHandler
+
+#### 4.2.4.4. Infrastructure Layer
+
+- JpaAlertRepository
+- PushNotificationAdapter
+- EmailNotificationAdapter
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Alert](../assets/diagramas-cap4/ComponentDiagram-Irrigation.png)
+
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+![AlertClass](../assets/diagramas-cap4/Class_Alert.png)
+
+##### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+![AlertDB](../assets/diagramas-cap4/DB_Alerts.png)
 
