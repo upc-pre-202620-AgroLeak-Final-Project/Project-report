@@ -50,6 +50,11 @@ Para la presente sección, elaboramos el Bounded Context Canvas de cada uno de l
 
 ### 4.1.2. Context Mapping
 
+A continuación se presenta el mapa de contexto de AgroLeak, que define las relaciones de colaboración e integración entre los Bounded Contexts identificados. Cada relación está caracterizada según los patrones de Context Mapping del DDD (Upstream/Downstream, Shared Kernel, Customer-Supplier, Open Host Service), permitiendo comprender las dependencias del sistema y los flujos de información entre contextos.
+
+![Context Mapping](../assets/diagramas-cap4/Context-Mapping.png)
+
+
 ### 4.1.3. Software Architecture
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
