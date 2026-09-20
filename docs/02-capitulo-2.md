@@ -491,4 +491,15 @@ El cuestionario dirigido a este segmento profesional busca profundizar en la efi
 
 ## 2.4. Big Picture EventStorming
 
+Con el fin de plantear una aproximación del modelado de nivel general para el dominio del problema, se aplicó la técnica de EventStorming. Este proceso permitió al equipo comprender el flujo de eventos que ocurren dentro del dominio y definir las interacciones principales entre los actores, comandos y políticas del sistema.
+
+Pasos del proceso:
+  1. Eventos de Dominio (Tormenta de ideas): Identificar qué ha sucedido en el negocio, usando notas adhesivas naranjas escritas en pasado.
+  <img src="../assets/paso-1-event-storming.png">
+
+  2. Ordenar Eventos: Organizar los eventos cronológicamente de izquierda a derecha, eliminando duplicados.
+
+  
+  <img src="../assets/event-stoming-step-2.png">
+
 ## 2.5. Ubiquitous Language
