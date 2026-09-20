@@ -25,6 +25,8 @@
 | Código | Apellidos y Nombres |
 | :--- | :--- |
 | U202516291 | Meza Tataje, David |
+
+| U202117475 | Dueñas Canales, Leonardo Manuel |
 | U201611430 | Flores Manrique, Sebastian |
 | U202117475 | Dueñas Canales, Leonardo Manuel |
 | U201913639 | Palacios Jauregui, Kalid |
