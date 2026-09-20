@@ -53,19 +53,25 @@ AgroLeak
 <th align="center" valign="middle">
 DropControl (WiseConn)
 <br><br>
-<img src="../assets/logo-dropcontroll.jpg" width="85" alt="DropControl Logo">
+
+<img src="../assets/dropcontrol-logo.png" width="85" alt="DropControl Logo">
+
 </th>
 
 <th align="center" valign="middle">
 CropX
 <br><br>
-<img src="../assets/cropx.jpg" width="85" alt="CropX Logo">
+
+<img src="../assets/cropx-logo.png" width="85" alt="CropX Logo">
+
 </th>
 
 <th align="center" valign="middle">
 Kilimo
 <br><br>
-<img src="../assets/kilimo-logo-jpg.png" width="85" alt="Kilimo Logo">
+
+<img src="../assets/kilimo-logo.png" width="85" alt="Kilimo Logo">
+
 </th>
 
 </tr>

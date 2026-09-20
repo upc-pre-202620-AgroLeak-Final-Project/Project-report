@@ -25,10 +25,12 @@
 | Código | Apellidos y Nombres |
 | :--- | :--- |
 | U202516291 | Meza Tataje, David |
-| codigo2 | Integrante 2 |
-| codigo3 | Integrante 3 |
-| codigo4 | Integrante 4 |
-| codigo5 | Integrante 5 |
+
+| U202117475 | Dueñas Canales, Leonardo Manuel |
+| U201611430 | Flores Manrique, Sebastian |
+| U202117475 | Dueñas Canales, Leonardo Manuel |
+| U201913639 | Palacios Jauregui, Kalid |
+
 
 ### Agosto 2026-20
 
@@ -39,13 +41,17 @@
 | Versión | Fecha | Autor | Descripción Modificada |
 | :---: | :---: | :--- | :--- |
 | 0.1 | 12/09/26 | Meza Tataje, David | Creación de la estructura base y primera versión del informe. |
+|0.2 | 13/09/26 | Meza Tataje, David | Capítulo 1 y 2 añadido |
+|0.3 | 14/09/26 | Dueñas Canales, Leonardo | Capítulo 3 añadido | 
+|0.4 | 15/09/26 | Flores Manrique, Sebastian | Capítulo 4 añadido |
+|0.5 | 16/09/26 | Palacios Jauregui, Kalid | Landing Page |
 
 ---
 
 # Project Report Collaboration Insights
 
-- Link del repositorio del informe: [https://github.com/upc-pre-202620-AgroLeak-Final-Project/Project-report]
-- Link del repositorio del Landing Page: [https://github.com/upc-pre-202620-AgroLeak-Final-Project/Landing-page-AgroLeak]
+- Link del repositorio del informe: [Repositorio del informe](https://github.com/upc-pre-202620-AgroLeak-Final-Project/Project-report)
+- Link del repositorio del Landing Page: [Repositorio del Landing Page](https://github.com/upc-pre-202620-AgroLeak-Final-Project/Landing-page-AgroLeak)
 - Link del repositorio del Backend / Web Services: []
 - Link del repositorio del Edge API / Embedded: []
 
@@ -125,3 +131,5 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Meza Tataje, David**<br>*AV1*<br>Asumí el liderazgo en la definición de la arquitectura de software, guiando al equipo en la elaboración de los diagramas C4 Model y el diseño de nivel estratégico y táctico (DDD) correspondiente al Capítulo 4.<br><br>**Flores Manrique, Sebastian**<br>*AV1*<br>Lideré el diseño de la experiencia de usuario (Capítulo 5), definiendo las guías de estilo, la arquitectura de información y dirigiendo la implementación técnica de la primera versión funcional del Landing Page.<br><br>**Dueñas Canales, Leonardo Manuel**<br>*AV1*<br>Encabecé la fase de investigación y elicitación (Capítulos 1 y 2), conduciendo el análisis competitivo, el proceso Lean UX y la estructuración del EventStorming junto con el equipo.<br><br>**Palacios Jauregui, Kalid**<br>*AV1*<br>Dirigí la especificación de requisitos (Capítulo 3), estableciendo los estándares para la redacción de User Stories y liderando la priorización del Product Backlog para el MVP. | Durante la elaboración del informe AV1, demostramos un liderazgo compartido efectivo al distribuir la dirección de los cinco primeros capítulos según nuestras fortalezas técnicas. Esta delegación nos permitió profundizar en áreas complejas como el diseño IoT, la arquitectura de software y la implementación del Landing Page, asegurando que cada fase del proyecto tuviera un responsable claro que guiara nuestros esfuerzos conjuntos hacia un resultado de alta calidad. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Meza Tataje, David**<br>*AV1*<br>Planifiqué el flujo de control de versiones en GitHub para el informe y el código, estableciendo convenciones claras que facilitaron la integración del trabajo de todos los miembros sin conflictos.<br><br>**Flores Manrique, Sebastian**<br>*AV1*<br>Aseguré un entorno inclusivo al integrar principios de accesibilidad (a11y) en el Landing Page y coordiné el espacio de trabajo colaborativo en herramientas de diseño, permitiendo la revisión conjunta de los mock-ups.<br><br>**Dueñas Canales, Leonardo Manuel**<br>*AV1*<br>Establecí las metas a corto plazo para la redacción del informe, organizando las sesiones de trabajo síncronas y consolidando los aportes individuales para asegurar la coherencia de los Capítulos 1 al 5.<br><br>**Palacios Jauregui, Kalid**<br>*AV1*<br>Planifiqué y monitoreé las tareas del equipo utilizando herramientas de gestión ágil, asegurando que los objetivos de investigación, diseño y desarrollo web del Hito AV1 se cumplieran dentro de los plazos establecidos. | Logramos consolidar un entorno de trabajo altamente colaborativo, apoyándonos en herramientas en la nube y repositorios compartidos para mantener la visibilidad del progreso. La planificación estructurada de tareas y el establecimiento de hitos internos nos permitieron cumplir con el 100% de los objetivos planteados para el AV1, incluyendo la redacción exhaustiva de los primeros cinco capítulos y el despliegue exitoso del Landing Page inicial. |
