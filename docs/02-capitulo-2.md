@@ -483,6 +483,24 @@ El cuestionario dirigido a este segmento profesional busca profundizar en la efi
 
 ### 2.2.2. Registro de entrevistas
 
+#### Entrevista 1
+
+[ENTREVISTA 1](https://drive.google.com/file/d/1lvKcFmLgGJu_Ca_NJWwq2QYOh67I5BB2/view?usp=share_link)
+
+**Nombre:** Ingeniero Vega
+
+**Edad:** 27
+
+**Residencia:** Palpa, Ica
+
+**Segmento Objetivo:** Empresa agrícola (Mediano productor de palta y cítricos)
+
+**Duración:** 09:00 minutos
+
+**Resumen:** El Ing. Vega administra una empresa agrícola de 8 hectáreas en la costa de Palpa, Ica, enfocada en el cultivo de palta y cítricos mediante un sistema de riego por goteo con bombeo y válvulas por sector. Actualmente, tanto la verificación del riego como la inspección de plagas se realizan de forma manual, lo que ocasiona que problemas frecuentes como mangueras desacopladas, fugas o goteros obstruidos tarden horas o hasta el siguiente turno en detectarse. Esto genera desperdicio de agua, sobrecostos en energía eléctrica/combustible y afectaciones en el rendimiento de los cultivos por exceso o falta de riego.
+
+Muestra alta receptividad hacia una solución tecnológica orientada a la gestión móvil (smartphone) que emita alertas puntuales. Para la gestión hídrica, prefiere recibir notificaciones por diferencia de caudal con la opción de cerrar las válvulas de manera remota/manual antes de habilitar un automatizado total. En el ámbito fitosanitario, valora la detección por cámara que envíe la imagen, el tipo de plaga y el sector afectado para ejecutar intervenciones focalizadas. Comercialmente, solicita un modelo de entrada accesible mediante alquiler, suscripción mensual o un pago inicial por instalación con mantenimiento económico, evaluando la compra definitiva tras comprobar el ahorro de recursos e insumos.
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
