@@ -485,6 +485,8 @@ El cuestionario dirigido a este segmento profesional busca profundizar en la efi
 
 #### Entrevista 1
 
+<img width="1102" height="618" alt="Captura de pantalla 2026-10-04 a la(s) 9 05 35 p  m" src="https://github.com/user-attachments/assets/f009fba5-7343-4391-b7a7-e6b57b4790ce" />
+
 [ENTREVISTA 1](https://drive.google.com/file/d/1lvKcFmLgGJu_Ca_NJWwq2QYOh67I5BB2/view?usp=share_link)
 
 **Nombre:** Ingeniero Vega
