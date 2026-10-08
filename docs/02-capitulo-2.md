@@ -534,13 +534,27 @@ Respecto a la actuación automática de válvulas, considera necesarios interloc
 
 Finalmente, indicó que para una agroempresa sería adecuado un modelo SaaS B2B con suscripción por hectárea, que incluya el arrendamiento del hardware, garantía y mantenimiento, de modo que pueda gestionarse como gasto operativo.
 
+##### Entrevista 3
+
+**Entrevistado:** Michael Quispe.
+
+**Edad:** 24 años.
+
+**Distrito:** Cañete, Lima.
+
+<img width="1102" height="618" alt="Captura de pantalla Entrevista Michael" src="https://i.postimg.cc/W30DmYNn/Captura-de-pantalla-(384).png" />
+
+**Enlace del video:** [entrevista-michael.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222846_upc_edu_pe/IQCAaAcW1oK_Tqof8YVhn2hPAeoTG09J7UKSdoKXZTXxL40?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cwsQ3o)
+
+**Resumen:** El usuario validó la necesidad urgente de automatizar la detección de fugas, indicando que actualmente dependen de recorridos físicos que retrasan la respuesta, lo que genera desperdicio de agua y daño al cultivo. Confirmó que la propuesta de recibir alertas móviles, evidencias fotográficas y opciones de cierre remoto reduciría significativamente el tiempo de reacción, validando la viabilidad y necesidad del proyecto AgroLeak en campo.
+
 ### 2.2.3. Análisis de entrevistas
 
 En esta sección se describirán los principales hallazgos identificados al revisar las entrevistas. El análisis se redactará en forma narrativa, contrastando las respuestas de los entrevistados y relacionando cada necesidad o dificultad con la evidencia obtenida en los videos.
 
 **Segmento 1: Pequeños y medianos agricultores tecnificados**
 
-Pendiente de completar cuando se incorporen y revisen las entrevistas de este segmento.
+A partir de la entrevista realizada a Michael Quispe (Asistente Técnico de Riego), se corroboraron puntos críticos en la operación diaria que complementan la visión administrativa. Se identificó una dependencia total de los recorridos físicos para detectar anomalías, lo que retrasa significativamente la respuesta ante incidentes hidráulicos. Esta latencia genera desperdicio de recursos hídricos y expone el cultivo a daños colaterales. Asimismo, el usuario validó directamente la propuesta de valor de AgroLeak, confirmando que la integración de notificaciones móviles, evidencia fotográfica (IA) y actuación remota sobre válvulas cubre la necesidad operativa de descentralizar la supervisión y optimizar el tiempo de reacción del personal técnico.
 
 **Segmento 2: Jefes de operaciones agrícolas y administradores de fundo**
 
