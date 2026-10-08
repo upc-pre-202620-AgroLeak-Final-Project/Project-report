@@ -505,7 +505,7 @@ Muestra alta receptividad hacia una solución tecnológica orientada a la gesti�
 
 #### Entrevista 2
 
-![Captura de pantalla de la entrevista 2](https://postimg.cc/XG7748yG)
+<img width="1102" height="618" alt="Captura de pantalla Entrevista 2" src="https://i.postimg.cc/W30DmYNn/Captura-de-pantalla-(384).png" />
 
 **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222846_upc_edu_pe/IQCAaAcW1oK_Tqof8YVhn2hPAeoTG09J7UKSdoKXZTXxL40?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cwsQ3o 
 
