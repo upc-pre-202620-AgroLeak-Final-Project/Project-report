@@ -552,19 +552,90 @@ Pendiente de redactar a partir de los hallazgos verificados en ambos segmentos.
 
 ## 2.3. Needfinding
 
+El Needfinding organiza los hallazgos disponibles sobre la supervisión del riego y la sanidad vegetal. Su base empírica son los resúmenes de las entrevistas registradas en la sección 2.2.2: **Michael Quispe (Segmento 1)**, y **Alexis Alarcón e Ing. Vega (Segmento 2)**. La muestra disponible es **n = 3**; si bien aporta perspectivas complementarias desde el trabajo de campo y la administración, no permite afirmar que los hallazgos representen estadísticamente a todos los integrantes de los [dos segmentos objetivo](01-capitulo-1.md#13-segmentos-objetivo).
+
+**Alcance y criterio de evidencia.** Se revisaron los capítulos del informe, los assets existentes y la rama `ENTREVISTAS`, que contiene los registros documentales. Las preguntas de 2.2.1 y las hipótesis del capítulo I no se tratan como respuestas de participantes.
+
+Se distinguen tres niveles: **E** = evidencia explícita en el resumen; **I** = interpretación del equipo, pendiente de contrastación; **N/D** = información no documentada. Las prioridades de diseño y las emociones inferidas se identifican como I. No se asignan puntuaciones cuantitativas cuando la entrevista no las proporciona.
+
+#### Registro de evidencia y trazabilidad
+
+Los identificadores **E1** remiten a la entrevista de Michael Quispe (Segmento 1), y los identificadores **E2** remiten a los hallazgos del Ing. Vega (Segmento 2). 
+
+| ID | Evidencia disponible en los resúmenes | Ubicación en el registro |
+| :--- | :--- | :--- |
+| <a id="e1-a"></a>E1-A | Michael Quispe, 24 años, residente en Cañete, Lima; se desempeña como Asistente Técnico de Riego. | Datos de identificación (Entrevista 1 - Segmento 1). |
+| <a id="e1-b"></a>E1-B | La detección de fugas en la operación diaria depende exclusivamente de la realización de recorridos físicos por las parcelas. | Resumen E1. Denota una dependencia limitante (I). |
+| <a id="e1-c"></a>E1-C | La dependencia de inspecciones presenciales genera una latencia perjudicial, retrasando significativamente la capacidad de respuesta ante anomalías hidráulicas. | Resumen E1. Confirma el dolor de ineficiencia temporal (I). |
+| <a id="e1-d"></a>E1-D | Confirmación de que la combinación de alertas móviles, evidencias fotográficas (monitoreo) y opciones de cierre remoto (actuación) reduciría drásticamente el tiempo de reacción. | Resumen E1. Valida directamente la hipótesis de valor de AgroLeak. |
+| <a id="e2-a"></a>E2-A | Ing. Vega, 27 años, residente en Palpa, Ica; administra una empresa agrícola de 8 hectáreas con riego por goteo, bombeo y válvulas por sector. | Datos de identificación (Entrevista 1 - Segmento 2). |
+| <a id="e2-b"></a>E2-B | Se describen problemas frecuentes de mangueras desacopladas, fugas o goteros obstruidos; su detección puede tardar horas o hasta el siguiente turno. | Resumen E2. No se documenta frecuencia numérica. |
+| <a id="e2-c"></a>E2-C | Receptividad hacia gestión móvil y alertas puntuales. Prefiere avisos por diferencia de caudal y cierre remoto/manual antes de automatización total. | Resumen E2. Preferencia futura, no herramienta actual. |
+| <a id="e2-d"></a>E2-D | Valora recibir imagen, tipo de plaga y sector afectado para orientar intervenciones focalizadas. | Resumen E2. |
+
+Los artefactos visuales de esta sección son **equivalentes elaborados para el informe; no son exportaciones de UXPressia**. Cada figura se entrega en PNG y SVG editable. Para sustituir las figuras por exportaciones reales de UXPressia, se conservan los nombres de los PNG o se actualiza su ruta relativa.
+
 ### 2.3.1. User Personas
 
-Las User Personas se elaborarán en UXPressia a partir de los hallazgos obtenidos de las entrevistas, diferenciando las características verificadas de cada segmento objetivo. Las fichas deben representar necesidades, objetivos, comportamientos, frustraciones y contexto tecnológico sustentados por la evidencia, sin atribuirles características no observadas.
+Las User Personas se elaborarán en UXPressia a partir de los hallazgos obtenidos de las entrevistas, diferenciando las características verificadas de cada segmento objetivo.
 
 **Persona del Segmento 1: Pequeño o mediano agricultor tecnificado**
 
-> Artefacto pendiente: insertar en esta sección la ficha de User Persona creada en UXPressia, una vez contrastada con las entrevistas del segmento.
+La persona **Michael Quispe** representa el arquetipo del usuario técnico y operativo en campo. Tiene 24 años y trabaja como Asistente Técnico de Riego en Cañete (Lima). Sus objetivos principales son optimizar el tiempo de respuesta ante fallas y evitar el desperdicio de agua y daño a las plantas causado por la detección tardía. Sus frustraciones radican en la dependencia de recorridos físicos exhaustivos para encontrar fugas. Es un usuario nativo digital, altamente receptivo a interactuar con notificaciones móviles e interfaces de control remoto.
+
+> *Nota: Insertar en esta sección la captura de la ficha de User Persona creada en UXPressia para Michael Quispe.*
 
 **Persona del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
 
-La persona **Ing. Vega** representa el arquetipo de productor tecnificado utilizado para el Needfinding de este segmento. Según la ficha de UXPressia, tiene 27 años, administra una empresa agrícola de 8 hectáreas de palta y cítricos en Palpa (Ica), y opera con riego por goteo, bombeo y válvulas por sector. Sus objetivos incluyen detectar oportunamente fugas y obstrucciones, recibir alertas en el smartphone, localizar posibles plagas y comprobar el ahorro antes de adoptar la solución. La ficha también señala que actualmente la verificación del riego y la inspección de plagas se realizan manualmente.
+La persona **Ing. Vega** representa el arquetipo de productor tecnificado utilizado para el Needfinding de este segmento. Según la ficha, administra 8 hectáreas de palta y cítricos. Sus objetivos incluyen detectar oportunamente fugas, localizar posibles plagas y comprobar el ahorro antes de adoptar la solución. 
 
 <img src="../assets/ing-vega-person.png" alt="User Persona Ing. Vega, jefe de operaciones agrícolas" width="100%">
+
+### 2.3.2. User Task Matrix
+
+La matriz organiza las tareas de los segmentos objetivo y permite compararlas según su frecuencia (F) e importancia (I), en una escala de **Alta, Media y Baja**. Con la validación de la entrevista de Michael Quispe, se han actualizado las prioridades para el personal de campo (Segmento 1).
+
+| Tareas (Tasks) | Agricultor tecnificado (Seg 1): Frecuencia | Agricultor tecnificado (Seg 1): Importancia | Jefe de operaciones (Seg 2): Frecuencia | Jefe de operaciones (Seg 2): Importancia |
+| :--- | :---: | :---: | :---: | :---: |
+| Consultar el estado general del fundo, sus parcelas y sectores | Alta | Media | Alta | Alta |
+| Revisar lecturas de caudal y el estado de los dispositivos | Alta | Alta | Media | Alta |
+| Revisar si el sistema detectó una posible fuga o anomalía | Alta | Alta | Media | Alta |
+| Consultar observaciones de plagas y la evidencia capturada | Media | Alta | Media | Alta |
+| Consultar, reconocer y dar seguimiento a las alertas | Alta | Alta | Media | Alta |
+| Revisar el estado de una solicitud de cierre de válvula | Alta | Alta | Baja | Media |
+| Revisar métricas y reportes para tomar decisiones operativas | Baja | Media | Alta | Alta |
+
+### 2.3.3. User Journey Mapping
+
+Los User Journey Maps reflejan las etapas de la tarea, las acciones y puntos de contacto del usuario, sus dificultades y emociones.
+
+**Journey Map del Segmento 1: Pequeño o mediano agricultor tecnificado**
+
+El Journey Map de Michael Quispe describe su recorrido diario en campo. Las etapas actuales incluyen: inicio de turno, recorrido físico por surcos, detección visual de anomalías (charcos o baja presión) y reporte manual. El punto más bajo (frustración) ocurre durante el recorrido a ciegas, donde se pierde tiempo vital. Las oportunidades mapeadas son la implementación de notificaciones push directas al smartphone al detectar un cambio de caudal y la provisión de un botón de acción rápida para cerrar el flujo sin tener que trasladarse a la válvula matriz.
+
+> *Nota: Insertar el Journey Map elaborado en UXPressia para el Segmento 1.*
+
+**Journey Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
+
+El Journey Map de Ing. Vega representa cuatro etapas de la supervisión del riego: operación, verificación manual, detección tardía de incidencias y atención/corrección. La revisión manual retrasa la detección; como oportunidades se identifican alertas oportunas y control manual o remoto de la válvula.
+
+<img src="../assets/ing-vega-journey-map.png" alt="User Journey Map de Ing. Vega, jefe de operaciones agrícolas" width="100%">
+
+### 2.3.4. Empathy Mapping
+
+Los Empathy Maps sintetizan expresiones y comportamientos observados en las entrevistas.
+
+**Empathy Map del Segmento 1: Pequeño o mediano agricultor tecnificado**
+
+El Empathy Map de Michael Quispe revela a un usuario que **piensa y siente** urgencia por optimizar su tiempo en campo y evitar los daños colaterales de las fugas. **Ve** el desperdicio constante de agua y cultivos afectados por estrés hídrico. **Dice y hace** recorridos físicos extensos que retrasan la respuesta. Sus principales **dolores (pains)** son la latencia operativa y el esfuerzo físico innecesario. Sus **beneficios esperados (gains)** son contar con un sistema de alertas proactivas en su celular y evidencias fotográficas que le permitan ir directamente al problema.
+
+> *Nota: Insertar el Empathy Map elaborado en UXPressia para el Segmento 1.*
+
+**Empathy Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
+
+El Empathy Map de Ing. Vega sintetiza las necesidades de supervisar el riego, detectar fugas a tiempo y conocer la evidencia de plagas para intervenir focalizadamente. Recoge frustraciones sobre los costos de bombeo y el interés en comprobar el ahorro.
+
+<img src="../assets/ing-vega-empathy-map.png" alt="Empathy Map de Ing. Vega, jefe de operaciones agrícolas" width="100%">
 
 ### 2.3.2. User Task Matrix
 
