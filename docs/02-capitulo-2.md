@@ -513,17 +513,26 @@ En esta sección se presentan las entrevistas realizadas a los integrantes de lo
 
 ##### Entrevista 2
 
-**Entrevistado:** Por completar después de realizar la entrevista.
+**Entrevistado:** Alexis Alarcón Vargas.
 
-**Edad y ubicación:** Por completar.
+**Edad:** 32 años.
 
-**Evidencia de la entrevista:**
+**Distrito:** Cañete.
 
-> Insertar aquí la imagen o captura de la Entrevista 2 del Segmento 2.
+<img src="../assets/imagen-entrevista-2.png">
 
-**Enlace del video:** Por agregar cuando esté disponible.
 
-**Resumen:** Por redactar a partir del video y de las respuestas al cuestionario de la sección 2.2.1.
+**Enlace del video:** [entrevista-sector-2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202516291_upc_edu_pe/IQBUZID357uxQYUte2Gb4geMARDM9A0AdXGqjCBTxWvffuV?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Lhg1P9)
+
+**Resumen:** Alexis Alarcón Vargas, ingeniero agrónomo y jefe de Operaciones Agrícolas de la agroexportadora El Sur, supervisa el fundo San José, ubicado en el valle de Cañete. El fundo cuenta con 45 hectáreas —30 de palto Hass y 15 de uva de mesa— y utiliza riego por goteo automatizado desde casetas de bombeo. La programación del riego se realiza semanalmente según la evapotranspiración; sin embargo, el registro del volumen real de agua y de las presiones se lleva manualmente en cuadernos de campo, cuyos datos se transcriben a Excel al día siguiente.
+
+Entre las dificultades identificadas, señaló que la falta de información en tiempo real retrasa la detección de errores humanos y roturas de líneas, afecta la uniformidad del riego y complica las auditorías. Indicó que ocurren entre tres y cinco fugas al mes debido a desacoples o fallas en mangueras y sellos. Estos incidentes generan sobrecostos de energía, desperdicio de fertilizantes disueltos y riesgos de penalización en certificaciones como GlobalG.A.P. y en auditorías de huella hídrica.
+
+En sanidad vegetal, el fundo cuenta con evaluadores que monitorean plagas como queresa, arañita roja y trips. Los reportes pueden tardar entre 24 y 48 horas, por lo que las decisiones de aplicación suelen abarcar lotes completos en lugar de focalizarse en las áreas afectadas. Para sus actividades utiliza diariamente una laptop y un smartphone, y consulta dashboards web y notificaciones push.
+
+Respecto a la actuación automática de válvulas, considera necesarios interlocks que validen la persistencia de una anomalía y permisos con credenciales para autorizar la reapertura después de una inspección física. También valoró las alertas fitosanitarias con fotografías y un porcentaje de certeza de la IA, que, según su estimación, podrían contribuir a reducir hasta en un 30 % el consumo de fitosanitarios. Entre los indicadores que considera útiles para un panel menciona el balance de caudal de entrada y salida en litros por minuto, el registro de incidencias, la bitácora de acciones sobre válvulas y la eficiencia hídrica.
+
+Finalmente, indicó que para una agroempresa sería adecuado un modelo SaaS B2B con suscripción por hectárea, que incluya el arrendamiento del hardware, garantía y mantenimiento, de modo que pueda gestionarse como gasto operativo.
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -557,15 +566,25 @@ Las User Personas se elaborarán en UXPressia a partir de los hallazgos obtenido
 
 ### 2.3.2. User Task Matrix
 
-La User Task Matrix permite identificar y comparar las tareas que realizan los entrevistados, considerando su frecuencia e importancia. Se elaborará en UXPressia a partir de las entrevistas y se presentará mediante las imágenes correspondientes a cada segmento.
+En esta sección se presenta la User Task Matrix de AgroLeak. La matriz organiza las tareas de los segmentos objetivo y permite compararlas según su frecuencia (F) e importancia (I), en una escala de **Alta, Media y Baja**.
 
-**Segmento 1: Pequeños y medianos agricultores tecnificados**
+Las tareas que se muestran a continuación se identificaron a partir de los flujos del Event Storming y del alcance funcional de AgroLeak. Las valoraciones de frecuencia e importancia son **preliminares**: deben contrastarse con las entrevistas y con el Needfinding antes de considerarse hallazgos validados. En particular, las tareas de configuración y mantenimiento del sistema pueden corresponder a un administrador o técnico autorizado, y no necesariamente al agricultor.
 
-> Insertar aquí la imagen de la User Task Matrix del Segmento 1, elaborada en UXPressia con base en las entrevistas.
+| Tareas (Tasks) | Agricultor tecnificado: Frecuencia | Agricultor tecnificado: Importancia | Jefe de operaciones / administrador: Frecuencia | Jefe de operaciones / administrador: Importancia |
+| :--- | :---: | :---: | :---: | :---: |
+| Consultar el estado general del fundo, sus parcelas y sectores | Por validar | Por validar | Por validar | Por validar |
+| Revisar lecturas de caudal y el estado de los dispositivos asignados a los sectores | Por validar | Por validar | Por validar | Por validar |
+| Revisar si el sistema detectó una posible fuga, obstrucción o presión fuera de rango | Por validar | Por validar | Por validar | Por validar |
+| Consultar observaciones de plagas y la evidencia capturada | Por validar | Por validar | Por validar | Por validar |
+| Consultar, reconocer y dar seguimiento a las alertas | Por validar | Por validar | Por validar | Por validar |
+| Revisar el estado de una solicitud de apertura o cierre de válvula y confirmar el resultado cuando corresponda | Por validar | Por validar | Por validar | Por validar |
+| Consultar el historial de telemetría, alertas y acciones ejecutadas | Por validar | Por validar | Por validar | Por validar |
+| Configurar o actualizar fundos, parcelas, sectores y cultivos | Por validar | Por validar | Por validar | Por validar |
+| Registrar dispositivos y asignarlos a un sector | Por validar | Por validar | Por validar | Por validar |
+| Cambiar el modo de operación del sistema, de acuerdo con los permisos definidos | Por validar | Por validar | Por validar | Por validar |
+| Revisar métricas y reportes para tomar decisiones operativas | Por validar | Por validar | Por validar | Por validar |
 
-**Segmento 2: Jefes de operaciones agrícolas y administradores de fundo**
-
-> Insertar aquí la imagen de la User Task Matrix del Segmento 2, elaborada en UXPressia con base en las entrevistas.
+Las entrevistas permitirán asignar la frecuencia e importancia de cada tarea por segmento y ajustar la matriz según el rol real de los participantes. Si una tarea no corresponde a un segmento, se debe marcar como **No aplica** en lugar de asignarle una valoración. La matriz final debe mantenerse en este formato Markdown e incorporar las valoraciones validadas.
 
 ### 2.3.3. User Journey Mapping
 
@@ -663,21 +682,39 @@ El Ubiquitous Language establece términos comunes entre los usuarios del domini
 | :--- | :--- |
 | **Fundo** | Unidad de operación agrícola administrada por un productor, administrador o equipo de operaciones. |
 | **Parcela** | Área de cultivo dentro de un fundo que puede ser supervisada como parte de la operación agrícola. |
-| **Tramo de riego** | Segmento de la infraestructura de riego cuyo flujo se monitorea mediante lecturas asociadas a sus puntos de entrada y salida. |
+| **Sector** | Área operativa del fundo a la que se asocian cultivos y dispositivos, según la organización registrada en AgroLeak. |
+| **Cultivo** | Tipo de cultivo registrado para una parcela o sector del fundo. |
+| **Tramo de riego** | Parte de la infraestructura de riego monitoreada por uno o más dispositivos; su equivalencia con el término **sector** debe confirmarse con el modelo de datos y la lógica de la aplicación. |
 | **Caudal** | Volumen de agua que circula por un punto del sistema de riego durante un intervalo de tiempo. |
-| **Lectura de caudal** | Medición reportada por un sensor en un punto del tramo de riego, con su valor y referencia temporal. |
+| **Lectura de caudal** | Medición reportada por un sensor en un punto del tramo de riego, con su valor, unidad y referencia temporal. |
+| **Balance de caudal** | Comparación entre el caudal medido en distintos puntos de un tramo, como la entrada y la salida. En la entrevista se mencionó el uso de litros por minuto; los puntos de medición y criterios de diferencia deben corresponder a la configuración real del sistema. |
+| **Presión de riego** | Presión registrada en el sistema de riego para supervisar sus condiciones de operación. Los rangos aceptables deben definirse según la instalación y no inferirse únicamente de una entrevista. |
+| **Programación de riego** | Planificación de los periodos o volúmenes de riego para un cultivo o sector. La entrevista indica que puede considerar la evapotranspiración, pero AgroLeak no debe presentarse como generador de esa programación salvo que esa función esté definida. |
+| **Evapotranspiración** | Pérdida de agua hacia la atmósfera por evaporación y transpiración de las plantas; puede utilizarse como dato de referencia para planificar el riego. |
 | **Telemetría** | Datos enviados por los dispositivos de campo para supervisar el estado de los sensores, el flujo de agua y otros elementos monitoreados. |
+| **Registro de campo** | Anotación manual de mediciones, observaciones o incidencias realizada durante la operación agrícola. En la entrevista, los datos de cuadernos de campo se transcribían posteriormente a Excel. |
+| **Snapshot** | Captura o conjunto puntual de datos evaluado por el sistema para mostrar el estado de las lecturas y detectar posibles condiciones anómalas. El contenido exacto debe mantenerse alineado con la implementación. |
 | **Anomalía persistente de caudal** | Diferencia entre las lecturas de entrada y salida que se mantiene durante el periodo definido por las reglas del sistema. Los umbrales y la duración deben precisarse en el diseño del producto. |
 | **Fuga** | Pérdida no deseada de agua en el sistema de riego, cuya detección puede apoyarse en la evaluación de lecturas de caudal. |
 | **Dispositivo IoT** | Sensor o actuador instalado en campo que captura mediciones o ejecuta acciones relacionadas con el monitoreo y la protección del riego. |
+| **Dispositivo asignado** | Dispositivo registrado y asociado a un sector para participar en el monitoreo o la actuación correspondiente. |
+| **Estado del dispositivo** | Condición reportada por el sistema para indicar si un dispositivo se encuentra conectado (*ONLINE*) o sin conexión (*OFFLINE*). |
+| **Modo de operación** | Configuración que determina cómo se comporta el sistema frente a condiciones detectadas. Los modos y permisos disponibles deben corresponder a los definidos en la aplicación y en las reglas del dominio. |
+| **Interlock** | Salvaguarda que condiciona o bloquea una actuación hasta que se cumplan reglas de seguridad definidas. En la entrevista se solicitó validar la persistencia de una anomalía antes de permitir una respuesta automática; la regla concreta debe acordarse en el diseño del sistema. |
 | **Gateway Edge** | Componente situado en el borde que recibe o procesa datos de dispositivos y puede ejecutar capacidades locales aun cuando la conectividad con la nube no esté disponible. |
 | **Inferencia en el borde (Edge AI)** | Procesamiento local de una imagen mediante un modelo de IA para estimar la presencia o clasificación de una plaga. |
-| **Observación de plaga** | Registro asociado a una captura de imagen y al resultado producido por el modelo de detección; no equivale por sí solo a una confirmación agronómica. |
-| **Alerta** | Aviso generado por el sistema para comunicar una condición relevante, como una anomalía de caudal o una observación de plaga. |
-| **Solicitud de cierre de válvula** | Petición de ejecutar el cierre preventivo de una válvula después de que las reglas de protección determinen que corresponde. |
-| **Actuación de válvula** | Acción física de apertura o cierre ejecutada por el actuador, cuyo resultado debe registrarse y verificarse. |
+| **Evaluación fitosanitaria** | Inspección del cultivo para identificar y registrar la presencia de plagas. En el proceso descrito por el entrevistado, evaluadores realizan esta actividad y consolidan reportes. |
+| **Observación de plaga** | Registro asociado a una captura o inspección y, cuando corresponde, al resultado de inferencia. Una observación detectada por el sistema no equivale por sí sola a una confirmación agronómica. |
+| **Porcentaje de confianza de la inferencia** | Valor producido por un modelo que expresa su nivel de confianza en una clasificación. No debe interpretarse como certeza ni como confirmación agronómica. |
+| **Alerta** | Aviso generado por el sistema para comunicar una condición relevante, como una posible fuga, una observación de plaga u otra condición definida por las reglas. |
+| **Estado de alerta** | Estado del ciclo de vida de una alerta. El tablero contempla estados como **ACTIVE**, **ACKNOWLEDGED** y **RESOLVED**; sus transiciones deben corresponder a las acciones disponibles en la aplicación. |
+| **Comando de válvula** | Solicitud de apertura o cierre dirigida al actuador. La solicitud, el envío de la orden y el resultado confirmado son hechos distintos. |
+| **Estado de ejecución** | Resultado reportado para una actuación, por ejemplo, pendiente, confirmada o fallida. No se debe tratar una orden enviada como una actuación confirmada. |
+| **Autorización de reapertura** | Permiso requerido para volver a abrir una válvula después de una actuación de protección. El entrevistado indicó que debería darse tras una inspección física y con credenciales autorizadas; la regla y los roles permitidos deben definirse formalmente. |
+| **Bitácora de auditoría (audit log)** | Registro trazable de incidencias y acciones realizadas sobre el sistema, incluyendo las operaciones relacionadas con las válvulas cuando estén disponibles. |
+| **Eficiencia hídrica** | Indicador utilizado para evaluar la relación entre el agua empleada y la operación o producción agrícola. Su fórmula y datos de cálculo deben acordarse antes de presentarlo como métrica del producto. |
 | **Estado seguro** | Condición de protección definida para el sistema después de una situación de riesgo. El cierre solicitado y el cierre confirmado deben distinguirse; una acción no confirmada no debe registrarse como exitosa. |
 | **Sincronización idempotente** | Envío o reintento de datos almacenados localmente sin crear registros duplicados cuando una misma operación se procesa más de una vez. |
-| **Bounded Context (contexto delimitado)** | Límite dentro del cual un modelo y sus términos tienen un significado consistente. Los contextos específicos de AgroLeak se definirán y documentarán a partir del EventStorming. |
+| **Bounded Context (contexto delimitado)** | Límite dentro del cual un modelo y sus términos tienen un significado consistente. Los nombres y responsabilidades deben mantenerse alineados con los límites acordados en el paso 10 del Event Storming. |
 
-Los nombres y definiciones de esta tabla constituyen una base de trabajo, no una decisión final sobre la arquitectura. Después del taller de Event Storming, el equipo deberá ajustar el vocabulario para que los términos coincidan con los eventos, comandos, reglas y Bounded Contexts acordados.
+Los nombres y definiciones de esta tabla constituyen la base del lenguaje de dominio a partir del Event Storming, la lógica de la aplicación y la entrevista del Segmento 2. Los términos recogidos de una entrevista reflejan lo expresado por ese participante; no implican por sí solos que AgroLeak ya implemente o haya aprobado esas reglas o métricas. Deben contrastarse con las demás entrevistas y mantenerse consistentes en los requisitos, diseños y diagramas. En particular, el equipo debe confirmar si **sector** y **tramo de riego** representan la misma unidad, y validar los estados y transiciones de alertas, dispositivos y comandos de válvula con la implementación.
