@@ -75,31 +75,45 @@ Elaborar el artefacto final en UXPressia, insertar captura y agregar URL públic
 
 La priorización favorece primero los dos circuitos IoT de punta a punta, sus salvaguardas y la evidencia necesaria para demostrarlos.
 
-| Orden | ID | Título | Descripción resumida | Story Points |
+| **Orden** | **ID** | **Título** | **Descripción resumida** | **Story Points** |
 |---:|---|---|---|---:|
-| 1 | TS01 | Receive device telemetry | Persistencia Edge autenticada. | 5 |
-| 2 | US07 | View irrigation status | Lecturas y estado de válvula. | 5 |
-| 3 | US08 | Detect flow anomaly | Umbral y persistencia. | 8 |
-| 4 | US09 | Close shutoff valve | Cierre y feedback seguro. | 8 |
-| 5 | TS02 | Run pest inference | Inferencia Edge versionada. | 8 |
-| 6 | US12 | Review AI detection | Imagen, clase y confianza. | 5 |
-| 7 | US13 | Confirm target pest | Regla por confianza y repetición. | 8 |
-| 8 | TS03 | Enforce safety interlocks | Validación local de comandos. | 8 |
-| 9 | US15 | Execute localized control | Actuación limitada y trazable. | 8 |
-| 10 | US14 | Authorize control | Aprobación o rechazo. | 5 |
-| 11 | US17 | Manage alerts | Ciclo de atención. | 5 |
-| 12 | TS04 | Synchronize Edge records | Sync idempotente. | 8 |
-| 13 | TS05 | Upload evidence images | Integridad y almacenamiento. | 5 |
-| 14 | TS06 | Preserve audit log | Historial de actuaciones. | 5 |
-| 15 | US01 | Browse public website | Propuesta y CTA. | 5 |
-| 16 | US02 | Request demonstration | Captación de prospectos. | 3 |
-| 17 | US03 | Sign in | Acceso seguro. | 5 |
-| 18 | US04 | Register farm and plot | Organización de ubicaciones. | 5 |
-| 19 | US05 | Configure segment | Sensores y válvula. | 5 |
-| 20 | US06 | Configure flow rule | Parámetros calibrados. | 3 |
-| 21 | US11 | Configure observation point | Cámara, plaga y modelo. | 5 |
-| 22 | US10 | Reopen after inspection | Reapertura autorizada. | 5 |
-| 23 | US16 | Validate detection | Etiqueta de usuario. | 3 |
-| 24 | US18 | Browse history | Filtros y línea de tiempo. | 5 |
-| 25 | US19 | View summaries | Métricas hidráulicas y visuales. | 5 |
-| 26 | US20 | View weather context | Adaptador externo. | 3 |
+| 1 | TS01 | Receive Device Telemetry through the Edge API | Recepción y persistencia autenticada de telemetría de dispositivos en SQLite. | 5 |
+| 2 | US07 | View Current Irrigation Status | Consulta de caudales de entrada y salida, diferencias, calidad de datos y estado de la válvula. | 5 |
+| 3 | US08 | Detect a Persistent Flow Anomaly | Detección de anomalías hidráulicas según umbrales y duración de persistencia configurados. | 8 |
+| 4 | US09 | Close the Shutoff Valve Safely | Cierre de la válvula ante anomalías confirmadas, con verificación de respuesta y alertas de fallo. | 8 |
+| 5 | TS02 | Run Pest Inference at the Edge | Ejecución local del modelo de detección de plagas con registro de resultados y versión. | 8 |
+| 6 | US12 | Review an AI Pest Detection | Visualización de imágenes, clase predicha, confianza, conteo y versión del modelo. | 5 |
+| 7 | US13 | Confirm a Target Pest | Confirmación de plagas según clase, confianza y número de detecciones dentro de una ventana temporal. | 8 |
+| 8 | TS03 | Enforce Actuator Safety Interlocks | Validación local de comandos para impedir ejecuciones duplicadas, vencidas o fuera de los límites permitidos. | 8 |
+| 9 | US15 | Execute a Localized Control Action | Ejecución de acciones localizadas dentro de los límites de seguridad y con registro de resultados. | 8 |
+| 10 | US14 | Authorize a Localized Control Action | Aprobación o rechazo de solicitudes de control localizado antes de enviar comandos al Edge. | 5 |
+| 11 | US17 | Manage Alerts and Resolution | Reconocimiento y resolución de alertas con registro de responsables, tiempos y resultados. | 5 |
+| 12 | TS04 | Synchronize Pending Edge Records | Sincronización ordenada e idempotente de registros pendientes entre Edge y Cloud. | 8 |
+| 13 | TS05 | Upload Evidence Images Securely | Carga segura de imágenes con checksum, metadatos, origen y resultado de inferencia. | 5 |
+| 14 | TS06 | Preserve an Auditable Action Log | Conservación de registros inmutables de comandos, autorizaciones, tiempos, dispositivos y resultados. | 5 |
+| 15 | US01 | Browse the Public Website | Presentación de la propuesta de valor, los riesgos monitoreados, el proceso IoT y los beneficios de AgroLeak. | 5 |
+| 16 | US02 | Request a Product Demonstration | Registro de solicitudes de demostración o piloto mediante un formulario validado. | 3 |
+| 17 | US03 | Sign In to the Platform | Autenticación segura y acceso a las fincas y dispositivos asignados al usuario. | 5 |
+| 18 | US04 | Register a Farm and Plot | Registro de fincas y parcelas, asociadas al productor y con nombres de parcela únicos por finca. | 5 |
+| 19 | US05 | Configure an Irrigation Segment | Asignación de sensores de entrada y salida distintos y una válvula a cada segmento de riego. | 5 |
+| 20 | US06 | Configure a Flow Anomaly Rule | Configuración y versionado de umbrales porcentuales y duración de persistencia para anomalías hidráulicas. | 3 |
+| 21 | US11 | Configure a Pest Observation Point | Configuración de cámara, parcela, plaga objetivo, regla de confirmación, programación y versión del modelo. | 5 |
+| 22 | US10 | Reopen a Valve after Inspection | Reapertura autorizada de la válvula tras registrar una inspección y verificar que la anomalía ya no está activa. | 5 |
+| 23 | US16 | Validate or Correct a Pest Detection | Registro de etiquetas de validación humana sin alterar la inferencia original y conservando el historial de cambios. | 3 |
+| 24 | US18 | Browse Monitoring and Actuation History | Consulta histórica de lecturas, detecciones, alertas y acciones mediante filtros por fecha, parcela y tipo de evento. | 5 |
+| 25 | US19 | View Quantitative Summaries | Visualización de estadísticas hidráulicas, anomalías, detecciones, falsos positivos y acciones. | 5 |
+| 26 | US20 | View Weather Context | Consulta de variables meteorológicas y fecha de actualización como contexto complementario del monitoreo. | 3 |
+| 27 | US21 | Export Operational and Monitoring Reports | Exportación de telemetría, detecciones y registros de acciones en formatos CSV y PDF. | 5 |
+| 28 | US22 | Manage Multi-User Access and Role Permissions | Invitación de integrantes, asignación de roles y revocación de permisos de acceso a las fincas. | 5 |
+| 29 | US23 | Manage Device Calibration and Maintenance Logs | Registro de calibraciones y mantenimientos, con actualización del estado operativo de los dispositivos. | 5 |
+| 30 | US24 | Configure Custom Notification Channels | Configuración de notificaciones push, SMS y correo, con supresión durante ventanas de mantenimiento. | 5 |
+| 31 | US25 | Configure Localized Control Schedules | Configuración de ventanas horarias permitidas para ejecutar acciones de control localizado de plagas. | 5 |
+| 32 | US26 | View System Health and Edge Gateway Status | Consulta de conectividad, batería, señal, CPU y cola de sincronización de los gateways Edge. | 5 |
+| 33 | US27 | Configure Manual Override Emergency Lockout | Bloqueo físico de emergencia de todos los actuadores de una parcela y restablecimiento autorizado tras el mantenimiento. | 5 |
+| 34 | US28 | Set Up Custom Water Consumption Baselines | Configuración de valores de referencia de consumo de agua por fase del cultivo para adaptar la detección de anomalías. | 5 |
+| 35 | US29 | Review AI Model Accuracy and False Positive Metrics | Consulta de métricas mensuales de precisión, recall y tasa de falsos positivos por plaga objetivo. | 3 |
+| 36 | US30 | Manage Offline Telemetry Storage Limits | Gestión del almacenamiento local durante periodos sin conexión, eliminando primero telemetría sin prioridad y preservando eventos críticos. | 5 |
+| 37 | TS07 | Implement Fallback and Circuit Breakers for Cloud REST Services | Activación de circuit breakers ante fallos de Cloud REST para mantener el almacenamiento local y reanudar la sincronización tras la recuperación. | 5 |
+| 38 | TS08 | Implement Automated Database Migration and Versioning at the Edge | Ejecución transaccional de migraciones de SQLite durante actualizaciones, con rollback y protección de telemetría no sincronizada. | 5 |
+| 39 | TS09 | Secure Edge-to-Cloud Communication with Mutual TLS (mTLS) | Autenticación mutua mediante certificados TLS para impedir conexiones de dispositivos no confiables o revocados. | 3 |
+| 40 | TS10 | Process Inference Queue Asynchronously at the Edge | Procesamiento asíncrono de imágenes mediante una cola local, con política de descarte ante desbordamientos. | 5 |
