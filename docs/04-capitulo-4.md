@@ -6,18 +6,21 @@
 
 #### 4.1.1.1. Candidate Context Discovery
 
-Se aplica start-with-value: detectar, decidir, actuar e informar. Los eventos pivote son FlowAnomalyConfirmed, ValveClosed, TargetPestConfirmed, LocalizedControlActivated y SafetyLockoutTriggered.
+La sesión de Candidate Context Discovery duró 1 hora y 30 minutos. Se aplicaron tres técnicas sobre el EventStorm:
+- Start with value. Se identificó que el mayor valor para el negocio está en detectar anomalías hídricas (fugas, obstrucciones, presión), alertar a tiempo y operar válvulas con seguridad. De ahí surgieron Monitoring, Alerts e Irrigation como núcleo.
+- Start with simple. Se descompuso el timeline en pasos secuenciales: identidad, estructura agrícola, inventario IoT, captura de datos, reacción y visualización. Cada tramo mostró un vocabulario propio.
+- Look for pivotal events. Se buscaron los eventos que marcan un cambio de contexto: SessionStarted (de identidad a operación), DeviceAssignedToSector (de inventario a captura), SensorReadingRegistered (de captura a análisis), AlertCreated (de detección a gestión de incidencias) y PestDetected (de observación a alerta).
 
 | **Bounded Context candidato** | **Tipo**   | **Responsabilidad principal**                                          |
 |-------------------------------|------------|------------------------------------------------------------------------|
-| Irrigation Protection         | Core       | Evaluar caudal y administrar cierre/reapertura segura.                 |
-| Pest Monitoring               | Core       | Capturar evidencia, ejecutar inferencia y confirmar la plaga objetivo. |
-| Actuation Safety              | Core       | Autorizar, limitar y auditar acciones físicas.                         |
-| Alert Management              | Supporting | Crear, notificar, reconocer y resolver alertas.                        |
-| Farm & Device Management      | Supporting | Gestionar parcelas, puntos, dispositivos, calibración y firmware.      |
-| Analytics & Reporting         | Supporting | Consultar series, indicadores y validaciones del modelo.               |
-| Identity & Access             | Generic    | Autenticar usuarios y autorizar operaciones.                           |
-| Subscription Management       | Future     | Gestionar planes; fuera del MVP transaccional.                         |
+| IAM            | Generic / Supporting       | 	SessionStarted               |
+| Farm Management             | Supporting       | SectorAdded |
+| Devices               | Supporting       | DeviceAssignedToSector                        |
+| Monitoring              | Core | SensorReadingRegistered                    |
+| Irrigation      | Core | ValveOperated     |
+| Pest Monitoring        | Core | PestDetected              |
+| Alerts             | Core    | AlertCreated                          |
+| Analytics       | Supporting     | 	(solo vistas de lectura)                        |
 
 
 #### 4.1.1.2. Domain Message Flows Modeling
@@ -30,23 +33,40 @@ El intercambio entre contextos se realiza mediante eventos inmutables y comandos
 
 #### 4.1.1.3. Bounded Context Canvases
 
-Para la presente sección, elaboramos el Bounded Context Canvas de cada uno de los Bounded Context candidatos que identificamos. Aplicamos el modelo versión 5 propuesto por el Domain Driven Design Group. En cada uno de los canvases registramos las secciones específicas como el Context Overview Definition, Business Rules Distillation y el Ubiquitous Language, identificando claramente el tipo de Bounded Context y sus interacciones de entrada y salida con otros contextos.
+Para cada candidate context se elaboró un Bounded Context Canvas siguiendo el proceso iterativo: Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering (cuando aplicó), Dependencies Capture y Design Critique. Los contextos se trabajaron por orden de importancia: Monitoring, Alerts, Irrigation, Pest Monitoring, Devices, Farm Management, IAM y Analytics.
 
-##### Irrigation Protection Canvas
+##### IAM (Identity & Access)
 
-![Irrigation Canvas](../assets/diagramas-cap4/Irrigation-Canvases.png)
+![IAM](../assets/diagramas-cap4/Canvases-IAM.jpg)
 
-##### Pest Monitoring Canvas
+##### Farm Management
 
-![Pest Canvas](../assets/diagramas-cap4/Pest-Canvases.png)
+![Farm Management](../assets/diagramas-cap4/Canvases-FarmManagement.jpg)
 
-##### Actuation Safety Canvas
+##### Devices
 
-![Safety Canvas](../assets/diagramas-cap4/Safety-Canvases.png)
+![Devices](../assets/diagramas-cap4/Canvases-Devices.jpg)
 
-##### Alert Management Canvas
+##### Monitoring
 
-![Alert Canvas](../assets/diagramas-cap4/Alert-Canvases.png)
+![Monitoring](../assets/diagramas-cap4/Canvases-Monitoring.jpg)
+
+##### Irrigation
+
+![Irrigation](../assets/diagramas-cap4/Canvases-Irrigation.jpg)
+
+##### Pest Monitoring
+
+![Pest Monitoring](../assets/diagramas-cap4/Canvases-PostMonitoring.jpg)
+
+##### Alerts
+
+![Alerts](../assets/diagramas-cap4/Canvases-Alerts.jpg)
+
+##### Analytics
+
+![Analytics](../assets/diagramas-cap4/Canvases-Analytics.jpg)
+
 
 ### 4.1.2. Context Mapping
 
