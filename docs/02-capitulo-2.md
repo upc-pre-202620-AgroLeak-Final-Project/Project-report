@@ -483,17 +483,17 @@ En esta sección se presentan las entrevistas realizadas a los integrantes de lo
 
 ##### Entrevista 1
 
-**Entrevistado:** Pendiente de incorporar desde la rama `main`.
+**Entrevistado:** Michael Quispe.
 
-**Edad y ubicación:** Pendiente de incorporar desde la rama `main`.
+**Edad:** 24 años.
 
-**Evidencia de la entrevista:**
+**Distrito:** Cañete, Lima.
 
-> Insertar aquí la imagen o captura correspondiente a la entrevista.
+<img width="1102" height="618" alt="Captura de pantalla Entrevista Michael" src="https://i.postimg.cc/W30DmYNn/Captura-de-pantalla-(384).png" />
 
-**Enlace del video:** Pendiente de incorporar desde la rama `main`.
+**Enlace del video:** [entrevista-michael.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222846_upc_edu_pe/IQCAaAcW1oK_Tqof8YVhn2hPAeoTG09J7UKSdoKXZTXxL40?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cwsQ3o)
 
-**Resumen:** Pendiente de incorporar y redactar a partir del video de la entrevista.
+**Resumen:** El usuario validó la necesidad urgente de automatizar la detección de fugas, indicando que actualmente dependen de recorridos físicos que retrasan la respuesta, lo que genera desperdicio de agua y daño al cultivo. Confirmó que la propuesta de recibir alertas móviles, evidencias fotográficas y opciones de cierre remoto reduciría significativamente el tiempo de reacción, validando la viabilidad y necesidad del proyecto AgroLeak en campo.
 
 #### Segmento 2: Jefes de operaciones agrícolas y administradores de fundo
 
@@ -533,20 +533,6 @@ En sanidad vegetal, el fundo cuenta con evaluadores que monitorean plagas como q
 Respecto a la actuación automática de válvulas, considera necesarios interlocks que validen la persistencia de una anomalía y permisos con credenciales para autorizar la reapertura después de una inspección física. También valoró las alertas fitosanitarias con fotografías y un porcentaje de certeza de la IA, que, según su estimación, podrían contribuir a reducir hasta en un 30 % el consumo de fitosanitarios. Entre los indicadores que considera útiles para un panel menciona el balance de caudal de entrada y salida en litros por minuto, el registro de incidencias, la bitácora de acciones sobre válvulas y la eficiencia hídrica.
 
 Finalmente, indicó que para una agroempresa sería adecuado un modelo SaaS B2B con suscripción por hectárea, que incluya el arrendamiento del hardware, garantía y mantenimiento, de modo que pueda gestionarse como gasto operativo.
-
-##### Entrevista 3
-
-**Entrevistado:** Michael Quispe.
-
-**Edad:** 24 años.
-
-**Distrito:** Cañete, Lima.
-
-<img width="1102" height="618" alt="Captura de pantalla Entrevista Michael" src="https://i.postimg.cc/W30DmYNn/Captura-de-pantalla-(384).png" />
-
-**Enlace del video:** [entrevista-michael.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222846_upc_edu_pe/IQCAaAcW1oK_Tqof8YVhn2hPAeoTG09J7UKSdoKXZTXxL40?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cwsQ3o)
-
-**Resumen:** El usuario validó la necesidad urgente de automatizar la detección de fugas, indicando que actualmente dependen de recorridos físicos que retrasan la respuesta, lo que genera desperdicio de agua y daño al cultivo. Confirmó que la propuesta de recibir alertas móviles, evidencias fotográficas y opciones de cierre remoto reduciría significativamente el tiempo de reacción, validando la viabilidad y necesidad del proyecto AgroLeak en campo.
 
 ### 2.2.3. Análisis de entrevistas
 
