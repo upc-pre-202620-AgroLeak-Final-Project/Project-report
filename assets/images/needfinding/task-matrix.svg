@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1230" viewBox="0 0 1900 1230" role="img"><title>User Task Matrix · evidencia antes de priorización</title><desc>Caso E1 y cobertura pendiente de P2 · Las prioridades son interpretaciones del equipo, no puntuaciones del usuario</desc>
+<rect x="0" y="0" width="1900" height="1230" rx="0" fill="#F4F7F5"/>
+<rect x="0" y="0" width="1900" height="158" rx="0" fill="#102E29"/>
+<text x="46" y="28" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#A9E5D0" dominant-baseline="text-before-edge">AGROLEAK / UPC / CAPÍTULO II</text>
+<text x="46" y="60" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" dominant-baseline="text-before-edge">User Task Matrix · evidencia antes de priorización</text>
+<text x="46" y="110" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#E2F0EB" dominant-baseline="text-before-edge">Caso E1 y cobertura pendiente de P2 · Las prioridades son interpretaciones del equipo, no puntuaciones del usuario</text>
+<rect x="46" y="187" width="124" height="60" rx="0" fill="#086B55"/>
+<text x="60" y="204" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" dominant-baseline="text-before-edge">ID</text>
+<rect x="170" y="187" width="480" height="60" rx="0" fill="#086B55"/>
+<text x="184" y="204" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" dominant-baseline="text-before-edge">TAREA / COBERTURA</text>
+<rect x="650" y="187" width="250" height="60" rx="0" fill="#086B55"/>
+<text x="664" y="204" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" dominant-baseline="text-before-edge">ESTADO</text>
+<rect x="900" y="187" width="425" height="60" rx="0" fill="#086B55"/>
+<text x="914" y="204" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" dominant-baseline="text-before-edge">FRECUENCIA</text>
+<rect x="1325" y="187" width="429" height="60" rx="0" fill="#086B55"/>
+<text x="1339" y="204" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" dominant-baseline="text-before-edge">IMPORTANCIA · I</text>
+<rect x="46" y="247" width="124" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="60" y="266" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">T01</text>
+<rect x="170" y="247" width="480" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="184" y="266" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Verificar riego por sector</text>
+<text x="184" y="294" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">P1 / administrador E1</text>
+<rect x="650" y="247" width="250" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="664" y="266" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Actual</text>
+<rect x="900" y="247" width="425" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="914" y="266" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Periodicidad N/D.</text>
+<text x="914" y="294" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Verificación manual.</text>
+<rect x="1325" y="247" width="429" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="1339" y="266" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Alta por impacto.</text>
+<text x="1339" y="294" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Agua, energía y cultivo. E1-A/B/C</text>
+<rect x="46" y="359" width="124" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="60" y="378" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">T02</text>
+<rect x="170" y="359" width="480" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="184" y="378" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Detectar fugas u obstrucciones</text>
+<text x="184" y="406" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">P1 / administrador E1</text>
+<rect x="650" y="359" width="250" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="664" y="378" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Actual</text>
+<rect x="900" y="359" width="425" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="914" y="378" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Incidentes frecuentes;</text>
+<text x="914" y="406" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">detección en horas o al siguiente turno.</text>
+<rect x="1325" y="359" width="429" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="1339" y="378" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Alta por impacto.</text>
+<text x="1339" y="406" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Demora y pérdidas. E1-B/C</text>
+<rect x="46" y="471" width="124" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="60" y="490" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">T03</text>
+<rect x="170" y="471" width="480" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="184" y="490" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Inspeccionar plagas</text>
+<text x="184" y="518" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">P1 / administrador E1</text>
+<rect x="650" y="471" width="250" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="664" y="490" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Actual</text>
+<rect x="900" y="471" width="425" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="914" y="490" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Periodicidad y duración N/D. Inspección</text>
+<text x="914" y="518" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">manual.</text>
+<rect x="1325" y="471" width="429" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="1339" y="490" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Relevante por preferencia.</text>
+<text x="1339" y="518" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Interés en evidencia. E1-B/E</text>
+<rect x="46" y="583" width="124" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="60" y="602" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">T04</text>
+<rect x="170" y="583" width="480" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="184" y="602" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Revisar aviso y decidir cierre</text>
+<text x="184" y="630" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Preferencia de E1</text>
+<rect x="650" y="583" width="250" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="664" y="602" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Futura deseada</text>
+<rect x="900" y="583" width="425" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="914" y="602" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">No aplica al As-Is.</text>
+<text x="914" y="630" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Condicionada a alerta.</text>
+<rect x="1325" y="583" width="429" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="1339" y="602" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Relevante por preferencia.</text>
+<text x="1339" y="630" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Control humano. E1-D</text>
+<rect x="46" y="695" width="124" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="60" y="714" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">T05</text>
+<rect x="170" y="695" width="480" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="184" y="714" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Revisar imagen, plaga y sector</text>
+<text x="184" y="742" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Preferencia de E1</text>
+<rect x="650" y="695" width="250" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="664" y="714" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Futura deseada</text>
+<rect x="900" y="695" width="425" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="914" y="714" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">No aplica al As-Is.</text>
+<text x="914" y="742" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Condicionada a detección.</text>
+<rect x="1325" y="695" width="429" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="1339" y="714" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Relevante por preferencia.</text>
+<text x="1339" y="742" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Focalizar atención. E1-E</text>
+<rect x="46" y="807" width="124" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="60" y="826" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">T06</text>
+<rect x="170" y="807" width="480" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="184" y="826" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Evaluar ahorro y adquisición</text>
+<text x="184" y="854" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Decisión del caso E1</text>
+<rect x="650" y="807" width="250" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="664" y="826" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Criterio de adopción</text>
+<rect x="900" y="807" width="425" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="914" y="826" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Condicional a prueba/compra.</text>
+<text x="914" y="854" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Periodicidad N/D.</text>
+<rect x="1325" y="807" width="429" height="112" rx="0" fill="#EAF1ED" stroke="#D4E0DA"/>
+<text x="1339" y="826" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Relevante por preferencia.</text>
+<text x="1339" y="854" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Ahorro antes de compra. E1-F</text>
+<rect x="46" y="919" width="124" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="60" y="938" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">T07</text>
+<rect x="170" y="919" width="480" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="184" y="938" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Coordinar equipos y reportes</text>
+<text x="184" y="966" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">P2 independiente</text>
+<rect x="650" y="919" width="250" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="664" y="938" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Por investigar</text>
+<rect x="900" y="919" width="425" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="914" y="938" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">N/D.</text>
+<text x="914" y="966" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Sin entrevista independiente.</text>
+<rect x="1325" y="919" width="429" height="112" rx="0" fill="#FFFFFF" stroke="#D4E0DA"/>
+<text x="1339" y="938" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">N/D. No se extrapola</text>
+<text x="1339" y="966" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">la valoración de E1.</text>
+<text x="46" y="1054" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#4E655F" dominant-baseline="text-before-edge">No hay escalas de frecuencia/importancia aplicadas al participante. “Frecuente” describe incidentes, no una tarea diaria.</text>
+<path d="M46 1140 L1854 1140" stroke="#CBDAD4" stroke-width="1" fill="none"/>
+<text x="46" y="1163" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#4E655F" dominant-baseline="text-before-edge">Fuente: E1-A a E1-F y tabla 2.3.2 del informe. T07 es una pregunta de investigación. Equivalente visual de UXPressia.</text>
+</svg>

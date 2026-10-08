@@ -1,0 +1,393 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2680" height="3150" viewBox="0 0 2680 3150" role="img"><title>Big Picture EventStorming · tablero final</title><desc>AgroLeak · Modelo To-Be propuesto a partir de E1 y capítulos III–V · No es captura de Miro ni acta de taller validado</desc>
+<rect x="0" y="0" width="2680" height="3150" rx="0" fill="#F4F7F5"/>
+<rect x="0" y="0" width="2680" height="158" rx="0" fill="#102E29"/>
+<text x="46" y="28" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#A9E5D0" dominant-baseline="text-before-edge">AGROLEAK / UPC / CAPÍTULO II</text>
+<text x="46" y="60" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" dominant-baseline="text-before-edge">Big Picture EventStorming · tablero final</text>
+<text x="46" y="110" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#E2F0EB" dominant-baseline="text-before-edge">AgroLeak · Modelo To-Be propuesto a partir de E1 y capítulos III–V · No es captura de Miro ni acta de taller validado</text>
+<rect x="46" y="184" width="411" height="47" rx="8" fill="#FFD19D"/>
+<text x="60" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO</text>
+<rect x="478" y="184" width="411" height="47" rx="8" fill="#D6E7FD"/>
+<text x="492" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<rect x="910" y="184" width="411" height="47" rx="8" fill="#FFF0B5"/>
+<text x="924" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<rect x="1342" y="184" width="411" height="47" rx="8" fill="#E7DBF4"/>
+<text x="1356" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<rect x="1774" y="184" width="411" height="47" rx="8" fill="#D6EBDD"/>
+<text x="1788" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<rect x="2206" y="184" width="411" height="47" rx="8" fill="#F9D8D4"/>
+<text x="2220" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EXCEPCIÓN / PENDIENTE</text>
+<text x="46" y="265" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#086B55" dominant-baseline="text-before-edge">H · HABILITAR EL MONITOREO</text>
+<text x="46" y="308" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#4E655F" dominant-baseline="text-before-edge">H precede a los circuitos R y P. Los pasos se ejecutan según el recurso que se configura.</text>
+<rect x="46.0" y="353" width="627.5" height="505" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="58.0" y="370" width="603.5" height="71" rx="7" fill="#FFD19D"/>
+<text x="70.0" y="380" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · H1</text>
+<text x="70.0" y="403" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Usuario autenticado</text>
+<rect x="58.0" y="451" width="603.5" height="71" rx="7" fill="#D6E7FD"/>
+<text x="70.0" y="461" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="70.0" y="484" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Autenticar usuario</text>
+<rect x="58.0" y="532" width="603.5" height="71" rx="7" fill="#FFF0B5"/>
+<text x="70.0" y="542" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="70.0" y="565" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Productor / identidad</text>
+<rect x="58.0" y="613" width="603.5" height="71" rx="7" fill="#E7DBF4"/>
+<text x="70.0" y="623" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="70.0" y="646" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G1: credenciales y acceso válidos.</text>
+<rect x="58.0" y="694" width="603.5" height="71" rx="7" fill="#D6EBDD"/>
+<text x="70.0" y="704" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="70.0" y="727" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">IAM</text>
+<path d="M675.5 409 L697.5 409" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M689.5 402 L697.5 409" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M689.5 416 L697.5 409" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="699.5" y="353" width="627.5" height="505" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="711.5" y="370" width="603.5" height="71" rx="7" fill="#FFD19D"/>
+<text x="723.5" y="380" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · H2</text>
+<text x="723.5" y="403" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Granja y parcela registradas</text>
+<rect x="711.5" y="451" width="603.5" height="71" rx="7" fill="#D6E7FD"/>
+<text x="723.5" y="461" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="723.5" y="484" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Registrar granja y parcela</text>
+<rect x="711.5" y="532" width="603.5" height="71" rx="7" fill="#FFF0B5"/>
+<text x="723.5" y="542" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="723.5" y="565" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Productor / plataforma</text>
+<rect x="711.5" y="613" width="603.5" height="71" rx="7" fill="#E7DBF4"/>
+<text x="723.5" y="623" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="723.5" y="646" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G1: pertenencia; nombre de parcela no duplicado.</text>
+<rect x="711.5" y="694" width="603.5" height="71" rx="7" fill="#D6EBDD"/>
+<text x="723.5" y="704" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="723.5" y="727" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Farm Management</text>
+<path d="M1329.0 409 L1351.0 409" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1343.0 402 L1351.0 409" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1343.0 416 L1351.0 409" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="1353.0" y="353" width="627.5" height="505" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="1365.0" y="370" width="603.5" height="71" rx="7" fill="#FFD19D"/>
+<text x="1377.0" y="380" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · H3</text>
+<text x="1377.0" y="403" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Tramo o punto configurado</text>
+<rect x="1365.0" y="451" width="603.5" height="71" rx="7" fill="#D6E7FD"/>
+<text x="1377.0" y="461" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="1377.0" y="484" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Vincular dispositivos y configurar</text>
+<rect x="1365.0" y="532" width="603.5" height="71" rx="7" fill="#FFF0B5"/>
+<text x="1377.0" y="542" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="1377.0" y="565" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Productor / plataforma + dispositivos</text>
+<rect x="1365.0" y="613" width="603.5" height="71" rx="7" fill="#E7DBF4"/>
+<text x="1377.0" y="623" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="1377.0" y="646" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G2: sensores distintos; cámara y clase soportadas.</text>
+<rect x="1365.0" y="694" width="603.5" height="71" rx="7" fill="#D6EBDD"/>
+<text x="1377.0" y="704" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="1377.0" y="727" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Devices + Irrigation / Pest Monitoring</text>
+<path d="M1982.5 409 L2004.5 409" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1996.5 402 L2004.5 409" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1996.5 416 L2004.5 409" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="2006.5" y="353" width="627.5" height="505" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="2018.5" y="370" width="603.5" height="71" rx="7" fill="#FFD19D"/>
+<text x="2030.5" y="380" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · H4</text>
+<text x="2030.5" y="403" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Regla y modo habilitados</text>
+<rect x="2018.5" y="451" width="603.5" height="71" rx="7" fill="#D6E7FD"/>
+<text x="2030.5" y="461" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="2030.5" y="484" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Configurar regla y modo</text>
+<rect x="2018.5" y="532" width="603.5" height="71" rx="7" fill="#FFF0B5"/>
+<text x="2030.5" y="542" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="2030.5" y="565" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Productor autorizado / Edge</text>
+<rect x="2018.5" y="613" width="603.5" height="71" rx="7" fill="#E7DBF4"/>
+<text x="2030.5" y="623" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="2030.5" y="646" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G2–G3: calibración previa; versión y modo explícitos.</text>
+<rect x="2018.5" y="694" width="603.5" height="71" rx="7" fill="#D6EBDD"/>
+<text x="2030.5" y="704" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="2030.5" y="727" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Irrigation / Pest Monitoring + Actuation Safety</text>
+<text x="46" y="905" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#086B55" dominant-baseline="text-before-edge">R · PROTEGER EL RIEGO</text>
+<text x="46" y="948" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#4E655F" dominant-baseline="text-before-edge">R2 origina X1. R3 depende del modo; no toda anomalía produce cierre. R5 exige inspección y condición resuelta.</text>
+<rect x="46.0" y="993" width="409.6666666666667" height="575" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="58.0" y="1010" width="385.6666666666667" height="71" rx="7" fill="#FFD19D"/>
+<text x="70.0" y="1020" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · R1</text>
+<text x="70.0" y="1043" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Lecturas registradas</text>
+<rect x="58.0" y="1091" width="385.6666666666667" height="71" rx="7" fill="#D6E7FD"/>
+<text x="70.0" y="1101" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="70.0" y="1124" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Registrar caudal</text>
+<rect x="58.0" y="1172" width="385.6666666666667" height="71" rx="7" fill="#FFF0B5"/>
+<text x="70.0" y="1182" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="70.0" y="1205" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Sensores / Edge API</text>
+<rect x="58.0" y="1253" width="385.6666666666667" height="99" rx="7" fill="#E7DBF4"/>
+<text x="70.0" y="1263" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="70.0" y="1286" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G1: validar origen, campos, tiempo y</text>
+<text x="70.0" y="1314" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">calidad.</text>
+<rect x="58.0" y="1362" width="385.6666666666667" height="71" rx="7" fill="#D6EBDD"/>
+<text x="70.0" y="1372" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="70.0" y="1395" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Monitoring</text>
+<path d="M457.6666666666667 1049 L479.6666666666667 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M471.6666666666667 1042 L479.6666666666667 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M471.6666666666667 1056 L479.6666666666667 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="481.6666666666667" y="993" width="409.6666666666667" height="575" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="493.6666666666667" y="1010" width="385.6666666666667" height="71" rx="7" fill="#FFD19D"/>
+<text x="505.6666666666667" y="1020" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · R2</text>
+<text x="505.6666666666667" y="1043" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Anomalía confirmada</text>
+<rect x="493.6666666666667" y="1091" width="385.6666666666667" height="71" rx="7" fill="#D6E7FD"/>
+<text x="505.6666666666667" y="1101" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="505.6666666666667" y="1124" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Evaluar diferencia persistente</text>
+<rect x="493.6666666666667" y="1172" width="385.6666666666667" height="71" rx="7" fill="#FFF0B5"/>
+<text x="505.6666666666667" y="1182" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="505.6666666666667" y="1205" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Detector de anomalías</text>
+<rect x="493.6666666666667" y="1253" width="385.6666666666667" height="99" rx="7" fill="#E7DBF4"/>
+<text x="505.6666666666667" y="1263" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="505.6666666666667" y="1286" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">D1 / G3: umbral + duración. Si no:</text>
+<text x="505.6666666666667" y="1314" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">seguir monitoreo.</text>
+<rect x="493.6666666666667" y="1362" width="385.6666666666667" height="71" rx="7" fill="#D6EBDD"/>
+<text x="505.6666666666667" y="1372" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="505.6666666666667" y="1395" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Irrigation</text>
+<path d="M893.3333333333334 1049 L915.3333333333334 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M907.3333333333334 1042 L915.3333333333334 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M907.3333333333334 1056 L915.3333333333334 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="917.3333333333334" y="993" width="409.6666666666667" height="575" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="929.3333333333334" y="1010" width="385.6666666666667" height="71" rx="7" fill="#FFD19D"/>
+<text x="941.3333333333334" y="1020" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · R3</text>
+<text x="941.3333333333334" y="1043" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Cierre solicitado</text>
+<rect x="929.3333333333334" y="1091" width="385.6666666666667" height="71" rx="7" fill="#D6E7FD"/>
+<text x="941.3333333333334" y="1101" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="941.3333333333334" y="1124" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Solicitar cierre preventivo</text>
+<rect x="929.3333333333334" y="1172" width="385.6666666666667" height="71" rx="7" fill="#FFF0B5"/>
+<text x="941.3333333333334" y="1182" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="941.3333333333334" y="1205" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Productor o política / Edge</text>
+<rect x="929.3333333333334" y="1253" width="385.6666666666667" height="99" rx="7" fill="#E7DBF4"/>
+<text x="941.3333333333334" y="1263" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="941.3333333333334" y="1286" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">D2 / G4: solo informar, pedir</text>
+<text x="941.3333333333334" y="1314" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">aprobación o auto habilitado.</text>
+<rect x="929.3333333333334" y="1362" width="385.6666666666667" height="71" rx="7" fill="#D6EBDD"/>
+<text x="941.3333333333334" y="1372" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="941.3333333333334" y="1395" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Irrigation + Actuation Safety</text>
+<path d="M1329.0 1049 L1351.0 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1343.0 1042 L1351.0 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1343.0 1056 L1351.0 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="1353.0" y="993" width="409.6666666666667" height="575" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="1365.0" y="1010" width="385.6666666666667" height="71" rx="7" fill="#FFD19D"/>
+<text x="1377.0" y="1020" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · R4</text>
+<text x="1377.0" y="1043" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Válvula cerrada o cierre fallido</text>
+<rect x="1365.0" y="1091" width="385.6666666666667" height="71" rx="7" fill="#D6E7FD"/>
+<text x="1377.0" y="1101" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="1377.0" y="1124" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Ejecutar y verificar cierre</text>
+<rect x="1365.0" y="1172" width="385.6666666666667" height="71" rx="7" fill="#FFF0B5"/>
+<text x="1377.0" y="1182" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="1377.0" y="1205" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Controlador / válvula</text>
+<rect x="1365.0" y="1253" width="385.6666666666667" height="99" rx="7" fill="#E7DBF4"/>
+<text x="1377.0" y="1263" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="1377.0" y="1286" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">D3 / G6: feedback y timeout. Fallo:</text>
+<text x="1377.0" y="1314" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">alerta crítica.</text>
+<rect x="1365.0" y="1362" width="385.6666666666667" height="71" rx="7" fill="#D6EBDD"/>
+<text x="1377.0" y="1372" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="1377.0" y="1395" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Irrigation + Actuation Safety</text>
+<path d="M1764.6666666666667 1049 L1786.6666666666667 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1778.6666666666667 1042 L1786.6666666666667 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1778.6666666666667 1056 L1786.6666666666667 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="1788.6666666666667" y="993" width="409.6666666666667" height="575" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="1800.6666666666667" y="1010" width="385.6666666666667" height="99" rx="7" fill="#FFD19D"/>
+<text x="1812.6666666666667" y="1020" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · R5</text>
+<text x="1812.6666666666667" y="1043" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Inspección registrada; reapertura</text>
+<text x="1812.6666666666667" y="1071" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">autorizada</text>
+<rect x="1800.6666666666667" y="1119" width="385.6666666666667" height="71" rx="7" fill="#D6E7FD"/>
+<text x="1812.6666666666667" y="1129" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="1812.6666666666667" y="1152" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Inspeccionar y autorizar</text>
+<rect x="1800.6666666666667" y="1200" width="385.6666666666667" height="71" rx="7" fill="#FFF0B5"/>
+<text x="1812.6666666666667" y="1210" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="1812.6666666666667" y="1233" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Productor / plataforma</text>
+<rect x="1800.6666666666667" y="1281" width="385.6666666666667" height="99" rx="7" fill="#E7DBF4"/>
+<text x="1812.6666666666667" y="1291" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="1812.6666666666667" y="1314" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">D4 / G7: inspección y anomalía</text>
+<text x="1812.6666666666667" y="1342" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">inactiva; si no, bloquear.</text>
+<rect x="1800.6666666666667" y="1390" width="385.6666666666667" height="71" rx="7" fill="#D6EBDD"/>
+<text x="1812.6666666666667" y="1400" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="1812.6666666666667" y="1423" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Irrigation</text>
+<path d="M2200.3333333333335 1049 L2222.3333333333335 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M2214.3333333333335 1042 L2222.3333333333335 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M2214.3333333333335 1056 L2222.3333333333335 1049" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="2224.3333333333335" y="993" width="409.6666666666667" height="575" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="2236.3333333333335" y="1010" width="385.6666666666667" height="71" rx="7" fill="#FFD19D"/>
+<text x="2248.3333333333335" y="1020" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · R6</text>
+<text x="2248.3333333333335" y="1043" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Válvula reabierta o no confirmada</text>
+<rect x="2236.3333333333335" y="1091" width="385.6666666666667" height="71" rx="7" fill="#D6E7FD"/>
+<text x="2248.3333333333335" y="1101" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="2248.3333333333335" y="1124" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Ejecutar reapertura</text>
+<rect x="2236.3333333333335" y="1172" width="385.6666666666667" height="71" rx="7" fill="#FFF0B5"/>
+<text x="2248.3333333333335" y="1182" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="2248.3333333333335" y="1205" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Controlador / válvula</text>
+<rect x="2236.3333333333335" y="1253" width="385.6666666666667" height="99" rx="7" fill="#E7DBF4"/>
+<text x="2248.3333333333335" y="1263" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="2248.3333333333335" y="1286" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G6–G7: registrar resultado.</text>
+<text x="2248.3333333333335" y="1314" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Feedback: propuesta por validar.</text>
+<rect x="2236.3333333333335" y="1362" width="385.6666666666667" height="71" rx="7" fill="#D6EBDD"/>
+<text x="2248.3333333333335" y="1372" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="2248.3333333333335" y="1395" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Irrigation + Actuation Safety</text>
+<text x="46" y="1620" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#086B55" dominant-baseline="text-before-edge">P · MONITOREAR PLAGAS Y DECIDIR CONTROL</text>
+<text x="46" y="1663" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#4E655F" dominant-baseline="text-before-edge">P2 origina X1. P5 puede suceder después de P1, sin ejecutar P3/P4: es una validación opcional, no un paso obligatorio.</text>
+<rect x="46.0" y="1708" width="496.8" height="550" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="58.0" y="1725" width="472.8" height="71" rx="7" fill="#FFD19D"/>
+<text x="70.0" y="1735" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · P1</text>
+<text x="70.0" y="1758" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Imagen capturada; inferencia registrada</text>
+<rect x="58.0" y="1806" width="472.8" height="71" rx="7" fill="#D6E7FD"/>
+<text x="70.0" y="1816" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="70.0" y="1839" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Capturar y ejecutar inferencia</text>
+<rect x="58.0" y="1887" width="472.8" height="71" rx="7" fill="#FFF0B5"/>
+<text x="70.0" y="1897" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="70.0" y="1920" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Cámara / modelo en Edge</text>
+<rect x="58.0" y="1968" width="472.8" height="99" rx="7" fill="#E7DBF4"/>
+<text x="70.0" y="1978" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="70.0" y="2001" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G1 / G5: imagen válida. Fallo: no confirmar</text>
+<text x="70.0" y="2029" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">plaga.</text>
+<rect x="58.0" y="2077" width="472.8" height="71" rx="7" fill="#D6EBDD"/>
+<text x="70.0" y="2087" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="70.0" y="2110" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Pest Monitoring</text>
+<path d="M544.8 1764 L566.8 1764" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M558.8 1757 L566.8 1764" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M558.8 1771 L566.8 1764" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="568.8" y="1708" width="496.8" height="550" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="580.8" y="1725" width="472.8" height="71" rx="7" fill="#FFD19D"/>
+<text x="592.8" y="1735" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · P2</text>
+<text x="592.8" y="1758" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Plaga objetivo confirmada por regla</text>
+<rect x="580.8" y="1806" width="472.8" height="71" rx="7" fill="#D6E7FD"/>
+<text x="592.8" y="1816" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="592.8" y="1839" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Evaluar confirmación</text>
+<rect x="580.8" y="1887" width="472.8" height="71" rx="7" fill="#FFF0B5"/>
+<text x="592.8" y="1897" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="592.8" y="1920" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Política fitosanitaria</text>
+<rect x="580.8" y="1968" width="472.8" height="99" rx="7" fill="#E7DBF4"/>
+<text x="592.8" y="1978" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="592.8" y="2001" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">D5 / G5: clase + confianza + repetición. Si no:</text>
+<text x="592.8" y="2029" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">solo evidencia.</text>
+<rect x="580.8" y="2077" width="472.8" height="71" rx="7" fill="#D6EBDD"/>
+<text x="592.8" y="2087" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="592.8" y="2110" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Pest Monitoring</text>
+<path d="M1067.6 1764 L1089.6 1764" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1081.6 1757 L1089.6 1764" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1081.6 1771 L1089.6 1764" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="1091.6" y="1708" width="496.8" height="550" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="1103.6" y="1725" width="472.8" height="99" rx="7" fill="#FFD19D"/>
+<text x="1115.6" y="1735" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · P3</text>
+<text x="1115.6" y="1758" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Control autorizado o solicitud</text>
+<text x="1115.6" y="1786" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">rechazada/expirada</text>
+<rect x="1103.6" y="1834" width="472.8" height="71" rx="7" fill="#D6E7FD"/>
+<text x="1115.6" y="1844" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="1115.6" y="1867" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Solicitar y decidir control</text>
+<rect x="1103.6" y="1915" width="472.8" height="71" rx="7" fill="#FFF0B5"/>
+<text x="1115.6" y="1925" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="1115.6" y="1948" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Productor autorizado / plataforma</text>
+<rect x="1103.6" y="1996" width="472.8" height="99" rx="7" fill="#E7DBF4"/>
+<text x="1115.6" y="2006" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="1115.6" y="2029" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">D6 / G4: aprobación vigente.</text>
+<text x="1115.6" y="2057" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Rechazo/expiración: no actuar.</text>
+<rect x="1103.6" y="2105" width="472.8" height="71" rx="7" fill="#D6EBDD"/>
+<text x="1115.6" y="2115" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="1115.6" y="2138" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Actuation Safety</text>
+<path d="M1590.3999999999999 1764 L1612.3999999999999 1764" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1604.3999999999999 1757 L1612.3999999999999 1764" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1604.3999999999999 1771 L1612.3999999999999 1764" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="1614.3999999999999" y="1708" width="496.8" height="550" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="1626.3999999999999" y="1725" width="472.8" height="71" rx="7" fill="#FFD19D"/>
+<text x="1638.3999999999999" y="1735" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · P4</text>
+<text x="1638.3999999999999" y="1758" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Control activado/finalizado o bloqueado/fallido</text>
+<rect x="1626.3999999999999" y="1806" width="472.8" height="71" rx="7" fill="#D6E7FD"/>
+<text x="1638.3999999999999" y="1816" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="1638.3999999999999" y="1839" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Ejecutar control localizado</text>
+<rect x="1626.3999999999999" y="1887" width="472.8" height="71" rx="7" fill="#FFF0B5"/>
+<text x="1638.3999999999999" y="1897" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="1638.3999999999999" y="1920" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Controlador / actuador</text>
+<rect x="1626.3999999999999" y="1968" width="472.8" height="99" rx="7" fill="#E7DBF4"/>
+<text x="1638.3999999999999" y="1978" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="1638.3999999999999" y="2001" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">D7 / G6: firma, vigencia, unicidad, habilitación</text>
+<text x="1638.3999999999999" y="2029" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">y límites.</text>
+<rect x="1626.3999999999999" y="2077" width="472.8" height="71" rx="7" fill="#D6EBDD"/>
+<text x="1638.3999999999999" y="2087" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="1638.3999999999999" y="2110" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Actuation Safety</text>
+<rect x="2137.2" y="1708" width="496.8" height="550" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="2149.2" y="1725" width="472.8" height="71" rx="7" fill="#FFD19D"/>
+<text x="2161.2" y="1735" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · P5 · RAMA OPCIONAL</text>
+<text x="2161.2" y="1758" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Validación humana registrada</text>
+<rect x="2149.2" y="1806" width="472.8" height="71" rx="7" fill="#D6E7FD"/>
+<text x="2161.2" y="1816" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="2161.2" y="1839" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Validar o corregir observación</text>
+<rect x="2149.2" y="1887" width="472.8" height="71" rx="7" fill="#FFF0B5"/>
+<text x="2161.2" y="1897" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="2161.2" y="1920" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Productor / plataforma</text>
+<rect x="2149.2" y="1968" width="472.8" height="99" rx="7" fill="#E7DBF4"/>
+<text x="2161.2" y="1978" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="2161.2" y="2001" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G8: conservar inferencia original y versionar</text>
+<text x="2161.2" y="2029" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">anotación.</text>
+<rect x="2149.2" y="2077" width="472.8" height="71" rx="7" fill="#D6EBDD"/>
+<text x="2161.2" y="2087" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="2161.2" y="2110" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Pest Monitoring</text>
+<rect x="2150" y="1658" width="480" height="37" rx="0" fill="#F4F7F5"/>
+<text x="2150" y="1660" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#086B55" dominant-baseline="text-before-edge">P1 → P5: rama de revisión humana</text>
+<text x="46" y="2310" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#086B55" dominant-baseline="text-before-edge">X · ATENDER Y CONSERVAR TRAZABILIDAD</text>
+<text x="46" y="2353" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#4E655F" dominant-baseline="text-before-edge">X1 → X2: atención de alertas. X3 ocurre durante R/P y alimenta X4. No constituyen una secuencia global única.</text>
+<rect x="46.0" y="2398" width="627.5" height="520" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="58.0" y="2415" width="603.5" height="71" rx="7" fill="#FFD19D"/>
+<text x="70.0" y="2425" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · X1</text>
+<text x="70.0" y="2448" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Alerta creada</text>
+<rect x="58.0" y="2496" width="603.5" height="71" rx="7" fill="#D6E7FD"/>
+<text x="70.0" y="2506" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="70.0" y="2529" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Crear alerta / pedir notificación</text>
+<rect x="58.0" y="2577" width="603.5" height="71" rx="7" fill="#FFF0B5"/>
+<text x="70.0" y="2587" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="70.0" y="2610" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Política / servicio de notificación</text>
+<rect x="58.0" y="2658" width="603.5" height="99" rx="7" fill="#E7DBF4"/>
+<text x="70.0" y="2668" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="70.0" y="2691" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G8: evidencia + deduplicación. Creación no prueba</text>
+<text x="70.0" y="2719" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">recepción.</text>
+<rect x="58.0" y="2767" width="603.5" height="71" rx="7" fill="#D6EBDD"/>
+<text x="70.0" y="2777" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="70.0" y="2800" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Alerts</text>
+<path d="M675.5 2454 L697.5 2454" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M689.5 2447 L697.5 2454" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M689.5 2461 L697.5 2454" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="699.5" y="2398" width="627.5" height="520" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="711.5" y="2415" width="603.5" height="71" rx="7" fill="#FFD19D"/>
+<text x="723.5" y="2425" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · X2</text>
+<text x="723.5" y="2448" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Alerta reconocida; alerta resuelta</text>
+<rect x="711.5" y="2496" width="603.5" height="71" rx="7" fill="#D6E7FD"/>
+<text x="723.5" y="2506" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="723.5" y="2529" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Reconocer / registrar resolución</text>
+<rect x="711.5" y="2577" width="603.5" height="71" rx="7" fill="#FFF0B5"/>
+<text x="723.5" y="2587" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="723.5" y="2610" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Productor / plataforma</text>
+<rect x="711.5" y="2658" width="603.5" height="99" rx="7" fill="#E7DBF4"/>
+<text x="723.5" y="2668" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="723.5" y="2691" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G8: reconocer no equivale a resolver; autor, tiempo y</text>
+<text x="723.5" y="2719" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">resultado.</text>
+<rect x="711.5" y="2767" width="603.5" height="71" rx="7" fill="#D6EBDD"/>
+<text x="723.5" y="2777" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="723.5" y="2800" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Alerts</text>
+<rect x="1353.0" y="2398" width="627.5" height="520" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="1365.0" y="2415" width="603.5" height="71" rx="7" fill="#FFD19D"/>
+<text x="1377.0" y="2425" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · X3</text>
+<text x="1377.0" y="2448" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Registro local conservado; sincronizado</text>
+<rect x="1365.0" y="2496" width="603.5" height="71" rx="7" fill="#D6E7FD"/>
+<text x="1377.0" y="2506" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="1377.0" y="2529" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Conservar y sincronizar</text>
+<rect x="1365.0" y="2577" width="603.5" height="71" rx="7" fill="#FFF0B5"/>
+<text x="1377.0" y="2587" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="1377.0" y="2610" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Edge / API Cloud</text>
+<rect x="1365.0" y="2658" width="603.5" height="71" rx="7" fill="#E7DBF4"/>
+<text x="1377.0" y="2668" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="1377.0" y="2691" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">D8 / G8: sin red, pendiente; con red, confirmar sin duplicar.</text>
+<rect x="1365.0" y="2739" width="603.5" height="99" rx="7" fill="#D6EBDD"/>
+<text x="1377.0" y="2749" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="1377.0" y="2772" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Monitoring: coordinación propuesta; cada dominio conserva</text>
+<text x="1377.0" y="2800" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">propiedad</text>
+<path d="M1982.5 2454 L2004.5 2454" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1996.5 2447 L2004.5 2454" stroke="#086B55" stroke-width="3" fill="none"/>
+<path d="M1996.5 2461 L2004.5 2454" stroke="#086B55" stroke-width="3" fill="none"/>
+<rect x="2006.5" y="2398" width="627.5" height="520" rx="12" fill="#FFFFFF" stroke="#BCD2C7"/>
+<rect x="2018.5" y="2415" width="603.5" height="71" rx="7" fill="#FFD19D"/>
+<text x="2030.5" y="2425" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">EVENTO · X4</text>
+<text x="2030.5" y="2448" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Historial consultado; resumen generado</text>
+<rect x="2018.5" y="2496" width="603.5" height="71" rx="7" fill="#D6E7FD"/>
+<text x="2030.5" y="2506" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">COMANDO</text>
+<text x="2030.5" y="2529" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Consultar historial / resumen</text>
+<rect x="2018.5" y="2577" width="603.5" height="71" rx="7" fill="#FFF0B5"/>
+<text x="2030.5" y="2587" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">ACTOR / SISTEMA</text>
+<text x="2030.5" y="2610" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Productor / proyecciones</text>
+<rect x="2018.5" y="2658" width="603.5" height="71" rx="7" fill="#E7DBF4"/>
+<text x="2030.5" y="2668" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">POLÍTICA / DECISIÓN</text>
+<text x="2030.5" y="2691" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">G8: excluir datos inválidos e indicar exclusiones.</text>
+<rect x="2018.5" y="2739" width="603.5" height="71" rx="7" fill="#D6EBDD"/>
+<text x="2030.5" y="2749" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">BC / RESPONSABILIDAD</text>
+<text x="2030.5" y="2772" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Analytics</text>
+<rect x="46" y="2950" width="2588" height="90" rx="10" fill="#F9D8D4"/>
+<text x="65" y="2967" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102E29" dominant-baseline="text-before-edge">PENDIENTES DE VALIDACIÓN</text>
+<text x="65" y="2996" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#102E29" dominant-baseline="text-before-edge">Representante de P2 · calibración y umbrales · datos obsoletos · feedback de reapertura · modo automático · notificaciones. Suscripciones: fuera del MVP.</text>
+<path d="M46 3060 L2634 3060" stroke="#CBDAD4" stroke-width="1" fill="none"/>
+<text x="46" y="3083" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#4E655F" dominant-baseline="text-before-edge">Fuente: catálogo 2.4.3, políticas G1–G8 y tabla de BC 2.4.5. Nombres de backend: correspondencia propuesta, sin verificación de código. SVG editable disponible.</text>
+</svg>
