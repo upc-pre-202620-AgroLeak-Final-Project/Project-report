@@ -53,25 +53,19 @@ AgroLeak
 <th align="center" valign="middle">
 DropControl (WiseConn)
 <br><br>
-
-<img src="../assets/dropcontrol-logo.png" width="85" alt="DropControl Logo">
-
+<img src="../assets/logo-dropcontroll.jpg" width="85" alt="DropControl Logo">
 </th>
 
 <th align="center" valign="middle">
 CropX
 <br><br>
-
-<img src="../assets/cropx-logo.png" width="85" alt="CropX Logo">
-
+<img src="../assets/cropx.jpg" width="85" alt="CropX Logo">
 </th>
 
 <th align="center" valign="middle">
 Kilimo
 <br><br>
-
-<img src="../assets/kilimo-logo.png" width="85" alt="Kilimo Logo">
-
+<img src="../assets/kilimo-logo-jpg.png" width="85" alt="Kilimo Logo">
 </th>
 
 </tr>
@@ -483,29 +477,207 @@ El cuestionario dirigido a este segmento profesional busca profundizar en la efi
 
 ### 2.2.2. Registro de entrevistas
 
+En esta sección se presentan las entrevistas realizadas a los integrantes de los segmentos objetivo. Cada registro incluye los datos relevantes de la persona entrevistada, la evidencia audiovisual y un resumen basado en sus respuestas al cuestionario de la sección 2.2.1.
+
+#### Segmento 1: Pequeños y medianos agricultores tecnificados
+
+##### Entrevista 1
+
+**Entrevistado:** Pendiente de incorporar desde la rama `main`.
+
+**Edad y ubicación:** Pendiente de incorporar desde la rama `main`.
+
+**Evidencia de la entrevista:**
+
+> Insertar aquí la imagen o captura correspondiente a la entrevista.
+
+**Enlace del video:** Pendiente de incorporar desde la rama `main`.
+
+**Resumen:** Pendiente de incorporar y redactar a partir del video de la entrevista.
+
+#### Segmento 2: Jefes de operaciones agrícolas y administradores de fundo
+
+##### Entrevista 1
+
+**Entrevistado:** Pendiente de incorporar desde la rama `main`.
+
+**Edad y ubicación:** Pendiente de incorporar desde la rama `main`.
+
+**Evidencia de la entrevista:**
+
+> Insertar aquí la imagen o captura correspondiente a la entrevista.
+
+**Enlace del video:** Pendiente de incorporar desde la rama `main`.
+
+**Resumen:** Pendiente de incorporar y redactar a partir del video de la entrevista.
+
+##### Entrevista 2
+
+**Entrevistado:** Por completar después de realizar la entrevista.
+
+**Edad y ubicación:** Por completar.
+
+**Evidencia de la entrevista:**
+
+> Insertar aquí la imagen o captura de la Entrevista 2 del Segmento 2.
+
+**Enlace del video:** Por agregar cuando esté disponible.
+
+**Resumen:** Por redactar a partir del video y de las respuestas al cuestionario de la sección 2.2.1.
+
 ### 2.2.3. Análisis de entrevistas
+
+En esta sección se describirán los principales hallazgos identificados al revisar las entrevistas. El análisis se redactará en forma narrativa, contrastando las respuestas de los entrevistados y relacionando cada necesidad o dificultad con la evidencia obtenida en los videos.
+
+**Segmento 1: Pequeños y medianos agricultores tecnificados**
+
+Pendiente de completar cuando se incorporen y revisen las entrevistas de este segmento.
+
+**Segmento 2: Jefes de operaciones agrícolas y administradores de fundo**
+
+Pendiente de completar cuando se incorporen y revisen las entrevistas de este segmento, incluida la Entrevista 2.
+
+**Síntesis de hallazgos**
+
+Pendiente de redactar a partir de los hallazgos verificados en ambos segmentos.
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
+Las User Personas se elaborarán en UXPressia a partir de los hallazgos obtenidos de las entrevistas, diferenciando las características verificadas de cada segmento objetivo. Las fichas deben representar necesidades, objetivos, comportamientos, frustraciones y contexto tecnológico sustentados por la evidencia, sin atribuirles características no observadas.
+
+**Persona del Segmento 1: Pequeño o mediano agricultor tecnificado**
+
+> Artefacto pendiente: insertar en esta sección la ficha de User Persona creada en UXPressia, una vez contrastada con las entrevistas del segmento.
+
+**Persona del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
+
+> Artefacto pendiente: insertar en esta sección la ficha de User Persona creada en UXPressia, una vez contrastada con las entrevistas del segmento.
+
 ### 2.3.2. User Task Matrix
+
+La User Task Matrix permite identificar y comparar las tareas que realizan los entrevistados, considerando su frecuencia e importancia. Se elaborará en UXPressia a partir de las entrevistas y se presentará mediante las imágenes correspondientes a cada segmento.
+
+**Segmento 1: Pequeños y medianos agricultores tecnificados**
+
+> Insertar aquí la imagen de la User Task Matrix del Segmento 1, elaborada en UXPressia con base en las entrevistas.
+
+**Segmento 2: Jefes de operaciones agrícolas y administradores de fundo**
+
+> Insertar aquí la imagen de la User Task Matrix del Segmento 2, elaborada en UXPressia con base en las entrevistas.
 
 ### 2.3.3. User Journey Mapping
 
+Los User Journey Maps se elaborarán en UXPressia a partir del proceso actual (*As-Is*) descrito por los entrevistados. Cada mapa debe reflejar las etapas de la tarea, las acciones y puntos de contacto del usuario, sus dificultades y emociones, así como las oportunidades de mejora identificadas. No se deben presentar como observados los pasos que no hayan sido confirmados en las entrevistas.
+
+**Journey Map del Segmento 1: Pequeño o mediano agricultor tecnificado**
+
+> Artefacto pendiente: insertar el Journey Map elaborado en UXPressia con base en las entrevistas.
+
+**Journey Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
+
+> Artefacto pendiente: insertar el Journey Map elaborado en UXPressia con base en las entrevistas.
+
 ### 2.3.4. Empathy Mapping
 
-## 2.4. Big Picture EventStorming
+Los Empathy Maps se elaborarán en UXPressia mediante la síntesis de expresiones y comportamientos observados en las entrevistas. Las secciones de lo que la persona dice, piensa, hace y siente, así como sus dificultades y beneficios esperados, deberán derivarse de evidencia y conservar el contexto de cada segmento.
 
-Con el fin de plantear una aproximación del modelado de nivel general para el dominio del problema, se aplicó la técnica de EventStorming. Este proceso permitió al equipo comprender el flujo de eventos que ocurren dentro del dominio y definir las interacciones principales entre los actores, comandos y políticas del sistema.
+**Empathy Map del Segmento 1: Pequeño o mediano agricultor tecnificado**
 
-Pasos del proceso:
-  1. Eventos de Dominio (Tormenta de ideas): Identificar qué ha sucedido en el negocio, usando notas adhesivas naranjas escritas en pasado.
-  <img src="../assets/paso-1-event-storming.png">
+> Artefacto pendiente: insertar el Empathy Map elaborado en UXPressia con base en las entrevistas.
 
-  2. Ordenar Eventos: Organizar los eventos cronológicamente de izquierda a derecha, eliminando duplicados.
+**Empathy Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
 
-  
-  <img src="../assets/event-stoming-step-2.png">
+> Artefacto pendiente: insertar el Empathy Map elaborado en UXPressia con base en las entrevistas.
+
+## 2.4. Big Picture Event Storming
+
+El Big Picture Event Storming de AgroLeak se elaboró en Miro para representar los eventos del dominio, las acciones que los originan, los actores y sistemas participantes, y las reglas que conectan los procesos. Los siguientes pasos muestran el desarrollo del modelado, desde la identificación de eventos hasta la delimitación de los Bounded Contexts.
+
+### Paso 1: Domain Events — Eventos de dominio
+
+Se identifican los hechos relevantes que ocurren en el dominio y se expresan en pasado. Estos eventos permiten describir qué sucede en AgroLeak durante la configuración del fundo, el monitoreo del riego, la detección de plagas y la atención de alertas.
+
+<img src="../assets/step-1.jpg" alt="Paso 1: identificación de eventos de dominio en AgroLeak" width="100%">
+
+### Paso 2: Timelines — Ordenar los eventos
+
+Los eventos identificados se organizan cronológicamente de izquierda a derecha para representar la secuencia de cada proceso y hacer visibles las alternativas y excepciones.
+
+<img src="../assets/step-2.jpg" alt="Paso 2: líneas de tiempo de los eventos de AgroLeak" width="100%">
+
+### Paso 3: Commands — Identificar comandos
+
+Se incorporan las acciones o solicitudes que pueden provocar los eventos, expresadas como comandos. Cada comando debe estar relacionado con el actor o sistema que lo inicia y con el resultado que produce.
+
+<img src="../assets/step-3.jpg" alt="Paso 3: comandos del dominio AgroLeak" width="100%">
+
+### Paso 4: Actors — Identificar actores
+
+Se identifican los usuarios y roles que participan en los procesos y que pueden iniciar comandos o responder a eventos, de acuerdo con las responsabilidades definidas para AgroLeak.
+
+<img src="../assets/step-4.jpg" alt="Paso 4: actores participantes en los procesos de AgroLeak" width="100%">
+
+### Paso 5: Hotspots — Identificar puntos de atención
+
+Se señalan dudas, problemas, excepciones y decisiones pendientes que requieren aclaración del equipo o validación con los usuarios. Los hotspots ayudan a distinguir las reglas confirmadas de los aspectos aún no resueltos.
+
+<img src="../assets/step-5.jpg" alt="Paso 5: hotspots y puntos pendientes del dominio AgroLeak" width="100%">
+
+### Paso 6: Policies — Reglas de negocio y reacciones automáticas
+
+Se identifican las políticas que reaccionan a eventos y pueden iniciar comandos o generar nuevos eventos. En AgroLeak, este paso permite documentar las reglas que relacionan las lecturas de caudal, la detección de anomalías, la generación de alertas y las solicitudes de actuación, según lo definido en el dominio.
+
+<img src="../assets/step-6.jpg" alt="Paso 6: políticas y reglas de negocio de AgroLeak" width="100%">
+
+### Paso 7: Read Models — Información consultada para decidir
+
+Se representan las vistas de información que necesitan los usuarios o sistemas para consultar el estado del proceso y tomar decisiones, por ejemplo, la información de monitoreo, alertas o historial que efectivamente contempla el sistema.
+
+<img src="../assets/step-7.jpg" alt="Paso 7: read models consultados en AgroLeak" width="100%">
+
+### Paso 8: External Systems — Dispositivos y sistemas externos
+
+Se identifican los dispositivos y sistemas externos que participan en los flujos, tales como sensores, cámaras, gateway, actuadores o servicios de comunicación, de acuerdo con su participación en la solución.
+
+<img src="../assets/step-8.jpg" alt="Paso 8: sistemas y dispositivos externos de AgroLeak" width="100%">
+
+### Paso 9: Aggregates — Agregados
+
+Se agrupan los eventos y comandos alrededor de los agregados que protegen las reglas e invariantes del dominio. Cada agregado recibe comandos y, cuando corresponde, emite eventos que reflejan el resultado de la operación.
+
+<img src="../assets/step-9.jpg" alt="Paso 9: agregados del dominio AgroLeak" width="100%">
+
+### Paso 10: Bounded Contexts — Contextos delimitados
+
+Se delimitan los contextos a partir de las responsabilidades del dominio, agrupando sus agregados y relacionándolos mediante las políticas o interacciones correspondientes. Los límites representan modelos con lenguaje y responsabilidades consistentes; no implican necesariamente que cada contexto sea una aplicación o un microservicio independiente.
+
+<img src="../assets/step-10.jpg" alt="Paso 10: Bounded Contexts de AgroLeak" width="100%">
 
 ## 2.5. Ubiquitous Language
+
+El Ubiquitous Language establece términos comunes entre los usuarios del dominio, el equipo del proyecto y los artefactos de análisis y diseño. Esta primera versión se basa en el contexto del proyecto y debe contrastarse con las expresiones utilizadas por los entrevistados y con los resultados del Event Storming en Miro.
+
+| Término | Definición en el dominio de AgroLeak |
+| :--- | :--- |
+| **Fundo** | Unidad de operación agrícola administrada por un productor, administrador o equipo de operaciones. |
+| **Parcela** | Área de cultivo dentro de un fundo que puede ser supervisada como parte de la operación agrícola. |
+| **Tramo de riego** | Segmento de la infraestructura de riego cuyo flujo se monitorea mediante lecturas asociadas a sus puntos de entrada y salida. |
+| **Caudal** | Volumen de agua que circula por un punto del sistema de riego durante un intervalo de tiempo. |
+| **Lectura de caudal** | Medición reportada por un sensor en un punto del tramo de riego, con su valor y referencia temporal. |
+| **Telemetría** | Datos enviados por los dispositivos de campo para supervisar el estado de los sensores, el flujo de agua y otros elementos monitoreados. |
+| **Anomalía persistente de caudal** | Diferencia entre las lecturas de entrada y salida que se mantiene durante el periodo definido por las reglas del sistema. Los umbrales y la duración deben precisarse en el diseño del producto. |
+| **Fuga** | Pérdida no deseada de agua en el sistema de riego, cuya detección puede apoyarse en la evaluación de lecturas de caudal. |
+| **Dispositivo IoT** | Sensor o actuador instalado en campo que captura mediciones o ejecuta acciones relacionadas con el monitoreo y la protección del riego. |
+| **Gateway Edge** | Componente situado en el borde que recibe o procesa datos de dispositivos y puede ejecutar capacidades locales aun cuando la conectividad con la nube no esté disponible. |
+| **Inferencia en el borde (Edge AI)** | Procesamiento local de una imagen mediante un modelo de IA para estimar la presencia o clasificación de una plaga. |
+| **Observación de plaga** | Registro asociado a una captura de imagen y al resultado producido por el modelo de detección; no equivale por sí solo a una confirmación agronómica. |
+| **Alerta** | Aviso generado por el sistema para comunicar una condición relevante, como una anomalía de caudal o una observación de plaga. |
+| **Solicitud de cierre de válvula** | Petición de ejecutar el cierre preventivo de una válvula después de que las reglas de protección determinen que corresponde. |
+| **Actuación de válvula** | Acción física de apertura o cierre ejecutada por el actuador, cuyo resultado debe registrarse y verificarse. |
+| **Estado seguro** | Condición de protección definida para el sistema después de una situación de riesgo. El cierre solicitado y el cierre confirmado deben distinguirse; una acción no confirmada no debe registrarse como exitosa. |
+| **Sincronización idempotente** | Envío o reintento de datos almacenados localmente sin crear registros duplicados cuando una misma operación se procesa más de una vez. |
+| **Bounded Context (contexto delimitado)** | Límite dentro del cual un modelo y sus términos tienen un significado consistente. Los contextos específicos de AgroLeak se definirán y documentarán a partir del EventStorming. |
+
+Los nombres y definiciones de esta tabla constituyen una base de trabajo, no una decisión final sobre la arquitectura. Después del taller de Event Storming, el equipo deberá ajustar el vocabulario para que los términos coincidan con los eventos, comandos, reglas y Bounded Contexts acordados.
