@@ -641,7 +641,7 @@ El tablero sigue los diez pasos de EventStorming que solicita el curso. Cada pas
 | 7. Read Models | Notas verdes con la información que el usuario consulta para decidir: perfil, estructura del fundo, dispositivos, telemetría, observaciones, alertas, estado de la válvula y dashboard. |
 | 8. External Systems | Notas rosadas con dispositivos y sistemas externos: gateway/sensores IoT, cámara y actuador/válvula. |
 | 9. Aggregates | Notas amarillas con las entidades del backend que reciben comandos y emiten eventos: User, Farm, Field, Sector, Crop, Device, SensorReading, IrrigationSettings, ValveCommand, PestObservation y Alert. |
-| 10. Bounded Contexts | Los agregados, comandos, eventos, políticas y vistas se reagrupan por responsabilidad en ocho contextos, con flechas *upstream → downstream*. Se complementa con una ficha por contexto y un resumen de decisiones pendientes. |
+| 10. Bounded Contexts | Cada contexto se dibuja como un círculo que contiene sus agregados, comandos, eventos, *read models* y actores. Los contextos se relacionan **solo mediante políticas**: una flecha va del evento de origen a la política (nota morada) y de la política al agregado o evento del contexto destino. Las políticas no implementadas se marcan en rojo (*Por confirmar*), y las consultas de Analytics se indican con flechas grises de lectura. Se complementa con una ficha por contexto y un resumen de decisiones pendientes. |
 
 ![Paso 1: Unstructured Exploration](../assets/images/event-storming/miro-paso-01-unstructured-exploration.png)
 
@@ -712,6 +712,22 @@ Los límites coinciden con los módulos del backend y de la aplicación web, por
 | Pest Monitoring | Observaciones de plaga y evento PestDetected | Observación, conteo, confianza | Publica PestDetected hacia Alerts |
 | Alerts | Alertas sin duplicados, reconocimiento y resolución | Alerta, tipo, severidad, estado | *Downstream* de Monitoring, Devices y Pest Monitoring |
 | Analytics | Vistas de lectura: dashboard y gráficos | Consumo, pérdida estimada, KPI | Consume a los demás; no controla dispositivos |
+
+**Políticas que relacionan los Bounded Contexts (Paso 10):**
+
+| Origen (evento) | Política | Destino |
+| :--- | :--- | :--- |
+| IAM · *Sesión iniciada* | Solo el dueño o ADMIN accede a su fundo; TECHNICIAN solo lee | Farm Management · Farm |
+| Farm Management · *Sector agregado* | Un dispositivo solo se asigna a un sector del usuario | Devices · Device |
+| Farm Management · *Sector agregado* | La observación debe pertenecer a un sector visible y al sector de su cámara | Pest Monitoring · PestObservation |
+| Devices · *Dispositivo registrado* | Solo VALVE o GATEWAY aceptan comandos de válvula | Irrigation · ValveCommand |
+| Devices · *Dispositivo registrado* | Solo un dispositivo registrado y accesible puede enviar lecturas | Monitoring · SensorReading |
+| Monitoring · *Lectura de sensor registrada* | Cuando llega una lectura, el dispositivo pasa a ONLINE (salvo MAINTENANCE) | Devices · Device |
+| Monitoring · *Posible fuga detectada (LEAK)* | Ante LEAK, OBSTRUCTION o presión fuera de rango se crea una alerta sin duplicar | Alerts · *Alerta creada* |
+| Devices · *Dispositivo marcado OFFLINE* | Se crea una alerta DEVICE_OFFLINE (MEDIUM) | Alerts · *Alerta creada* |
+| Pest Monitoring · *Plaga detectada* | Se crea una alerta PEST_DETECTED (HIGH) | Alerts · *Alerta creada* |
+| Monitoring · *Posible fuga detectada (LEAK)* | *Por confirmar:* en modo AUTO_SAFE, cerrar la válvula | Irrigation · ValveCommand |
+| Irrigation · *Ejecución fallida (FAILED)* | *Por confirmar:* crear una alerta | Alerts · *Alerta creada* |
 
 ![Fichas y resumen de Bounded Contexts](../assets/images/event-storming/miro-paso-10b-fichas-y-resumen.png)
 
