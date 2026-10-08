@@ -562,7 +562,9 @@ Las User Personas se elaborarán en UXPressia a partir de los hallazgos obtenido
 
 **Persona del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
 
-> Artefacto pendiente: insertar en esta sección la ficha de User Persona creada en UXPressia, una vez contrastada con las entrevistas del segmento.
+La persona **Ing. Vega** representa el arquetipo de productor tecnificado utilizado para el Needfinding de este segmento. Según la ficha de UXPressia, tiene 27 años, administra una empresa agrícola de 8 hectáreas de palta y cítricos en Palpa (Ica), y opera con riego por goteo, bombeo y válvulas por sector. Sus objetivos incluyen detectar oportunamente fugas y obstrucciones, recibir alertas en el smartphone, localizar posibles plagas y comprobar el ahorro antes de adoptar la solución. La ficha también señala que actualmente la verificación del riego y la inspección de plagas se realizan manualmente.
+
+<img src="../assets/ing-vega-person.png" alt="User Persona Ing. Vega, jefe de operaciones agrícolas" width="100%">
 
 ### 2.3.2. User Task Matrix
 
@@ -573,18 +575,18 @@ Las tareas que se muestran a continuación se identificaron a partir de los fluj
 | Tareas (Tasks) | Agricultor tecnificado: Frecuencia | Agricultor tecnificado: Importancia | Jefe de operaciones / administrador: Frecuencia | Jefe de operaciones / administrador: Importancia |
 | :--- | :---: | :---: | :---: | :---: |
 | Consultar el estado general del fundo, sus parcelas y sectores | Por validar | Por validar | Por validar | Por validar |
-| Revisar lecturas de caudal y el estado de los dispositivos asignados a los sectores | Por validar | Por validar | Por validar | Por validar |
-| Revisar si el sistema detectó una posible fuga, obstrucción o presión fuera de rango | Por validar | Por validar | Por validar | Por validar |
-| Consultar observaciones de plagas y la evidencia capturada | Por validar | Por validar | Por validar | Por validar |
-| Consultar, reconocer y dar seguimiento a las alertas | Por validar | Por validar | Por validar | Por validar |
+| Revisar lecturas de caudal y el estado de los dispositivos asignados a los sectores | Por validar | Por validar | Por validar | Alta |
+| Revisar si el sistema detectó una posible fuga, obstrucción o presión fuera de rango | Por validar | Por validar | Por validar | Alta |
+| Consultar observaciones de plagas y la evidencia capturada | Por validar | Por validar | Por validar | Alta |
+| Consultar, reconocer y dar seguimiento a las alertas | Por validar | Por validar | Por validar | Alta |
 | Revisar el estado de una solicitud de apertura o cierre de válvula y confirmar el resultado cuando corresponda | Por validar | Por validar | Por validar | Por validar |
 | Consultar el historial de telemetría, alertas y acciones ejecutadas | Por validar | Por validar | Por validar | Por validar |
 | Configurar o actualizar fundos, parcelas, sectores y cultivos | Por validar | Por validar | Por validar | Por validar |
 | Registrar dispositivos y asignarlos a un sector | Por validar | Por validar | Por validar | Por validar |
 | Cambiar el modo de operación del sistema, de acuerdo con los permisos definidos | Por validar | Por validar | Por validar | Por validar |
-| Revisar métricas y reportes para tomar decisiones operativas | Por validar | Por validar | Por validar | Por validar |
+| Revisar métricas y reportes para tomar decisiones operativas y comprobar el ahorro de recursos | Por validar | Por validar | Por validar | Alta |
 
-Las entrevistas permitirán asignar la frecuencia e importancia de cada tarea por segmento y ajustar la matriz según el rol real de los participantes. Si una tarea no corresponde a un segmento, se debe marcar como **No aplica** en lugar de asignarle una valoración. La matriz final debe mantenerse en este formato Markdown e incorporar las valoraciones validadas.
+Las valoraciones **Alta** de importancia para el Segmento 2 reflejan los objetivos explícitos de la ficha de Ing. Vega (detección oportuna, alertas, identificación de plagas y comprobación del ahorro); no representan una medición estadística. La frecuencia de las tareas y las valoraciones del Segmento 1 quedan **Por validar** hasta completar la síntesis del Needfinding de ambos segmentos. Si una tarea no corresponde a un segmento, se debe marcar como **No aplica** en lugar de asignarle una valoración.
 
 ### 2.3.3. User Journey Mapping
 
@@ -596,7 +598,9 @@ Los User Journey Maps se elaborarán en UXPressia a partir del proceso actual (*
 
 **Journey Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
 
-> Artefacto pendiente: insertar el Journey Map elaborado en UXPressia con base en las entrevistas.
+El Journey Map de Ing. Vega representa cuatro etapas de la supervisión del riego: operación, verificación manual, detección tardía de incidencias y atención/corrección. En el proceso actual descrito por la ficha, la revisión manual puede retrasar la detección de fugas u obstrucciones; como oportunidades se identifican alertas oportunas en el smartphone, evidencia que facilite localizar el problema y control manual o remoto de la válvula antes de habilitar una automatización completa.
+
+<img src="../assets/ing-vega-journey-map.png" alt="User Journey Map de Ing. Vega, jefe de operaciones agrícolas" width="100%">
 
 ### 2.3.4. Empathy Mapping
 
@@ -608,7 +612,9 @@ Los Empathy Maps se elaborarán en UXPressia mediante la síntesis de expresione
 
 **Empathy Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
 
-> Artefacto pendiente: insertar el Empathy Map elaborado en UXPressia con base en las entrevistas.
+El Empathy Map de Ing. Vega sintetiza las necesidades de supervisar el riego, detectar fugas y obstrucciones a tiempo, recibir alertas y conocer la evidencia de posibles plagas para intervenir de forma focalizada. También recoge frustraciones relacionadas con la revisión manual, el desperdicio de agua y los costos de bombeo, así como el interés en comprobar el ahorro antes de adoptar la solución. La ficha identifica expresamente algunos aspectos —como herramientas actuales, conectividad y tamaño/calidad del equipo— como no documentados, por lo que no se presentan aquí como hechos.
+
+<img src="../assets/ing-vega-empathy-map.png" alt="Empathy Map de Ing. Vega, jefe de operaciones agrícolas" width="100%">
 
 ## 2.4. Big Picture Event Storming
 
