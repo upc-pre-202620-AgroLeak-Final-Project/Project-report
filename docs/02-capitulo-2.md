@@ -511,7 +511,7 @@ En esta sección se presentan las entrevistas realizadas a los integrantes de lo
 
 **Enlace del video:** [entrevista-Vega.mp4](https://drive.google.com/file/d/1lvKcFmLgGJu_Ca_NJWwq2QYOh67I5BB2/view?usp=share_link)
 
-**Resumen:** Pendiente de incorporar y redactar a partir del video de la entrevista.
+**Resumen:** El Ing. Vega administra una empresa agrícola de 8 hectáreas en la costa de Palpa, Ica, enfocada en el cultivo de palta y cítricos mediante un sistema de riego por goteo con bombeo y válvulas por sector. Actualmente, tanto la verificación del riego como la inspección de plagas se realizan de forma manual, lo que ocasiona que problemas frecuentes como mangueras desacopladas, fugas o goteros obstruidos tarden horas o hasta el siguiente turno en detectarse. Esto genera desperdicio de agua, sobrecostos en energía eléctrica/combustible y afectaciones en el rendimiento de los cultivos por exceso o falta de riego.
 
 ##### Entrevista 2
 
@@ -550,7 +550,7 @@ Pendiente de completar cuando se incorporen y revisen las entrevistas de este se
 
 **Síntesis de hallazgos**
 
-Pendiente de redactar a partir de los hallazgos verificados en ambos segmentos.
+Muestra alta receptividad hacia una solución tecnológica orientada a la gestión móvil (smartphone) que emita alertas puntuales. Para la gestión hídrica, prefiere recibir notificaciones por diferencia de caudal con la opción de cerrar las válvulas de manera remota/manual antes de habilitar un automatizado total. En el ámbito fitosanitario, valora la detección por cámara que envíe la imagen, el tipo de plaga y el sector afectado para ejecutar intervenciones focalizadas. Comercialmente, solicita un modelo de entrada accesible mediante alquiler, suscripción mensual o un pago inicial por instalación con mantenimiento económico, evaluando la compra definitiva tras comprobar el ahorro de recursos e insumos.
 
 ## 2.3. Needfinding
 
