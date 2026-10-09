@@ -80,44 +80,28 @@ El Sprint 1 tiene como objetivo principal establecer la base estructural del pro
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 
-*(Insertar capturas de pantalla del código fuente desarrollado en los IDEs, mostrando ejemplos clave como componentes standalone de Angular, controladores REST de Spring Boot y scripts de migración de Flyway).*
-
-<img src="https://i.postimg.cc/44Vxx41k/image.png" alt="landing page" width="100%">> 
-
-<img src="https://i.postimg.cc/7P3qysqF/Whats-App-Image-2026-10-08-at-7-52-07-PM.jpg" alt="swagger" width="100%">> 
+<img src="https://i.postimg.cc/vTkrhYcd/image.png" alt="angular" width="100%">> 
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
 Se implementaron pruebas automatizadas para asegurar la estabilidad de las entregas del Sprint 1, utilizando **JUnit** y **Mockito** para el backend, además de **MockMvc** y **H2** para las pruebas de integración en memoria.
 
-*(Insertar capturas de los resultados de ejecución de pruebas unitarias mostrando los tests de los módulos IAM, Farm y Monitoring en verde).*
-
-> [Insertar captura del test runner]
-
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
-*(Insertar capturas de pantalla de la aplicación corriendo localmente o en el entorno de pruebas, mostrando la interfaz del Landing Page navegable y las respuestas de la API en el terminal).*
-
-> [Insertar captura del Landing Page en ejecución]
+<img src="https://i.postimg.cc/44Vxx41k/image.png" alt="landing page" width="100%">> 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
 La documentación de los servicios expuestos se generó de manera automatizada utilizando **Swagger / OpenAPI** interactivo (`/swagger-ui/index.html`), garantizando que el equipo de frontend tenga contratos claros para el consumo de la API, incluyendo la autenticación JWT.
 
-*(Insertar capturas de la interfaz de Swagger UI o de los requests configurados en Postman).*
-
-> [Insertar captura de Swagger UI]
+<img src="https://i.postimg.cc/7P3qysqF/Whats-App-Image-2026-10-08-at-7-52-07-PM.jpg" alt="swagger" width="100%">> 
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
 El Landing Page y los servicios básicos fueron desplegados con éxito en sus respectivos entornos cloud.
 
-*   **URL del Landing Page (GitHub Pages):** `[Insertar URL real del proyecto]`
+*   **URL del Landing Page (GitHub Pages):** `https://upc-pre-202620-agroleak-final-project.github.io/Landing-page-AgroLeak/`
 *   **URL de la API (Cloud):** `[Insertar URL de la API]`
-
-*(Insertar capturas de pantalla de los paneles de control de despliegue mostrando éxito).*
-
-> [Insertar captura de Deployment]
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
