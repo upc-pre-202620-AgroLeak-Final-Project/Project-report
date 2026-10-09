@@ -56,8 +56,8 @@ La infraestructura de despliegue de AgroLeak está diseñada para separar claram
 
 El Sprint 1 tiene como objetivo principal establecer la base estructural del proyecto AgroLeak. Esto incluye la configuración inicial de los repositorios, la implementación y despliegue del Landing Page para captación de prospectos (Hito BG02), la configuración de la base de datos PostgreSQL mediante migraciones y el desarrollo de los primeros endpoints de la API (Identity and Access Management).
 
-*   **Fecha de inicio:** [Fecha de inicio]
-*   **Fecha de fin:** [Fecha de fin]
+*   **Fecha de inicio:** [31-08-2026]
+*   **Fecha de fin:** [14-09-2026]
 *   **Sprint Goal:** Desplegar el Landing Page público de AgroLeak y establecer la infraestructura base del backend para recibir telemetría y gestionar usuarios.
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
