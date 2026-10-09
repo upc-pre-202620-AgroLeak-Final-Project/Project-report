@@ -499,15 +499,17 @@ En esta sección se presentan las entrevistas realizadas a los integrantes de lo
 
 ##### Entrevista 1
 
-**Entrevistado:** Pendiente de incorporar desde la rama `main`.
+**Entrevistado:** Ingeniero Vega
 
-**Edad y ubicación:** Pendiente de incorporar desde la rama `main`.
+**Edad :** 27
+
+**Distrito :** Palpa, Ica
 
 **Evidencia de la entrevista:**
 
-> Insertar aquí la imagen o captura correspondiente a la entrevista.
+<img width="1102" height="618" alt="Captura de pantalla Entrevista Vega" src="https://github.com/user-attachments/assets/f009fba5-7343-4391-b7a7-e6b57b4790ce" />
 
-**Enlace del video:** Pendiente de incorporar desde la rama `main`.
+**Enlace del video:** [entrevista-Vega.mp4](https://drive.google.com/file/d/1lvKcFmLgGJu_Ca_NJWwq2QYOh67I5BB2/view?usp=share_link)
 
 **Resumen:** Pendiente de incorporar y redactar a partir del video de la entrevista.
 
