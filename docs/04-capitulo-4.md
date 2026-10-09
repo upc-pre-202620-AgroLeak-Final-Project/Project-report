@@ -163,12 +163,11 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-![IrrigationClass](../assets/diagramas-cap4/Class_Irrigation.png) //CAMBIAR
+![IAM](../assets/diagramas-cap4/Class-IAM.png) 
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 
-![IrrigationDB](../assets/diagramas-cap4/BD_Irrigation.png) //CAMBIAR
-
+![IAM](../assets/diagramas-cap4/DB-IAM.png) 
 
 ### 4.2.2. Bounded Context: Farm Management
 
@@ -216,11 +215,11 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-![PestClass](../assets/diagramas-cap4/Class_Pest.png) //CAMBAIR
+![FarmManagement](../assets/diagramas-cap4/Class-FarmManagement.png) 
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
-![PestDB](../assets/diagramas-cap4/DB_Pest.png)  //CAMBIAR
+![FarmManagement](../assets/diagramas-cap4/DB-FarmManagement.png)  
 
 ### 4.2.3. Bounded Context: Devices
 
@@ -267,11 +266,11 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-![SafetyClass](../assets/diagramas-cap4/Class_Safety.png) //Cambiar
+![Devices](../assets/diagramas-cap4/Class-Devices.png) 
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 
-![SafetyDB](../assets/diagramas-cap4/DB_Safety.png)  //Cambiar
+![Devices](../assets/diagramas-cap4/DB-Devices.png)  
 
 ### 4.2.4. Bounded Context: Monitoring
 
@@ -323,11 +322,11 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-![AlertClass](../assets/diagramas-cap4/Class_Alert.png) //CAMBIAR
+![Monitoring](../assets/diagramas-cap4/Class-Monitoring.png) 
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-![AlertDB](../assets/diagramas-cap4/DB_Alerts.png) //CAMBIAR
+![Monitoring](../assets/diagramas-cap4/DB-Monitoring.png) 
 
 ### 4.2.5. Bounded Context: Irrigation
 
@@ -370,7 +369,13 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 
 ![Irrigation](../assets/diagramas-cap4/DiagramComponents-Irrigation.png)
 
-// AÑADIR DIAGRAMA DE CLASES Y BASE DE DATOS
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Irrigation](../assets/diagramas-cap4/Class-Irrigation.png)
+
+##### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+![Irrigation](../assets/diagramas-cap4/DB-Irrigation.png)
 
 
 ### 4.2.6. Bounded Context: Pest Monitoring
@@ -411,7 +416,13 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 
 ![PestMonitoring](../assets/diagramas-cap4/DiagramComponents-PestMonitoring.png)
 
-// AÑADIR CLASES Y BASE DE DATOS
+##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+![PestMonitoring](../assets/diagramas-cap4/Class-PestMonitoring.png)
+
+##### 4.2.6.6.2. Bounded Context Database Design Diagram
+
+![PestMonitoring](../assets/diagramas-cap4/DB-PestMonitoring.png)
 
 ### 4.2.7. Bounded Context: Alerts
 
@@ -456,7 +467,13 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 
 ![Alerts](../assets/diagramas-cap4/DiagramComponents-Alerts.png)
 
-// AÑADIR BASE DE DATOS Y CALSES
+##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Alerts](../assets/diagramas-cap4/Class-Alerts.png)
+
+##### 4.2.7.6.2. Bounded Context Database Design Diagram
+
+![Alerts](../assets/diagramas-cap4/DB-Alerts.png)
 
 ### 4.2.8. Bounded Context: Analytics
 
@@ -493,5 +510,13 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 
 ![Analytics](../assets/diagramas-cap4/DiagramComponents-Analytics.png)
+
+##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Analytics](../assets/diagramas-cap4/Class-Analytics.png)
+
+##### 4.2.8.6.2. Bounded Context Database Design Diagram
+
+![Analytics](../assets/diagramas-cap4/DB-Analytics.png)
 
 
