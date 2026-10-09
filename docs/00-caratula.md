@@ -4,11 +4,11 @@
 
 # Ingeniería de Software
 
-### Periodo: 2026-20 Pregrado
-
-### Curso: Desarrollo de Soluciones IoT
+### Ciclo: 7 2026-20 Pregrado
 
 ### Código del Curso: 1ASI0572
+
+### Curso: Desarrollo de Soluciones IoT
 
 ### NRC: 8725
 
@@ -18,9 +18,9 @@
 
 ### Startup: AgroLeak
 
-### Producto: 
+### Producto: AgroLeak
 
-### Integrantes:
+### Integrantes: AgroTech
 
 | Código | Apellidos y Nombres |
 | :--- | :--- |
@@ -31,7 +31,7 @@
 | U202222846 | Ramos Calagua, Sebastian Alexander|
 
 
-### Agosto 2026-20
+### Octubre 2026
 
 ---
 
