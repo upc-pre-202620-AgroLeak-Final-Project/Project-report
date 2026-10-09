@@ -86,6 +86,10 @@ El Sprint 1 tiene como objetivo principal establecer la base estructural del pro
 
 Se implementaron pruebas automatizadas para asegurar la estabilidad de las entregas del Sprint 1, utilizando **JUnit** y **Mockito** para el backend, además de **MockMvc** y **H2** para las pruebas de integración en memoria.
 
+<img src="https://i.postimg.cc/52xqfNZf/web-despliegue-vercel.jpg" alt="angular" width="100%">> 
+
+<img src="https://i.postimg.cc/HkB0n1gm/back-despliegue-render.jpg" alt="angular" width="100%">> 
+
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
 <img src="https://i.postimg.cc/44Vxx41k/image.png" alt="landing page" width="100%">> 
@@ -101,7 +105,8 @@ La documentación de los servicios expuestos se generó de manera automatizada u
 El Landing Page y los servicios básicos fueron desplegados con éxito en sus respectivos entornos cloud.
 
 *   **URL del Landing Page (GitHub Pages):** `https://upc-pre-202620-agroleak-final-project.github.io/Landing-page-AgroLeak/`
-*   **URL de la API (Cloud):** `[Insertar URL de la API]`
+  
+<img src="https://i.postimg.cc/5tyBFK4T/despliegue-postgre.jpg" alt="angular" width="100%">> 
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
