@@ -82,8 +82,9 @@ El Sprint 1 tiene como objetivo principal establecer la base estructural del pro
 
 *(Insertar capturas de pantalla del código fuente desarrollado en los IDEs, mostrando ejemplos clave como componentes standalone de Angular, controladores REST de Spring Boot y scripts de migración de Flyway).*
 
-> [Insertar captura de código del Landing Page]
-> [Insertar captura de código de la API]
+<img src="https://i.postimg.cc/44Vxx41k/image.png" alt="landing page" width="100%">> 
+
+<img src="https://i.postimg.cc/7P3qysqF/Whats-App-Image-2026-10-08-at-7-52-07-PM.jpg" alt="swagger" width="100%">> 
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
