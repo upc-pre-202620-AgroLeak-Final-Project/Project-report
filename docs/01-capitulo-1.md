@@ -29,7 +29,7 @@ La startup integra componentes físicos de Internet de las Cosas (sensores de ca
 | <img src="../assets/Foto-Sebastian.jpeg" width="100" alt="Sebastian Flores"> | Flores Manrique, Sebastian Enrique | U201611430 | Ingeniería de Software | Soy estudiante de la carrera de Ingeniería de software. Actualmente cursando el séptimo ciclo de la carrera. Me considero una persona responsable y dispuesto a ayudar en lo que haga falta. Tengo conocimientos en lenguaje de programación de C++, Python, FrontEnd y BackEnd. |
 | <img src="../assets/Foto-David.jpg" width="100" alt="David Meza"> | **Meza Tataje, David** | U202516291 | Ingeniería de Software | Estudiante de Ingeniería de Software de 21 años, con conocimientos intermedios en C++, Java y C#, además de experiencia en el desarrollo de aplicaciones web con HTML, CSS, JavaScript y SQL. Se considera una persona colaboradora y responsable, siempre dispuesto a aprender y trabajar en equipo para lograr los objetivos del proyecto. |
 | <img src="https://i.postimg.cc/8ktyLZj4/Sebastian-Ramos-foto-perfil.jpg" width="100" alt="Sebastian Ramos"> | **Ramos Calagua, Sebastian Alexander** | U202222846 | Ingeniería de Software | Estudiante de Ingeniería de Software de 23 años. Me desempeño como Analista Programador con experiencia en el desarrollo backend utilizando C# y .NET, automatización con Python y creación de aplicaciones con Flutter. Poseo un sólido manejo de bases de datos en SQL Server, diseño de arquitecturas mediante C4 Model (PlantUML, Structurizr) y control de versiones con Git/GitHub. Orientado a la creación de APIs eficientes y el trabajo colaborativo en equipo. |
----
+
 
 ## 1.2. Solution Profile
 
