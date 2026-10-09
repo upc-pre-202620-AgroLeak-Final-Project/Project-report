@@ -9,20 +9,20 @@ La gestión de la configuración del software (SCM) establece las prácticas, he
 Para estandarizar el desarrollo y evitar discrepancias entre los equipos locales, se ha definido el siguiente entorno de desarrollo integrado:
 
 *   **Editores e IDEs:** 
-    *   [Completar IDE/Editor] para el desarrollo del Backend y los servicios de middleware.
-    *   [Completar IDE/Editor] para el desarrollo del Frontend y los scripts de automatización e inferencia.
-*   **Gestión de Base de Datos:** [Completar Gestor de BD] para la administración de las bases de datos relacionales y la ejecución de consultas.
-*   **Contenedores y Virtualización:** [Completar Herramienta de virtualización/contenedores] para orquestar entornos locales y emular producción.
-*   **Pruebas de API:** [Completar Herramienta de pruebas API] para el diseño, prueba y documentación de las colecciones de endpoints.
-*   **Diseño de Arquitectura:** [Completar Herramienta de diseño] para la generación de diagramas C4 Model.
+    *   IntelliJ IDEA y Visual Studio Code para el desarrollo del Backend modular (Java 21, Spring Boot 3.5).
+    *   Visual Studio Code para el desarrollo del Frontend (Angular 20, TypeScript) y el Landing Page (HTML, CSS, JS).
+*   **Gestión de Base de Datos:** DBeaver o pgAdmin para la administración de la base de datos relacional PostgreSQL y la ejecución de consultas.
+*   **Contenedores y Virtualización:** Docker Desktop para orquestar el contenedor local de PostgreSQL y emular el entorno de persistencia.
+*   **Pruebas de API:** Postman y Swagger/OpenAPI para el diseño, prueba y documentación de las colecciones de endpoints RESTful.
+*   **Diseño de Arquitectura:** PlantUML y Structurizr para la generación de diagramas C4 Model.
 
 ### 6.1.2. Source Code Management
 
-El control de versiones se gestiona centralizadamente utilizando [Completar sistema, ej. Git] y alojado en [Completar plataforma, ej. GitHub]. Se ha adoptado el flujo de trabajo [Completar flujo, ej. GitFlow] para mantener un historial limpio y estructurado:
+El control de versiones se gestiona centralizadamente utilizando Git y alojado en GitHub. Se ha adoptado el flujo de trabajo GitFlow para mantener un historial limpio y estructurado:
 
 *   **Ramas Principales:**
     *   `main`: Contiene el código de producción estable. Solo recibe fusiones desde la rama de integración tras validar el despliegue.
-    *   `develop` / `[Completar nombre de rama base]`: Rama de integración principal donde convergen todas las nuevas características antes del lanzamiento.
+    *   `develop`: Rama de integración principal donde convergen todas las nuevas características antes del lanzamiento.
 *   **Ramas de Soporte:**
     *   `feature/[descripción]`: Para el desarrollo de nuevas historias de usuario.
     *   `bugfix/[descripción]`: Para la resolución de errores detectados.
@@ -31,18 +31,20 @@ El control de versiones se gestiona centralizadamente utilizando [Completar sist
 
 Para garantizar la legibilidad y mantenibilidad del código, el equipo se adhiere a las siguientes convenciones y guías de estilo:
 
-*   **Convenciones de Commits:** [Completar convención de commits, ej. Conventional Commits].
+*   **Convenciones de Commits:** Conventional Commits (ej. `feat(monitoring): agregar regla de anomalía`, `fix(ui): ajustar contraste de alerta`).
 *   **Guías de Estilo por Lenguaje:**
-    *   **Backend:** [Completar guía de estilo/linter para el lenguaje backend].
-    *   **Frontend:** [Completar guía de estilo/linter para el lenguaje frontend].
+    *   **Backend (Java):** Cumplimiento de las convenciones estándar de Java (PascalCase para clases, camelCase para métodos/variables). Estructuración basada en los principios de Domain-Driven Design (DDD), separando `application`, `domain/model`, `infrastructure` y `presentation/rest` en cada módulo.
+    *   **Frontend (Angular/TypeScript):** Uso de componentes *standalone*, SCSS para estilos, y RxJS + Signals para la reactividad. Los componentes se organizan reflejando los *bounded contexts* del backend.
+    *   **Base de datos:** Control de versiones del esquema y migraciones automatizadas gestionadas estrictamente a través de Flyway.
 
 ### 6.1.4. Software Deployment Configuration
 
 La infraestructura de despliegue de AgroLeak está diseñada para separar claramente los entornos:
 
-*   **Frontend y Landing Page:** Despliegue continuo (CI/CD) automatizado a través de [Completar plataforma de despliegue Frontend], conectado al repositorio para compilar y publicar los cambios.
-*   **Backend / Cloud API:** Alojamiento de los servicios API en [Completar plataforma de nube Backend], con pipelines configurados para ejecutar pruebas unitarias antes del despliegue.
-*   **Edge Computing (IoT):** Los dispositivos en campo ejecutan [Completar tecnología/base de datos Edge] local para almacenamiento temporal, sincronizándose con la nube al recuperar la conectividad.
+*   **Landing Page:** Despliegue estático automatizado a través de GitHub Pages desde la rama `main`.
+*   **Frontend Web (Angular):** Compilación para producción (`npm run build:prod`) y despliegue en plataformas de nube (ej. Vercel o Netlify), configurando las variables de entorno para apuntar a la API productiva.
+*   **Backend / Cloud API:** Alojamiento de los servicios API en proveedores cloud compatibles con PostgreSQL (ej. Railway, Neon, Supabase o Render) mediante conexión JDBC requerida con SSL, gestionando variables críticas (ej. `JWT_SECRET`, `DB_URL`) de forma segura.
+*   **Edge Computing (IoT):** Los dispositivos en campo ejecutan almacenamiento local para conservar lecturas temporalmente, sincronizándose de manera idempotente con la nube al recuperar la conectividad.
 
 ---
 
@@ -52,19 +54,19 @@ La infraestructura de despliegue de AgroLeak está diseñada para separar claram
 
 #### 6.2.1.1. Sprint Planning 1
 
-El Sprint 1 tiene como objetivo principal establecer la base estructural del proyecto AgroLeak. Esto incluye la configuración inicial de los repositorios, la implementación y despliegue del Landing Page para captación de prospectos (Hito BG02), la configuración de la base de datos central y el desarrollo de los primeros endpoints de la API.
+El Sprint 1 tiene como objetivo principal establecer la base estructural del proyecto AgroLeak. Esto incluye la configuración inicial de los repositorios, la implementación y despliegue del Landing Page para captación de prospectos (Hito BG02), la configuración de la base de datos PostgreSQL mediante migraciones y el desarrollo de los primeros endpoints de la API (Identity and Access Management).
 
 *   **Fecha de inicio:** [Fecha de inicio]
 *   **Fecha de fin:** [Fecha de fin]
-*   **Sprint Goal:** Desplegar el Landing Page público de AgroLeak y establecer la infraestructura base del backend para recibir telemetría.
+*   **Sprint Goal:** Desplegar el Landing Page público de AgroLeak y establecer la infraestructura base del backend para recibir telemetría y gestionar usuarios.
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
 
 *   **David Meza:** Líder de Arquitectura y SCM.
-*   **Sebastian Flores:** Líder de Diseño UX/UI y Frontend (Landing Page).
-*   **Leonardo Dueñas:** Líder de Desarrollo Backend.
+*   **Sebastian Flores:** Líder de Diseño UX/UI y Frontend (Landing Page / Angular).
+*   **Leonardo Dueñas:** Líder de Desarrollo Backend (Spring Boot / Arquitectura DDD).
 *   **Kalid Palacios:** Líder de Requisitos (Scrum Master).
-*   **Sebastian Ramos:** Líder de Validación, Base de datos y API.
+*   **Sebastian Ramos:** Líder de Validación, Base de datos (PostgreSQL/Flyway) y Testing.
 
 #### 6.2.1.3. Sprint Backlog 1
 
@@ -78,16 +80,16 @@ El Sprint 1 tiene como objetivo principal establecer la base estructural del pro
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 
-*(Insertar capturas de pantalla del código fuente desarrollado en los IDEs, mostrando ejemplos clave como componentes del Landing Page, controladores para la API y esquemas de base de datos).*
+*(Insertar capturas de pantalla del código fuente desarrollado en los IDEs, mostrando ejemplos clave como componentes standalone de Angular, controladores REST de Spring Boot y scripts de migración de Flyway).*
 
 > [Insertar captura de código del Landing Page]
 > [Insertar captura de código de la API]
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
-Se implementaron pruebas automatizadas básicas utilizando [Completar framework de pruebas unitarias] para asegurar la estabilidad de las entregas del Sprint 1.
+Se implementaron pruebas automatizadas para asegurar la estabilidad de las entregas del Sprint 1, utilizando **JUnit** y **Mockito** para el backend, además de **MockMvc** y **H2** para las pruebas de integración en memoria.
 
-*(Insertar capturas de los resultados de ejecución de pruebas unitarias mostrando todos los tests en verde).*
+*(Insertar capturas de los resultados de ejecución de pruebas unitarias mostrando los tests de los módulos IAM, Farm y Monitoring en verde).*
 
 > [Insertar captura del test runner]
 
@@ -99,17 +101,17 @@ Se implementaron pruebas automatizadas básicas utilizando [Completar framework 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
-La documentación de los servicios expuestos se gestionó utilizando [Completar herramienta de documentación de API, ej. Swagger/Postman], garantizando que el equipo de frontend tenga contratos claros para el consumo de la API.
+La documentación de los servicios expuestos se generó de manera automatizada utilizando **Swagger / OpenAPI** interactivo (`/swagger-ui/index.html`), garantizando que el equipo de frontend tenga contratos claros para el consumo de la API, incluyendo la autenticación JWT.
 
-*(Insertar capturas de la interfaz de documentación o de los requests configurados).*
+*(Insertar capturas de la interfaz de Swagger UI o de los requests configurados en Postman).*
 
-> [Insertar captura de Documentación API]
+> [Insertar captura de Swagger UI]
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
 El Landing Page y los servicios básicos fueron desplegados con éxito en sus respectivos entornos cloud.
 
-*   **URL del Landing Page:** `[Insertar URL real del proyecto]`
+*   **URL del Landing Page (GitHub Pages):** `[Insertar URL real del proyecto]`
 *   **URL de la API (Cloud):** `[Insertar URL de la API]`
 
 *(Insertar capturas de pantalla de los paneles de control de despliegue mostrando éxito).*
@@ -118,7 +120,7 @@ El Landing Page y los servicios básicos fueron desplegados con éxito en sus re
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
-Durante el Sprint 1, el equipo mantuvo una comunicación constante a través de reuniones diarias (Daily Standups) y el uso de [Completar herramienta de gestión de tareas, ej. Jira/Trello/GitHub Projects]. La división de tareas según las fortalezas técnicas permitió avanzar en paralelo, logrando fusionar el trabajo sin conflictos mayores gracias a las políticas estrictas de revisión de código.
+Durante el Sprint 1, el equipo mantuvo una comunicación constante a través de reuniones diarias (Daily Standups) y el uso de tableros ágiles (ej. GitHub Projects). La división de tareas según las fortalezas técnicas permitió avanzar en paralelo: mientras se estructuraba el diseño visual y la web responsiva en Angular, el equipo de backend consolidaba las migraciones Flyway y la autenticación JWT en Spring Boot. La integración del trabajo se logró sin conflictos mayores gracias a las políticas estrictas de revisión de Pull Requests.
 
 ---
 
