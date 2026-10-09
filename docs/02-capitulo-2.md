@@ -583,7 +583,7 @@ Las User Personas se elaborarán en UXPressia a partir de los hallazgos obtenido
 
 La persona **Michael Quispe** representa el arquetipo del usuario técnico y operativo en campo. Tiene 24 años y trabaja como Asistente Técnico de Riego en Cañete (Lima). Sus objetivos principales son optimizar el tiempo de respuesta ante fallas y evitar el desperdicio de agua y daño a las plantas causado por la detección tardía. Sus frustraciones radican en la dependencia de recorridos físicos exhaustivos para encontrar fugas. Es un usuario nativo digital, altamente receptivo a interactuar con notificaciones móviles e interfaces de control remoto.
 
-> *Nota: Insertar en esta sección la captura de la ficha de User Persona creada en UXPressia para Michael Quispe.*
+<img src="../assets/michael-quispe-person.png" alt="User Persona Michael Quispe, asistente técnico de riego" width="100%">
 
 **Persona del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
 
@@ -613,7 +613,7 @@ Los User Journey Maps reflejan las etapas de la tarea, las acciones y puntos de 
 
 El Journey Map de Michael Quispe describe su recorrido diario en campo. Las etapas actuales incluyen: inicio de turno, recorrido físico por surcos, detección visual de anomalías (charcos o baja presión) y reporte manual. El punto más bajo (frustración) ocurre durante el recorrido a ciegas, donde se pierde tiempo vital. Las oportunidades mapeadas son la implementación de notificaciones push directas al smartphone al detectar un cambio de caudal y la provisión de un botón de acción rápida para cerrar el flujo sin tener que trasladarse a la válvula matriz.
 
-> *Nota: Insertar el Journey Map elaborado en UXPressia para el Segmento 1.*
+<img src="../assets/michael-quispe-journey-map.png" alt="User Journey Map de Michael Quispe, asistente técnico de riego" width="100%">
 
 **Journey Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
 
@@ -629,61 +629,11 @@ Los Empathy Maps sintetizan expresiones y comportamientos observados en las entr
 
 El Empathy Map de Michael Quispe revela a un usuario que **piensa y siente** urgencia por optimizar su tiempo en campo y evitar los daños colaterales de las fugas. **Ve** el desperdicio constante de agua y cultivos afectados por estrés hídrico. **Dice y hace** recorridos físicos extensos que retrasan la respuesta. Sus principales **dolores (pains)** son la latencia operativa y el esfuerzo físico innecesario. Sus **beneficios esperados (gains)** son contar con un sistema de alertas proactivas en su celular y evidencias fotográficas que le permitan ir directamente al problema.
 
-> *Nota: Insertar el Empathy Map elaborado en UXPressia para el Segmento 1.*
+<img src="../assets/michael-quispe-empathy-map.png" alt="Empathy Map de Michael Quispe, asistente técnico de riego" width="100%">
 
 **Empathy Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
 
 El Empathy Map de Ing. Vega sintetiza las necesidades de supervisar el riego, detectar fugas a tiempo y conocer la evidencia de plagas para intervenir focalizadamente. Recoge frustraciones sobre los costos de bombeo y el interés en comprobar el ahorro.
-
-<img src="../assets/ing-vega-empathy-map.png" alt="Empathy Map de Ing. Vega, jefe de operaciones agrícolas" width="100%">
-
-### 2.3.2. User Task Matrix
-
-En esta sección se presenta la User Task Matrix de AgroLeak. La matriz organiza las tareas de los segmentos objetivo y permite compararlas según su frecuencia (F) e importancia (I), en una escala de **Alta, Media y Baja**.
-
-Las tareas que se muestran a continuación se identificaron a partir de los flujos del Event Storming y del alcance funcional de AgroLeak. Las valoraciones de frecuencia e importancia son **preliminares**: deben contrastarse con las entrevistas y con el Needfinding antes de considerarse hallazgos validados. En particular, las tareas de configuración y mantenimiento del sistema pueden corresponder a un administrador o técnico autorizado, y no necesariamente al agricultor.
-
-| Tareas (Tasks) | Agricultor tecnificado: Frecuencia | Agricultor tecnificado: Importancia | Jefe de operaciones / administrador: Frecuencia | Jefe de operaciones / administrador: Importancia |
-| :--- | :---: | :---: | :---: | :---: |
-| Consultar el estado general del fundo, sus parcelas y sectores | Por validar | Por validar | Por validar | Por validar |
-| Revisar lecturas de caudal y el estado de los dispositivos asignados a los sectores | Por validar | Por validar | Por validar | Alta |
-| Revisar si el sistema detectó una posible fuga, obstrucción o presión fuera de rango | Por validar | Por validar | Por validar | Alta |
-| Consultar observaciones de plagas y la evidencia capturada | Por validar | Por validar | Por validar | Alta |
-| Consultar, reconocer y dar seguimiento a las alertas | Por validar | Por validar | Por validar | Alta |
-| Revisar el estado de una solicitud de apertura o cierre de válvula y confirmar el resultado cuando corresponda | Por validar | Por validar | Por validar | Por validar |
-| Consultar el historial de telemetría, alertas y acciones ejecutadas | Por validar | Por validar | Por validar | Por validar |
-| Configurar o actualizar fundos, parcelas, sectores y cultivos | Por validar | Por validar | Por validar | Por validar |
-| Registrar dispositivos y asignarlos a un sector | Por validar | Por validar | Por validar | Por validar |
-| Cambiar el modo de operación del sistema, de acuerdo con los permisos definidos | Por validar | Por validar | Por validar | Por validar |
-| Revisar métricas y reportes para tomar decisiones operativas y comprobar el ahorro de recursos | Por validar | Por validar | Por validar | Alta |
-
-Las valoraciones **Alta** de importancia para el Segmento 2 reflejan los objetivos explícitos de la ficha de Ing. Vega (detección oportuna, alertas, identificación de plagas y comprobación del ahorro); no representan una medición estadística. La frecuencia de las tareas y las valoraciones del Segmento 1 quedan **Por validar** hasta completar la síntesis del Needfinding de ambos segmentos. Si una tarea no corresponde a un segmento, se debe marcar como **No aplica** en lugar de asignarle una valoración.
-
-### 2.3.3. User Journey Mapping
-
-Los User Journey Maps se elaborarán en UXPressia a partir del proceso actual (*As-Is*) descrito por los entrevistados. Cada mapa debe reflejar las etapas de la tarea, las acciones y puntos de contacto del usuario, sus dificultades y emociones, así como las oportunidades de mejora identificadas. No se deben presentar como observados los pasos que no hayan sido confirmados en las entrevistas.
-
-**Journey Map del Segmento 1: Pequeño o mediano agricultor tecnificado**
-
-> Artefacto pendiente: insertar el Journey Map elaborado en UXPressia con base en las entrevistas.
-
-**Journey Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
-
-El Journey Map de Ing. Vega representa cuatro etapas de la supervisión del riego: operación, verificación manual, detección tardía de incidencias y atención/corrección. En el proceso actual descrito por la ficha, la revisión manual puede retrasar la detección de fugas u obstrucciones; como oportunidades se identifican alertas oportunas en el smartphone, evidencia que facilite localizar el problema y control manual o remoto de la válvula antes de habilitar una automatización completa.
-
-<img src="../assets/ing-vega-journey-map.png" alt="User Journey Map de Ing. Vega, jefe de operaciones agrícolas" width="100%">
-
-### 2.3.4. Empathy Mapping
-
-Los Empathy Maps se elaborarán en UXPressia mediante la síntesis de expresiones y comportamientos observados en las entrevistas. Las secciones de lo que la persona dice, piensa, hace y siente, así como sus dificultades y beneficios esperados, deberán derivarse de evidencia y conservar el contexto de cada segmento.
-
-**Empathy Map del Segmento 1: Pequeño o mediano agricultor tecnificado**
-
-> Artefacto pendiente: insertar el Empathy Map elaborado en UXPressia con base en las entrevistas.
-
-**Empathy Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
-
-El Empathy Map de Ing. Vega sintetiza las necesidades de supervisar el riego, detectar fugas y obstrucciones a tiempo, recibir alertas y conocer la evidencia de posibles plagas para intervenir de forma focalizada. También recoge frustraciones relacionadas con la revisión manual, el desperdicio de agua y los costos de bombeo, así como el interés en comprobar el ahorro antes de adoptar la solución. La ficha identifica expresamente algunos aspectos —como herramientas actuales, conectividad y tamaño/calidad del equipo— como no documentados, por lo que no se presentan aquí como hechos.
 
 <img src="../assets/ing-vega-empathy-map.png" alt="Empathy Map de Ing. Vega, jefe de operaciones agrícolas" width="100%">
 
@@ -793,5 +743,7 @@ El Ubiquitous Language establece términos comunes entre los usuarios del domini
 | **Estado seguro** | Condición de protección definida para el sistema después de una situación de riesgo. El cierre solicitado y el cierre confirmado deben distinguirse; una acción no confirmada no debe registrarse como exitosa. |
 | **Sincronización idempotente** | Envío o reintento de datos almacenados localmente sin crear registros duplicados cuando una misma operación se procesa más de una vez. |
 | **Bounded Context (contexto delimitado)** | Límite dentro del cual un modelo y sus términos tienen un significado consistente. Los nombres y responsabilidades deben mantenerse alineados con los límites acordados en el paso 10 del Event Storming. |
+
+Los nombres y definiciones de esta tabla constituyen la base del lenguaje de dominio a partir del Event Storming, la lógica de la aplicación y la entrevista del Segmento 2. Los términos recogidos de una entrevista reflejan lo expresado por ese participante; no implican por sí solos que AgroLeak ya implemente o haya aprobado esas reglas o métricas. Deben contrastarse con las demás entrevistas y mantenerse consistentes en los requisitos, diseños y diagramas. En particular, el equipo debe confirmar si **sector** y **tramo de riego** representan la misma unidad, y validar los estados y transiciones de alertas, dispositivos y comandos de válvula con la implementación.
 
 Los nombres y definiciones de esta tabla constituyen la base del lenguaje de dominio a partir del Event Storming, la lógica de la aplicación y la entrevista del Segmento 2. Los términos recogidos de una entrevista reflejan lo expresado por ese participante; no implican por sí solos que AgroLeak ya implemente o haya aprobado esas reglas o métricas. Deben contrastarse con las demás entrevistas y mantenerse consistentes en los requisitos, diseños y diagramas. En particular, el equipo debe confirmar si **sector** y **tramo de riego** representan la misma unidad, y validar los estados y transiciones de alertas, dispositivos y comandos de válvula con la implementación.
