@@ -1,24 +1,33 @@
-![Logo de la UPC](../assets/imagenes-caratula//logo-upc.png)
 
+<div align="center">
+
+![Logo de la UPC](../assets/imagenes-caratula//logo-upc.png)
+   
 # Universidad Peruana de Ciencias Aplicadas
 
-# Ingeniería de Software
+# Carrera de Ingeniería de Software
 
-### Ciclo: 7 2026-20 Pregrado
+### 1ASI0572
 
-### Código del Curso: 1ASI0572
+### Desarrollo de Soluciones IoT
 
-### Curso: Desarrollo de Soluciones IoT
+### NRC 
 
-### NRC: 8725
+### 8725
 
-### Docente: León Baca, Marco Antonio
+### Informe del Trabajo Final
 
-## Informe del Trabajo Final
+### Docente
 
-### Startup: AgroLeak
+### León Baca, Marco Antonio
 
-### Producto: AgroLeak
+### Equipo
+
+### AgroLeak
+
+### Proyecto
+
+### AgroLeak
 
 ### Integrantes: AgroTech
 
@@ -32,9 +41,9 @@
 | U201913639 | Palacios Jauregui, Kalid |
 | U202222846 | Ramos Calagua, Sebastian Alexander|
 
+### Período 202620
 
-
-### Octubre 2026
+</div>
 
 ---
 
