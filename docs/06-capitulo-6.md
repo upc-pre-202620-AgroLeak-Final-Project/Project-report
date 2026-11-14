@@ -158,6 +158,42 @@ El Sprint 2 tiene como objetivo principal consolidar el núcleo operativo de Agr
 | Tarea | Despliegue de la Web Application y mejora del Landing Page | 5 | David Meza / Sebastian Flores | Terminado |
 | Tarea | Corrección y mejora de artefactos de entregas anteriores | – | Todo el equipo | Terminado |
 
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+<img src="https://i.postimg.cc/vTkrhYcd/image.png" alt="angular" width="100%">> 
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Se implementaron pruebas automatizadas para asegurar la estabilidad de las entregas del Sprint 1, utilizando **JUnit** y **Mockito** para el backend, además de **MockMvc** y **H2** para las pruebas de integración en memoria.
+
+<img src="https://i.postimg.cc/52xqfNZf/web-despliegue-vercel.jpg" alt="angular" width="100%">> 
+
+<img src="https://i.postimg.cc/HkB0n1gm/back-despliegue-render.jpg" alt="angular" width="100%">> 
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+<img src="https://i.postimg.cc/44Vxx41k/image.png" alt="landing page" width="100%">> 
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+La documentación de los servicios expuestos se generó de manera automatizada utilizando **Swagger / OpenAPI** interactivo (`/swagger-ui/index.html`), garantizando que el equipo de frontend tenga contratos claros para el consumo de la API, incluyendo la autenticación JWT.
+
+<img src="https://i.postimg.cc/7P3qysqF/Whats-App-Image-2026-10-08-at-7-52-07-PM.jpg" alt="swagger" width="100%">> 
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+El Landing Page y los servicios básicos fueron desplegados con éxito en sus respectivos entornos cloud.
+
+*   **URL del Landing Page (GitHub Pages):** `https://upc-pre-202620-agroleak-final-project.github.io/Landing-page-AgroLeak/`
+  
+<img src="https://i.postimg.cc/5tyBFK4T/despliegue-postgre.jpg" alt="angular" width="100%">> 
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo mantuvo una comunicación constante a través de reuniones diarias (Daily Standups) y el uso de tableros ágiles (ej. GitHub Projects). La división de tareas según las fortalezas técnicas permitió avanzar en paralelo: mientras se estructuraba el diseño visual y la web responsiva en Angular, el equipo de backend consolidaba las migraciones Flyway y la autenticación JWT en Spring Boot. La integración del trabajo se logró sin conflictos mayores gracias a las políticas estrictas de revisión de Pull Requests.
+
+---
+
 ## 6.3. Validation Interviews
 
 El Needfinding organiza los hallazgos disponibles sobre la supervisión del riego y la sanidad vegetal. Su base empírica son los resúmenes de las entrevistas registradas en la sección 2.2.2: **Michael Quispe (Segmento 1)**, y **Alexis Alarcón e Ing. Vega (Segmento 2)**. La muestra disponible es **n = 3**; si bien aporta perspectivas complementarias desde el trabajo de campo y la administración, no permite afirmar que los hallazgos representen estadísticamente a todos los integrantes de los dos segmentos objetivo.
