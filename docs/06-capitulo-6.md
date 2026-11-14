@@ -114,6 +114,86 @@ Durante el Sprint 1, el equipo mantuvo una comunicación constante a través de 
 
 ---
 
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+El Sprint 2 tiene como objetivo principal consolidar el núcleo operativo de AgroLeak sobre la base construida en el Sprint 1. Esto incluye la implementación de la gestión de fundos, parcelas y sectores, la asignación de dispositivos IoT a los sectores, la visualización del estado actual del riego y la detección de anomalías persistentes de caudal, la gestión de alertas y la primera versión funcional de la Web Application desplegada en la nube. Asimismo, se incorpora una versión mejorada del Landing Page y se continúa con la corrección y mejora de los artefactos presentados previamente.
+
+| Campo | Detalle |
+|---|---|
+| **Fecha de inicio** | [15-10-2026] |
+| **Fecha de fin** | [14-11-2026] |
+| **Sprint Goal** | Desplegar la primera versión de la Web Application de AgroLeak con gestión de fundos y dispositivos, monitoreo de caudal, detección de anomalías y gestión de alertas, integrada con el backend y el Edge API. |
+| **Story Points comprometidos** | 33 |
+
+**Criterios de aceptación del Sprint**
+
+- La Web Application está desplegada y se conecta con la API productiva.
+- Un usuario autenticado puede registrar un fundo, una parcela y un sector, y asignarles dispositivos.
+- El monitoreo muestra las lecturas de caudal de entrada y salida, su diferencia y el estado de la válvula.
+- Una diferencia de caudal persistente genera un evento de anomalía y una alerta visible en la plataforma.
+- Las alertas pueden ser reconocidas y resueltas con registro de usuario y fecha.
+- Los servicios nuevos están documentados en Swagger / OpenAPI y cubiertos por pruebas automatizadas.
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+| Integrante | Rol / Aspecto liderado | Responsabilidades en el Sprint 2 |
+|---|---|---|
+| **David Meza** | Líder de Arquitectura y SCM | Configuración del despliegue de la Web Application y del backend en la nube, mantenimiento del flujo GitFlow y de los pipelines de CI/CD, revisión de Pull Requests. |
+| **Sebastian Flores** | Líder de Diseño UX/UI y Frontend | Implementación en Angular de las vistas de fundos, dispositivos, monitoreo y alertas, y actualización del Landing Page. |
+| **Leonardo Dueñas** | Líder de Desarrollo Backend | Implementación de los bounded contexts Farm Management, Monitoring y Alerts en Spring Boot, y de la lógica de detección de anomalías. |
+| **Kalid Palacios** | Líder de Requisitos (Scrum Master) | Planificación y seguimiento del Sprint, refinamiento del Product Backlog, recopilación de evidencias y documentación del Sprint Review. |
+| **Sebastian Ramos** | Líder de Validación, Base de datos y Testing | Migraciones Flyway, gestión de dispositivos y sincronización con el Edge API, pruebas automatizadas y documentación de los servicios. |
+
+#### 6.2.2.3. Sprint Backlog 2
+
+| ID | User Story / Task | Story Points | Asignado a | Estado |
+|---|---|---|---|---|
+| EP03-US04 | Register a Farm and Plot | 5 | Leonardo Dueñas / Sebastian Flores | Terminado |
+| EP03-US05 | Configure an Irrigation Segment | 5 | Sebastian Ramos / Sebastian Flores | Terminado |
+| EP04-US07 | View Current Irrigation Status | 5 | Sebastian Flores / Leonardo Dueñas | Terminado |
+| EP04-US08 | Detect a Persistent Flow Anomaly | 8 | Leonardo Dueñas | Terminado |
+| EP06-US17 | Manage Alerts and Resolution | 5 | Leonardo Dueñas / Sebastian Flores | Terminado |
+| Tarea | Despliegue de la Web Application y mejora del Landing Page | 5 | David Meza / Sebastian Flores | Terminado |
+| Tarea | Corrección y mejora de artefactos de entregas anteriores | – | Todo el equipo | Terminado |
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+<img src="https://i.postimg.cc/vTkrhYcd/image.png" alt="angular" width="100%">> 
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Se implementaron pruebas automatizadas para asegurar la estabilidad de las entregas del Sprint 1, utilizando **JUnit** y **Mockito** para el backend, además de **MockMvc** y **H2** para las pruebas de integración en memoria.
+
+<img src="https://i.postimg.cc/52xqfNZf/web-despliegue-vercel.jpg" alt="angular" width="100%">> 
+
+<img src="https://i.postimg.cc/HkB0n1gm/back-despliegue-render.jpg" alt="angular" width="100%">> 
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+<img src="https://i.postimg.cc/44Vxx41k/image.png" alt="landing page" width="100%">> 
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+La documentación de los servicios expuestos se generó de manera automatizada utilizando **Swagger / OpenAPI** interactivo (`/swagger-ui/index.html`), garantizando que el equipo de frontend tenga contratos claros para el consumo de la API, incluyendo la autenticación JWT.
+
+<img src="https://i.postimg.cc/7P3qysqF/Whats-App-Image-2026-10-08-at-7-52-07-PM.jpg" alt="swagger" width="100%">> 
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+El Landing Page y los servicios básicos fueron desplegados con éxito en sus respectivos entornos cloud.
+
+*   **URL del Landing Page (GitHub Pages):** `https://upc-pre-202620-agroleak-final-project.github.io/Landing-page-AgroLeak/`
+  
+<img src="https://i.postimg.cc/5tyBFK4T/despliegue-postgre.jpg" alt="angular" width="100%">> 
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo mantuvo una comunicación constante a través de reuniones diarias (Daily Standups) y el uso de tableros ágiles (ej. GitHub Projects). La división de tareas según las fortalezas técnicas permitió avanzar en paralelo: mientras se estructuraba el diseño visual y la web responsiva en Angular, el equipo de backend consolidaba las migraciones Flyway y la autenticación JWT en Spring Boot. La integración del trabajo se logró sin conflictos mayores gracias a las políticas estrictas de revisión de Pull Requests.
+
+---
+
 ## 6.3. Validation Interviews
 
 El Needfinding organiza los hallazgos disponibles sobre la supervisión del riego y la sanidad vegetal. Su base empírica son los resúmenes de las entrevistas registradas en la sección 2.2.2: **Michael Quispe (Segmento 1)**, y **Alexis Alarcón e Ing. Vega (Segmento 2)**. La muestra disponible es **n = 3**; si bien aporta perspectivas complementarias desde el trabajo de campo y la administración, no permite afirmar que los hallazgos representen estadísticamente a todos los integrantes de los dos segmentos objetivo.
