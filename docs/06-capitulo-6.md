@@ -170,7 +170,7 @@ Se implementaron pruebas automatizadas para asegurar la estabilidad de las entre
 
 <img src="https://i.postimg.cc/HkB0n1gm/back-despliegue-render.jpg" alt="angular" width="100%">> 
 
-#### 6.2.1.6. Execution Evidence for Sprint Review
+#### 6.2.2.6. Execution Evidence for Sprint Review
 
 <img src="https://i.postimg.cc/44Vxx41k/image.png" alt="landing page" width="100%">> 
 
