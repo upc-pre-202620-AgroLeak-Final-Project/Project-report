@@ -369,6 +369,8 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 
 ![Irrigation](../assets/diagramas-cap4/DiagramComponents-Irrigation.png)
 
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
 ![Irrigation](../assets/diagramas-cap4/Class-Irrigation.png)
@@ -415,6 +417,8 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
 ![PestMonitoring](../assets/diagramas-cap4/DiagramComponents-PestMonitoring.png)
+
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
 
@@ -467,6 +471,8 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 
 ![Alerts](../assets/diagramas-cap4/DiagramComponents-Alerts.png)
 
+#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 
 ![Alerts](../assets/diagramas-cap4/Class-Alerts.png)
@@ -510,6 +516,8 @@ En esta sección se presenta el diseño táctico de cada uno de los 8 bounded co
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 
 ![Analytics](../assets/diagramas-cap4/DiagramComponents-Analytics.png)
+
+#### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 
