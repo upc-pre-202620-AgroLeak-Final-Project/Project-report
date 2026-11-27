@@ -91,36 +91,30 @@ El informe se elabora de forma colaborativa en Markdown dentro de la organizaci�
 | Palacios Jauregui, Kalid | KalidPalaci0s |
 | Ramos Calagua, Sebastian Alexander | DazzliBoy |
 
-## AV1 (12/09/2026 – 19/09/2026)
+## AV1 
 
 El equipo creó el repositorio y la estructura base del informe, y elaboró los capítulos I al V en ramas independientes por capítulo. El 19/09/2026 se integraron mediante los Pull Requests #1 al #6. En esta entrega se registraron 23 commits: de1v11 (8), sebastian (9) e Insonnio (6).
 
-<!-- CAPTURA AV1: Insights > Contributors filtrado del 12/09/2026 al 19/09/2026 -->
-<!-- <img src="../assets/collaboration-insights/av1-contributors.png" alt="Contribuciones al repositorio del informe durante AV1" width="100%"> -->
 
-## TB1 (20/09/2026 – 08/10/2026)
+<img src="../assets/collaboration-insights/av1-contributors.png" alt="Contribuciones al repositorio del informe durante AV1" width="50%"> 
+
+## TB1 
 
 El equipo registró las entrevistas en la rama `ENTREVISTAS` (Pull Request #7), completó el needfinding, el Big Picture EventStorming y los diagramas tácticos del capítulo IV, e incorporó el capítulo VI con el Sprint 1. Los aportes se integraron mediante los Pull Requests #8 al #14. En esta entrega se registraron 37 commits: DazzliBoy (17), sebastian (9), KalidPalaci0s (5), de1v11 (4) e Insonnio (2).
 
-<!-- CAPTURA TB1: Insights > Contributors filtrado del 20/09/2026 al 08/10/2026 -->
-<!-- <img src="../assets/collaboration-insights/tb1-contributors.png" alt="Contribuciones al repositorio del informe durante TB1" width="100%"> -->
+<img src="../assets/collaboration-insights/tb1-contributors.png" alt="Contribuciones al repositorio del informe durante TB1" width="50%"> 
 
-## AV2 (09/10/2026 – 14/11/2026)
+## AV2 
 
 Se actualizó la carátula y se incorporó el Sprint 2 en el capítulo VI, junto con el Student Outcome de AV2. Los cambios se integraron mediante los Pull Requests #15 y #16. En esta entrega se registraron 4 commits de Sebas2999.
 
-<!-- CAPTURA AV2: Insights > Contributors filtrado del 09/10/2026 al 14/11/2026 -->
-<!-- <img src="../assets/collaboration-insights/av2-contributors.png" alt="Contribuciones al repositorio del informe durante AV2" width="100%"> -->
 
-## TB2 (15/11/2026 – fecha de entrega)
+<img src="../assets/collaboration-insights/av2-contributors.png" alt="Contribuciones al repositorio del informe durante AV2" width="50%"> 
 
-<!-- Completar al cerrar TB2: qué se corrigió y agregó, Pull Requests, cantidad de commits por usuario. -->
+## TB2 
 
-<!-- CAPTURA TB2: Insights > Contributors filtrado desde el 15/11/2026 -->
-<!-- <img src="../assets/collaboration-insights/tb2-contributors.png" alt="Contribuciones al repositorio del informe durante TB2" width="100%"> -->
+<img src="../assets/collaboration-insights/tb2-contributors.png" alt="Contribuciones al repositorio del informe durante TB2" width="50%"> 
 
-<!-- CAPTURA GENERAL: Pull requests cerrados del repositorio -->
-<!-- <img src="../assets/collaboration-insights/pull-requests.png" alt="Pull Requests integrados en el repositorio del informe" width="100%"> -->
 
 <div style="page-break-before: always;"></div>
 
