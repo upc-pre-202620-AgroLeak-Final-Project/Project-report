@@ -23,16 +23,10 @@ Competitive Analysis Landscape
 </tr>
 
 <tr>
-<th colspan="2" rowspan="2" align="left" valign="middle">
-¿Por qué realizar este análisis?
+<th colspan="2" align="left" valign="middle">
+¿Por qué llevar a cabo este análisis?
 </th>
 
-<th colspan="4" align="left">
-Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.
-</th>
-</tr>
-
-<tr>
 <td colspan="4" align="left">
 El objetivo del análisis es identificar las brechas existentes entre las plataformas de telemetría industrial de alto costo y las herramientas de monitoreo satelital, reconociendo oportunidades de diferenciación que posicionen a AgroLeak como un kit IoT accesible, de ciclo cerrado y con procesamiento en el borde (detección diferencial de caudal y visión por computador para plagas) para pequeños y medianos agricultores del Perú.
 </td>
@@ -41,7 +35,6 @@ El objetivo del análisis es identificar las brechas existentes entre las plataf
 <tr>
 
 <th colspan="2" align="left" valign="middle">
-(En la cabecera colocar por cada competidor nombre y logo)
 </th>
 
 <th align="center" valign="middle">
@@ -81,7 +74,7 @@ Overview
 </th>
 
 <td valign="top">
-Sistema IoT de ciclo cerrado con sensado diferencial de caudal, cámara IoT con visión artificial en el borde y corte automático por relé para prevención de fugas y plagas.
+Sistema IoT de ciclo cerrado con sensado diferencial de caudal, cámara IoT con visión artificial en el borde y cierre de válvula con confirmación del usuario para prevenir pérdidas por fugas y plagas.
 </td>
 
 <td valign="top">
@@ -186,7 +179,7 @@ Productos y servicios
 
 <td valign="top">
 Sensado diferencial de caudal por pulsos.<br>
-Cierre automático por electroválvula.<br>
+Cierre remoto de válvula con confirmación y modos de operación.<br>
 Detección de plagas por cámara ESP32-CAM y Edge AI.<br>
 Alertas en tiempo real.<br>
 Dashboard web/móvil responsive.<br>
@@ -411,10 +404,10 @@ Diferenciar a AgroLeak frente a competidores que solo venden telemetría hídric
   * Demostrar en videos promocionales cómo el ahorro de un evento de fuga o la detección temprana de plagas recupera el costo del kit en la primera campaña agrícola.
 
 **2. Estrategia de Ciclo Cerrado con Actuación Física Segura**
-Posicionar la capacidad de actuación automática (cierre de electroválvula por relé) como un diferenciador crítico frente a plataformas puramente informativas o satelitales que no pueden detener el desperdicio de agua cuando ocurre una rotura en ausencia del agricultor.
+Posicionar la capacidad de actuar sobre la válvula (cierre remoto con confirmación y modo automático protegido por reglas de seguridad) como un diferenciador crítico frente a plataformas puramente informativas o satelitales que no pueden detener el desperdicio de agua cuando ocurre una rotura en ausencia del agricultor.
 
 * **Tácticas:**
-  * Configurar modos de operación flexibles (`MONITOR_ONLY`, `MANUAL_APPROVAL`, `SAFE_AUTO_DEMO`) para dar control total al agricultor y eliminar el temor a cierres accidentales.
+  * Configurar modos de operación flexibles (`MONITOR_ONLY`, `MANUAL` y `AUTO_SAFE`) para dar control total al agricultor y eliminar el temor a cierres accidentales.
   * Incluir un botón físico de paro de emergencia y notificaciones inmediatas al celular para mantener siempre la supervisión humana.
 
 **3. Estrategia de Autonomía en el Borde (Edge Computing)**
@@ -431,18 +424,22 @@ Mitigar la falta de reconocimiento inicial de marca construyendo confianza media
   * Ofrecer instalaciones piloto asistidas y demostraciones con maquetas funcionales ante asociaciones de regantes y cooperativas locales.
   * Diseñar un modelo de precios transparente (*Kit Hardware + Suscripción SaaS accesible*) adaptado a la economía del pequeño y mediano productor peruano.
 
+
+---
+
 ## 2.2. Entrevistas
 
-En esta sección se aborda la investigación cualitativa de campo a través de la recolección de información obtenida mediante entrevistas a profundidad con representantes de los dos segmentos objetivo identificados. El propósito de este proceso es validar las hipótesis planteadas en la etapa de Lean UX, profundizar en los flujos de trabajo actuales (*As-Is*) e identificar los puntos de dolor reales en torno a la gestión del agua y la sanidad vegetal.
+En esta sección se presenta la investigación cualitativa realizada mediante entrevistas a profundidad con representantes de los dos segmentos objetivo. El propósito fue validar los assumptions planteados en el Lean UX Process, conocer los flujos de trabajo actuales (*As-Is*) e identificar los puntos de dolor reales en la gestión del agua de riego y la sanidad vegetal.
 
 ---
 
 ### 2.2.1. Diseño de entrevistas
 
-Para la recolección de datos se diseñó un cuestionario de entrevista semiestructurada compuesto por preguntas abiertas, estructurado de forma que abarque variables demográficas, hábitos tecnológicos y la problemática operativa específica de cada perfil. El diseño busca extraer datos objetivos (escala, tipo de riego, cultivos, dispositivos) e impresiones subjetivas (frustraciones, nivel de confianza en la automatización y expectativas de solución).
+Se diseñó un cuestionario semiestructurado de preguntas abiertas para cada segmento. Las preguntas recogen información objetiva para construir los arquetipos (edad, distrito, ocupación, escala del fundo, tipo de riego, cultivos y dispositivos que utiliza) e información subjetiva (frustraciones, confianza en la automatización, canales digitales de preferencia y expectativas sobre la solución).
 
 #### Segmento 1: Pequeños y Medianos Agricultores Tecnificados
-El objetivo del cuestionario para este segmento es comprender la rutina diaria de inspección en campo, la frecuencia e impacto económico de los incidentes hídricos (fugas o roturas) y los métodos tradicionales de observación de plagas en hojas.
+
+El cuestionario busca comprender la rutina de inspección en campo, la frecuencia e impacto económico de las fugas y los métodos actuales de observación de plagas.
 
 **Preguntas para las entrevistas:**
 
@@ -460,7 +457,8 @@ El objetivo del cuestionario para este segmento es comprender la rutina diaria d
 ---
 
 #### Segmento 2: Jefes de Operaciones Agrícolas y Administradores de Fundo
-El cuestionario dirigido a este segmento profesional busca profundizar en la eficiencia operativa a mayor escala, el control de costos de bombeo, la integración de datos agronómicos y los protocolos de seguridad requeridos para la adopción de actuadores automatizados.
+
+El cuestionario busca profundizar en la eficiencia operativa a mayor escala, el control de costos de bombeo, la integración de datos agronómicos y las salvaguardas requeridas para adoptar actuadores automatizados.
 
 **Preguntas para las entrevistas:**
 
@@ -468,176 +466,231 @@ El cuestionario dirigido a este segmento profesional busca profundizar en la efi
 2. **Gestión de telemetría y costos:** ¿Cómo monitorean actualmente los volúmenes de agua utilizados y cuál es el impacto financiero de las fallas hidráulicas en el presupuesto operativo de la empresa?
 3. **Identificación de fugas y anomalías:** ¿Qué procedimientos siguen actualmente para detectar desbalances de caudal o tuberías dañadas en sectores alejados de la estación principal?
 4. **Manejo fitosanitario:** ¿Cómo coordinan con los supervisores de sanidad la detección temprana de plagas y qué criterio aplican para decidir una aplicación localizada vs. una fumigación general?
-5. **Aceptación de Edge AI:** ¿Qué nivel de confianza le genera un modelo de visión por computador procesado en el borde que identifique y clasifique insectos objetivo a partir de capturas de cámara?
+5. **Aceptación de la detección por visión artificial:** ¿Qué nivel de confianza le genera un modelo de visión por computador procesado en campo que identifique y clasifique insectos objetivo a partir de capturas de cámara?
 6. **Requisitos de seguridad y control:** ¿Qué salvaguardas o modos de operación (manual vs. automático) consideraría indispensables antes de autorizar que un sistema IoT corte el flujo de agua o active un actuador en campo?
-7. **Trazabilidad y auditoría:** ¿Qué importancia tiene para la gestión del fundo disponer de una bitácora con registro de eventos (timestamp, lectura de caudal, fotografía de la plaga, regla aplicada y acción ejecutada)?
-8. **Plataforma y conectividad:** Ante problemas habituales de señal de internet en campo, ¿cómo valora que el sistema conserve los datos localmente en el borde y los sincronice al restablecerse la red?
+7. **Trazabilidad y auditoría:** ¿Qué importancia tiene para la gestión del fundo disponer de una bitácora con registro de eventos (fecha y hora, lectura de caudal, fotografía de la plaga, regla aplicada y acción ejecutada)?
+8. **Plataforma y conectividad:** Ante problemas habituales de señal de internet en campo, ¿cómo valora que el sistema conserve los datos localmente y los sincronice al restablecerse la red?
 9. **Integración tecnológica:** ¿Qué características debe tener un dashboard de administración web para que resulte útil tanto para los operadores en campo como para la gerencia?
 10. **Criterios de adopción:** ¿Cuáles son los principales indicadores de retorno de inversión (ROI) o eficiencia que evaluarían para decidir la contratación e implementación de AgroLeak en el fundo?
 
 ### 2.2.2. Registro de entrevistas
 
-En esta sección se presentan las entrevistas realizadas a los integrantes de los segmentos objetivo. Cada registro incluye los datos relevantes de la persona entrevistada, la evidencia audiovisual y un resumen basado en sus respuestas al cuestionario de la sección 2.2.1.
+Se realizaron tres entrevistas: dos a representantes del Segmento 1 y una a un representante del Segmento 2. Todas se registraron en video y se consolidaron en un único video editado, en el que cada entrevista inicia con un título que indica el nombre del entrevistado, el segmento y la fecha. Para cada entrevista se indica el momento en que inicia dentro del video y su duración, junto con un resumen de las respuestas del entrevistado.
+
 
 #### Segmento 1: Pequeños y medianos agricultores tecnificados
 
 ##### Entrevista 1
 
-**Entrevistado:** Michael Quispe.
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y apellidos** | Ing. Vega |
+| **Edad** | 27 años |
+| **Distrito** | Palpa, Ica |
+| **Ocupación** | Administrador de una empresa agrícola de 8 hectáreas |
+| **Inicio en el video** | 00:00:00 |
+| **Duración** | 00:09:00 |
 
-**Edad:** 24 años.
+<img src="../assets/cap2/entrevista-1-vega.png" alt="Captura de la entrevista al Ing. Vega" width="50%">
 
-**Distrito:** Cañete, Lima.
+**Video de entrevista:** [Entrevista](https://drive.google.com/file/d/1lvKcFmLgGJu_Ca_NJWwq2QYOh67I5BB2/view?usp=share_link)
 
-<img width="1102" height="618" alt="Captura de pantalla Entrevista Michael" src="https://i.postimg.cc/W30DmYNn/Captura-de-pantalla-(384).png" />
+**Resumen:** El Ing. Vega administra una empresa agrícola de 8 hectáreas en la costa de Palpa, Ica, dedicada al cultivo de palta y cítricos con riego por goteo, bombeo y válvulas por sector. Tanto la verificación del riego como la inspección de plagas se realizan de forma manual, por lo que problemas frecuentes como mangueras desacopladas, fugas o goteros obstruidos tardan horas, o hasta el siguiente turno, en detectarse. Esto genera desperdicio de agua, sobrecostos de energía eléctrica o combustible para el bombeo y afectaciones en el rendimiento del cultivo por exceso o falta de riego.
 
-**Enlace del video:** [entrevista-michael.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222846_upc_edu_pe/IQCAaAcW1oK_Tqof8YVhn2hPAeoTG09J7UKSdoKXZTXxL40?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cwsQ3o)
-
-**Resumen:** El usuario validó la necesidad urgente de automatizar la detección de fugas, indicando que actualmente dependen de recorridos físicos que retrasan la respuesta, lo que genera desperdicio de agua y daño al cultivo. Confirmó que la propuesta de recibir alertas móviles, evidencias fotográficas y opciones de cierre remoto reduciría significativamente el tiempo de reacción, validando la viabilidad y necesidad del proyecto AgroLeak en campo.
-
-#### Segmento 2: Jefes de operaciones agrícolas y administradores de fundo
-
-##### Entrevista 1
-
-**Entrevistado:** Ingeniero Vega
-
-**Edad :** 27
-
-**Distrito :** Palpa, Ica
-
-**Evidencia de la entrevista:**
-
-<img width="1102" height="618" alt="Captura de pantalla Entrevista Vega" src="https://github.com/user-attachments/assets/f009fba5-7343-4391-b7a7-e6b57b4790ce" />
-
-**Enlace del video:** [entrevista-Vega.mp4](https://drive.google.com/file/d/1lvKcFmLgGJu_Ca_NJWwq2QYOh67I5BB2/view?usp=share_link)
-
-**Resumen:** El Ing. Vega administra una empresa agrícola de 8 hectáreas en la costa de Palpa, Ica, enfocada en el cultivo de palta y cítricos mediante un sistema de riego por goteo con bombeo y válvulas por sector. Actualmente, tanto la verificación del riego como la inspección de plagas se realizan de forma manual, lo que ocasiona que problemas frecuentes como mangueras desacopladas, fugas o goteros obstruidos tarden horas o hasta el siguiente turno en detectarse. Esto genera desperdicio de agua, sobrecostos en energía eléctrica/combustible y afectaciones en el rendimiento de los cultivos por exceso o falta de riego.
+Se mostró receptivo a una solución de gestión desde el smartphone que le envíe alertas puntuales. Para la gestión hídrica, prefiere recibir notificaciones cuando exista una diferencia de caudal y decidir él mismo el cierre remoto o manual de la válvula antes de habilitar un cierre totalmente automático. En el ámbito fitosanitario, valora que la cámara envíe la imagen, el tipo de plaga y el sector afectado para realizar intervenciones focalizadas. En lo comercial, solicita una entrada accesible mediante alquiler, suscripción mensual o un pago de instalación con mantenimiento económico, y evaluaría la compra definitiva tras comprobar el ahorro de agua e insumos.
 
 ##### Entrevista 2
 
-**Entrevistado:** Alexis Alarcón Vargas.
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y apellidos** | Michael Quispe  |
+| **Edad** | 24 años |
+| **Distrito** | Cañete, Lima |
+| **Ocupación** | Asistente técnico de riego |
+| **Inicio en el video** | 00:09:00|
+| **Duración** | 00:13:00|
 
-**Edad:** 32 años.
+<img src="../assets/cap2/entrevista-2-michael.png" alt="Captura de la entrevista a Michael Quispe" width="50%">
 
-**Distrito:** Cañete.
+**Video de entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222846_upc_edu_pe/IQCAaAcW1oK_Tqof8YVhn2hPAeoTG09J7UKSdoKXZTXxL40?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cwsQ3o)
 
-<img src="../assets/imagen-entrevista-2.png">
+**Resumen:** Michael Quispe trabaja como asistente técnico de riego en Cañete, Lima. Explicó que la detección de fugas depende de recorridos físicos por las parcelas, lo que retrasa la respuesta ante incidentes hidráulicos y provoca desperdicio de agua y daño al cultivo. Se mostró receptivo a recibir alertas en su celular y consideró que contar con evidencia fotográfica y con la opción de cerrar la válvula de forma remota reduciría significativamente el tiempo de reacción del personal de campo.
 
 
-**Enlace del video:** [entrevista-sector-2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202516291_upc_edu_pe/IQBUZID357uxQYUte2Gb4geMARDM9A0AdXGqjCBTxWvffuV?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Lhg1P9)
+#### Segmento 2: Jefes de operaciones agrícolas y administradores de fundo
 
-**Resumen:** Alexis Alarcón Vargas, ingeniero agrónomo y jefe de Operaciones Agrícolas de la agroexportadora El Sur, supervisa el fundo San José, ubicado en el valle de Cañete. El fundo cuenta con 45 hectáreas —30 de palto Hass y 15 de uva de mesa— y utiliza riego por goteo automatizado desde casetas de bombeo. La programación del riego se realiza semanalmente según la evapotranspiración; sin embargo, el registro del volumen real de agua y de las presiones se lleva manualmente en cuadernos de campo, cuyos datos se transcriben a Excel al día siguiente.
+##### Entrevista 3
 
-Entre las dificultades identificadas, señaló que la falta de información en tiempo real retrasa la detección de errores humanos y roturas de líneas, afecta la uniformidad del riego y complica las auditorías. Indicó que ocurren entre tres y cinco fugas al mes debido a desacoples o fallas en mangueras y sellos. Estos incidentes generan sobrecostos de energía, desperdicio de fertilizantes disueltos y riesgos de penalización en certificaciones como GlobalG.A.P. y en auditorías de huella hídrica.
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y apellidos** | Alexis Alarcón Vargas |
+| **Edad** | 32 años |
+| **Distrito** | Cañete, Lima |
+| **Ocupación** | Ingeniero agrónomo, jefe de Operaciones Agrícolas |
+| **Inicio en el video** | hh:mm:ss <!-- completar --> |
+| **Duración** | hh:mm:ss <!-- completar --> |
 
-En sanidad vegetal, el fundo cuenta con evaluadores que monitorean plagas como queresa, arañita roja y trips. Los reportes pueden tardar entre 24 y 48 horas, por lo que las decisiones de aplicación suelen abarcar lotes completos en lugar de focalizarse en las áreas afectadas. Para sus actividades utiliza diariamente una laptop y un smartphone, y consulta dashboards web y notificaciones push.
+<img src="../assets/imagen-entrevista-2.png" alt="Captura de la entrevista a Alexis Alarcón Vargas" width="50%">
 
-Respecto a la actuación automática de válvulas, considera necesarios interlocks que validen la persistencia de una anomalía y permisos con credenciales para autorizar la reapertura después de una inspección física. También valoró las alertas fitosanitarias con fotografías y un porcentaje de certeza de la IA, que, según su estimación, podrían contribuir a reducir hasta en un 30 % el consumo de fitosanitarios. Entre los indicadores que considera útiles para un panel menciona el balance de caudal de entrada y salida en litros por minuto, el registro de incidencias, la bitácora de acciones sobre válvulas y la eficiencia hídrica.
+**Video de entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202516291_upc_edu_pe/IQBUZID357uxQYUte2Gb4geMARDM9A0AdXGqjCBTxWvffuV?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Lhg1P9)
 
-Finalmente, indicó que para una agroempresa sería adecuado un modelo SaaS B2B con suscripción por hectárea, que incluya el arrendamiento del hardware, garantía y mantenimiento, de modo que pueda gestionarse como gasto operativo.
+**Resumen:** Alexis Alarcón Vargas, ingeniero agrónomo y jefe de Operaciones Agrícolas de la agroexportadora El Sur, supervisa el fundo San José, ubicado en el valle de Cañete. El fundo cuenta con 45 hectáreas (30 de palto Hass y 15 de uva de mesa) y utiliza riego por goteo automatizado desde casetas de bombeo. La programación del riego se realiza semanalmente según la evapotranspiración; sin embargo, el registro del volumen real de agua y de las presiones se lleva manualmente en cuadernos de campo, cuyos datos se transcriben a Excel al día siguiente.
+
+Señaló que la falta de información en tiempo real retrasa la detección de errores humanos y roturas de líneas, afecta la uniformidad del riego y complica las auditorías. Indicó que ocurren entre tres y cinco fugas al mes debido a desacoples o fallas en mangueras y sellos. Estos incidentes generan sobrecostos de energía, desperdicio de fertilizantes disueltos y riesgos de penalización en certificaciones como GlobalG.A.P. y en auditorías de huella hídrica.
+
+En sanidad vegetal, el fundo cuenta con evaluadores que monitorean plagas como queresa, arañita roja y trips. Los reportes pueden tardar entre 24 y 48 horas, por lo que las aplicaciones suelen abarcar lotes completos en lugar de focalizarse en las áreas afectadas. Utiliza diariamente una laptop y un smartphone, y consulta dashboards web y notificaciones push.
+
+Respecto a la actuación automática de válvulas, considera necesarios interlocks que validen la persistencia de una anomalía y permisos con credenciales para autorizar la reapertura después de una inspección física. Valoró las alertas fitosanitarias con fotografía y porcentaje de confianza del modelo, que según su estimación podrían reducir hasta en un 30 % el consumo de productos fitosanitarios. Como indicadores útiles para un panel menciona el balance de caudal de entrada y salida en litros por minuto, el registro de incidencias, la bitácora de acciones sobre válvulas y la eficiencia hídrica. Finalmente, indicó que para una agroempresa sería adecuado un modelo SaaS B2B con suscripción por hectárea, que incluya el arrendamiento del hardware, la garantía y el mantenimiento, de modo que pueda gestionarse como gasto operativo.
 
 ### 2.2.3. Análisis de entrevistas
 
-En esta sección se describirán los principales hallazgos identificados al revisar las entrevistas. El análisis se redactará en forma narrativa, contrastando las respuestas de los entrevistados y relacionando cada necesidad o dificultad con la evidencia obtenida en los videos.
+A continuación se analizan, por segmento, las características objetivas y subjetivas más comunes encontradas en las entrevistas. Los porcentajes se calculan sobre el total de entrevistados de cada segmento; **N/D** indica que la característica no se documentó en la entrevista. La muestra es de dos entrevistados en el Segmento 1 y uno en el Segmento 2, por lo que los porcentajes describen a los participantes y deben confirmarse con una muestra mayor.
 
-**Segmento 1: Pequeños y medianos agricultores tecnificados**
+#### Segmento 1: Pequeños y medianos agricultores tecnificados 
 
-A partir de la entrevista realizada a Michael Quispe (Asistente Técnico de Riego), se corroboraron puntos críticos en la operación diaria que complementan la visión administrativa. Se identificó una dependencia total de los recorridos físicos para detectar anomalías, lo que retrasa significativamente la respuesta ante incidentes hidráulicos. Esta latencia genera desperdicio de recursos hídricos y expone el cultivo a daños colaterales. Asimismo, el usuario validó directamente la propuesta de valor de AgroLeak, confirmando que la integración de notificaciones móviles, evidencia fotográfica (IA) y actuación remota sobre válvulas cubre la necesidad operativa de descentralizar la supervisión y optimizar el tiempo de reacción del personal técnico.
+| Tipo | Característica | Resultado | % |
+| :--- | :--- | :--- | :---: |
+| Objetiva | Edad | Entre 24 y 27 años | 100 % |
+| Objetiva | Ubicación | Valles agrícolas de la costa (Palpa, Ica; Cañete, Lima) | 100 % |
+| Objetiva | Rol en la operación | Administra su empresa agrícola (Vega) / asistente técnico de riego (Quispe) | 50 % / 50 % |
+| Objetiva | Riego por goteo con bombeo | Sí (Vega) / N/D (Quispe) | 50 % |
+| Objetiva | Verifica el riego y busca fugas mediante recorridos o revisiones manuales | Sí | 100 % |
+| Objetiva | Inspección de plagas manual | Sí (Vega) / N/D (Quispe) | 50 % |
+| Subjetiva | Percibe que las fugas se detectan tarde (horas o hasta el siguiente turno) | Sí | 100 % |
+| Subjetiva | Identifica desperdicio de agua y daño al cultivo como consecuencia principal | Sí | 100 % |
+| Subjetiva | Menciona sobrecosto de energía de bombeo | Sí (Vega) / N/D (Quispe) | 50 % |
+| Subjetiva | Receptivo a recibir alertas en el smartphone | Sí | 100 % |
+| Subjetiva | Valora poder cerrar la válvula de forma remota | Sí | 100 % |
+| Subjetiva | Prefiere decidir el cierre antes de habilitar un cierre automático | Sí (Vega) / N/D (Quispe) | 50 % |
+| Subjetiva | Valora la evidencia fotográfica de plagas | Sí | 100 % |
+| Subjetiva | Prefiere un modelo de entrada accesible (alquiler o suscripción) | Sí (Vega) / N/D (Quispe) | 50 % |
 
-**Segmento 2: Jefes de operaciones agrícolas y administradores de fundo**
+En este segmento, la totalidad de los entrevistados depende de revisiones manuales para encontrar fugas y percibe que las detecta tarde, con pérdida de agua y daño al cultivo. Ambos se mostraron receptivos a alertas en el smartphone, a la evidencia fotográfica y a cerrar la válvula a distancia. Los dos entrevistados son menores de 30 años, por debajo del rango de edad definido para el segmento en la sección 1.3.
 
-Pendiente de completar cuando se incorporen y revisen las entrevistas de este segmento, incluida la Entrevista 2.
+#### Segmento 2: Jefes de operaciones agrícolas y administradores de fundo 
 
-**Síntesis de hallazgos**
+| Tipo | Característica | Resultado | % |
+| :--- | :--- | :--- | :---: |
+| Objetiva | Edad | 32 años | 100 % |
+| Objetiva | Ubicación | Valle de Cañete, Lima | 100 % |
+| Objetiva | Formación y rol | Ingeniero agrónomo, jefe de Operaciones Agrícolas de una agroexportadora | 100 % |
+| Objetiva | Escala | 45 hectáreas (palto Hass y uva de mesa) | 100 % |
+| Objetiva | Riego por goteo automatizado con casetas de bombeo | Sí | 100 % |
+| Objetiva | Registra volúmenes y presiones manualmente (cuaderno y Excel) | Sí | 100 % |
+| Objetiva | Frecuencia de fugas | Entre 3 y 5 al mes | 100 % |
+| Objetiva | Monitoreo de plagas con evaluadores, reportes en 24 a 48 horas | Sí | 100 % |
+| Objetiva | Dispositivos de uso diario | Laptop y smartphone; dashboards web y notificaciones push | 100 % |
+| Subjetiva | Considera que la falta de información en tiempo real retrasa la detección y complica las auditorías | Sí | 100 % |
+| Subjetiva | Exige interlocks y credenciales antes de permitir el cierre o la reapertura automática | Sí | 100 % |
+| Subjetiva | Valora alertas fitosanitarias con fotografía y porcentaje de confianza | Sí | 100 % |
+| Subjetiva | Prefiere un modelo SaaS por hectárea con arrendamiento de hardware | Sí | 100 % |
 
-Muestra alta receptividad hacia una solución tecnológica orientada a la gestión móvil (smartphone) que emita alertas puntuales. Para la gestión hídrica, prefiere recibir notificaciones por diferencia de caudal con la opción de cerrar las válvulas de manera remota/manual antes de habilitar un automatizado total. En el ámbito fitosanitario, valora la detección por cámara que envíe la imagen, el tipo de plaga y el sector afectado para ejecutar intervenciones focalizadas. Comercialmente, solicita un modelo de entrada accesible mediante alquiler, suscripción mensual o un pago inicial por instalación con mantenimiento económico, evaluando la compra definitiva tras comprobar el ahorro de recursos e insumos.
+El representante de este segmento gestiona el riego a mayor escala y con registros manuales que se consolidan al día siguiente. Sus prioridades son la trazabilidad para auditorías y certificaciones, el control de costos y las salvaguardas antes de automatizar la actuación sobre las válvulas.
+
+#### Coincidencias entre segmentos 
+
+| Característica | % |
+| :--- | :---: |
+| Detección de fugas mediante revisiones o registros manuales | 100 % |
+| Percepción de detección tardía de incidentes | 100 % |
+| Receptividad a alertas en el smartphone | 100 % |
+| Valoración de la evidencia fotográfica de plagas | 100 % |
+| Riego por goteo con bombeo | 67 % (33 % N/D) |
+| Preferencia por control humano o salvaguardas antes del cierre automático | 67 % (33 % N/D) |
+| Preferencia por suscripción o alquiler en lugar de compra | 67 % (33 % N/D) |
 
 ## 2.3. Needfinding
 
-El Needfinding organiza los hallazgos disponibles sobre la supervisión del riego y la sanidad vegetal. Su base empírica son los resúmenes de las entrevistas registradas en la sección 2.2.2: **Michael Quispe (Segmento 1)**, y **Alexis Alarcón e Ing. Vega (Segmento 2)**. La muestra disponible es **n = 3**; si bien aporta perspectivas complementarias desde el trabajo de campo y la administración, no permite afirmar que los hallazgos representen estadísticamente a todos los integrantes de los [dos segmentos objetivo](01-capitulo-1.md#13-segmentos-objetivo).
+En esta sección se presentan los artefactos elaborados a partir del análisis de entrevistas de la sección 2.2.3 y del análisis competitivo de la sección 2.1. Se construyó un User Persona por segmento en UXPressia y, sobre cada uno, su User Journey Map *As-Is* y su Empathy Map. La matriz de tareas compara las actividades que ambos User Personas realizan actualmente, sin considerar la solución.
 
-**Alcance y criterio de evidencia.** Se revisaron los capítulos del informe, los assets existentes y la rama `ENTREVISTAS`, que contiene los registros documentales. Las preguntas de 2.2.1 y las hipótesis del capítulo I no se tratan como respuestas de participantes.
+**Trazabilidad de la evidencia.** Cada característica de los artefactos se vincula con un hallazgo de las entrevistas mediante un código: **E1** corresponde al Ing. Vega, **E2** a Michael Quispe y **E3** a Alexis Alarcón Vargas.
 
-Se distinguen tres niveles: **E** = evidencia explícita en el resumen; **I** = interpretación del equipo, pendiente de contrastación; **N/D** = información no documentada. Las prioridades de diseño y las emociones inferidas se identifican como I. No se asignan puntuaciones cuantitativas cuando la entrevista no las proporciona.
-
-#### Registro de evidencia y trazabilidad
-
-Los identificadores **E1** remiten a la entrevista de Michael Quispe (Segmento 1), y los identificadores **E2** remiten a los hallazgos del Ing. Vega (Segmento 2). 
-
-| ID | Evidencia disponible en los resúmenes | Ubicación en el registro |
+| ID | Evidencia | Entrevista |
 | :--- | :--- | :--- |
-| <a id="e1-a"></a>E1-A | Michael Quispe, 24 años, residente en Cañete, Lima; se desempeña como Asistente Técnico de Riego. | Datos de identificación (Entrevista 1 - Segmento 1). |
-| <a id="e1-b"></a>E1-B | La detección de fugas en la operación diaria depende exclusivamente de la realización de recorridos físicos por las parcelas. | Resumen E1. Denota una dependencia limitante (I). |
-| <a id="e1-c"></a>E1-C | La dependencia de inspecciones presenciales genera una latencia perjudicial, retrasando significativamente la capacidad de respuesta ante anomalías hidráulicas. | Resumen E1. Confirma el dolor de ineficiencia temporal (I). |
-| <a id="e1-d"></a>E1-D | Confirmación de que la combinación de alertas móviles, evidencias fotográficas (monitoreo) y opciones de cierre remoto (actuación) reduciría drásticamente el tiempo de reacción. | Resumen E1. Valida directamente la hipótesis de valor de AgroLeak. |
-| <a id="e2-a"></a>E2-A | Ing. Vega, 27 años, residente en Palpa, Ica; administra una empresa agrícola de 8 hectáreas con riego por goteo, bombeo y válvulas por sector. | Datos de identificación (Entrevista 1 - Segmento 2). |
-| <a id="e2-b"></a>E2-B | Se describen problemas frecuentes de mangueras desacopladas, fugas o goteros obstruidos; su detección puede tardar horas o hasta el siguiente turno. | Resumen E2. No se documenta frecuencia numérica. |
-| <a id="e2-c"></a>E2-C | Receptividad hacia gestión móvil y alertas puntuales. Prefiere avisos por diferencia de caudal y cierre remoto/manual antes de automatización total. | Resumen E2. Preferencia futura, no herramienta actual. |
-| <a id="e2-d"></a>E2-D | Valora recibir imagen, tipo de plaga y sector afectado para orientar intervenciones focalizadas. | Resumen E2. |
-
-Los artefactos visuales de esta sección son **equivalentes elaborados para el informe; no son exportaciones de UXPressia**. Cada figura se entrega en PNG y SVG editable. Para sustituir las figuras por exportaciones reales de UXPressia, se conservan los nombres de los PNG o se actualiza su ruta relativa.
+| <a id="e1-a"></a>E1-A | Administra una empresa agrícola de 8 ha de palta y cítricos en Palpa (Ica), con riego por goteo, bombeo y válvulas por sector. | Entrevista 1 · Segmento 1 |
+| <a id="e1-b"></a>E1-B | La verificación del riego y la inspección de plagas son manuales; desacoples, fugas u obstrucciones tardan horas o hasta el siguiente turno en detectarse. | Entrevista 1 · Segmento 1 |
+| <a id="e1-c"></a>E1-C | Las fallas no detectadas generan desperdicio de agua, sobrecosto de energía o combustible de bombeo y pérdida de rendimiento. | Entrevista 1 · Segmento 1 |
+| <a id="e1-d"></a>E1-D | Receptivo a alertas puntuales en el smartphone; prefiere decidir el cierre remoto o manual de la válvula antes de habilitar un cierre automático. | Entrevista 1 · Segmento 1 |
+| <a id="e1-e"></a>E1-E | Valora recibir la imagen, el tipo de plaga y el sector afectado para intervenir de forma focalizada. | Entrevista 1 · Segmento 1 |
+| <a id="e1-f"></a>E1-F | Prefiere una entrada accesible (alquiler, suscripción o instalación con mantenimiento) y compraría tras comprobar el ahorro. | Entrevista 1 · Segmento 1 |
+| <a id="e2-a"></a>E2-A | Asistente técnico de riego, 24 años, Cañete (Lima). | Entrevista 2 · Segmento 1 |
+| <a id="e2-b"></a>E2-B | La detección de fugas depende de recorridos físicos, lo que retrasa la respuesta y genera desperdicio de agua y daño al cultivo. | Entrevista 2 · Segmento 1 |
+| <a id="e2-c"></a>E2-C | Considera que las alertas móviles, la evidencia fotográfica y el cierre remoto reducirían el tiempo de reacción. | Entrevista 2 · Segmento 1 |
+| <a id="e3-a"></a>E3-A | Ingeniero agrónomo, jefe de Operaciones Agrícolas; supervisa 45 ha de palto Hass y uva de mesa con riego por goteo automatizado. | Entrevista 3 · Segmento 2 |
+| <a id="e3-b"></a>E3-B | Programa el riego semanalmente según la evapotranspiración; registra volúmenes y presiones en cuadernos que se transcriben a Excel al día siguiente. | Entrevista 3 · Segmento 2 |
+| <a id="e3-c"></a>E3-C | Entre 3 y 5 fugas al mes; generan sobrecosto de energía, desperdicio de fertilizantes y riesgo en certificaciones y auditorías. | Entrevista 3 · Segmento 2 |
+| <a id="e3-d"></a>E3-D | Evaluadores monitorean queresa, arañita roja y trips; los reportes tardan entre 24 y 48 horas y las aplicaciones cubren lotes completos. | Entrevista 3 · Segmento 2 |
+| <a id="e3-e"></a>E3-E | Usa laptop y smartphone a diario; consulta dashboards web y notificaciones push. | Entrevista 3 · Segmento 2 |
+| <a id="e3-f"></a>E3-F | Exige interlocks y credenciales para el cierre automático y la reapertura tras una inspección física. | Entrevista 3 · Segmento 2 |
+| <a id="e3-g"></a>E3-G | Valora alertas con fotografía y porcentaje de confianza; requiere balance de caudal, incidencias, bitácora de válvulas y eficiencia hídrica. | Entrevista 3 · Segmento 2 |
+| <a id="e3-h"></a>E3-H | Prefiere un modelo SaaS por hectárea con arrendamiento de hardware, garantía y mantenimiento. | Entrevista 3 · Segmento 2 |
 
 ### 2.3.1. User Personas
 
-Las User Personas se elaborarán en UXPressia a partir de los hallazgos obtenidos de las entrevistas, diferenciando las características verificadas de cada segmento objetivo.
+Las User Personas se elaboraron en UXPressia y representan las características más comunes de cada segmento según el análisis de entrevistas. Del análisis competitivo se tomó que las soluciones existentes son costosas o no actúan sobre la infraestructura, por lo que las fichas destacan las condiciones de adopción y la necesidad de control sobre la válvula.
 
-**Persona del Segmento 1: Pequeño o mediano agricultor tecnificado**
+**User Persona del Segmento 1: Ing. Vega · Productor tecnificado**
 
-La persona **Michael Quispe** representa el arquetipo del usuario técnico y operativo en campo. Tiene 24 años y trabaja como Asistente Técnico de Riego en Cañete (Lima). Sus objetivos principales son optimizar el tiempo de respuesta ante fallas y evitar el desperdicio de agua y daño a las plantas causado por la detección tardía. Sus frustraciones radican en la dependencia de recorridos físicos exhaustivos para encontrar fugas. Es un usuario nativo digital, altamente receptivo a interactuar con notificaciones móviles e interfaces de control remoto.
+Representa al pequeño o mediano productor con riego tecnificado. Tiene 27 años y administra una empresa agrícola de 8 hectáreas de palta y cítricos en Palpa, Ica, con riego por goteo y válvulas por sector (E1-A). Su objetivo es detectar a tiempo fugas, desacoples y obstrucciones y evitar el desperdicio de agua y energía (E1-B, E1-C, E2-B). Su principal frustración es depender de revisiones manuales que descubren las fallas horas después (E1-B, E2-B). Usa el smartphone y está dispuesto a recibir alertas, pero quiere decidir él mismo el cierre de la válvula (E1-D, E2-C). Adoptaría la solución mediante alquiler o suscripción y tras comprobar el ahorro (E1-F).
 
-<img src="../assets/michael-quispe-person.png" alt="User Persona Michael Quispe, asistente técnico de riego" width="100%">
+<img src="../assets/ing-vega-person.png" alt="User Persona Ing. Vega, productor tecnificado" width="100%">
 
-**Persona del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
+**User Persona del Segmento 2: Alexis Alarcón · Jefe de operaciones agrícolas**
 
-La persona **Ing. Vega** representa el arquetipo de productor tecnificado utilizado para el Needfinding de este segmento. Según la ficha, administra 8 hectáreas de palta y cítricos. Sus objetivos incluyen detectar oportunamente fugas, localizar posibles plagas y comprobar el ahorro antes de adoptar la solución. 
+Representa al profesional que gestiona el riego y la sanidad vegetal de un fundo de mayor escala. Tiene 32 años, es ingeniero agrónomo y supervisa 45 hectáreas de palto Hass y uva de mesa en Cañete (E3-A). Su objetivo es contar con información en tiempo real para controlar costos, cumplir auditorías y focalizar las aplicaciones fitosanitarias (E3-C, E3-D, E3-G). Sus frustraciones son los registros manuales que se consolidan al día siguiente y los reportes de plagas que tardan hasta 48 horas (E3-B, E3-D). Trabaja con laptop y smartphone, consulta dashboards web y exige salvaguardas antes de automatizar el cierre de válvulas (E3-E, E3-F).
 
-<img src="../assets/ing-vega-person.png" alt="User Persona Ing. Vega, jefe de operaciones agrícolas" width="100%">
+<img src="../assets/alexis-alarcon-person.png" alt="User Persona Alexis Alarcón, jefe de operaciones agrícolas" width="100%">
 
 ### 2.3.2. User Task Matrix
 
-La matriz organiza las tareas de los segmentos objetivo y permite compararlas según su frecuencia (F) e importancia (I), en una escala de **Alta, Media y Baja**. Con la validación de la entrevista de Michael Quispe, se han actualizado las prioridades para el personal de campo (Segmento 1).
+La matriz compara las tareas que realizan actualmente el Ing. Vega (Segmento 1) y Alexis Alarcón (Segmento 2) para supervisar el riego y la sanidad vegetal, independientemente de la existencia de AgroLeak. Para cada tarea se indica la frecuencia y la importancia en una escala de Alta, Media y Baja, según lo descrito en las entrevistas.
 
-| Tareas (Tasks) | Agricultor tecnificado (Seg 1): Frecuencia | Agricultor tecnificado (Seg 1): Importancia | Jefe de operaciones (Seg 2): Frecuencia | Jefe de operaciones (Seg 2): Importancia |
+| Tarea | Ing. Vega (S1): Frecuencia | Ing. Vega (S1): Importancia | Alexis Alarcón (S2): Frecuencia | Alexis Alarcón (S2): Importancia |
 | :--- | :---: | :---: | :---: | :---: |
-| Consultar el estado general del fundo, sus parcelas y sectores | Alta | Media | Alta | Alta |
-| Revisar lecturas de caudal y el estado de los dispositivos | Alta | Alta | Media | Alta |
-| Revisar si el sistema detectó una posible fuga o anomalía | Alta | Alta | Media | Alta |
-| Consultar observaciones de plagas y la evidencia capturada | Media | Alta | Media | Alta |
-| Consultar, reconocer y dar seguimiento a las alertas | Alta | Alta | Media | Alta |
-| Revisar el estado de una solicitud de cierre de válvula | Alta | Alta | Baja | Media |
-| Revisar métricas y reportes para tomar decisiones operativas | Baja | Media | Alta | Alta |
+| Programar los turnos y volúmenes de riego | Media | Alta | Media | Alta |
+| Recorrer el campo para verificar que el agua llegue a cada sector | Alta | Alta | Alta | Media |
+| Registrar manualmente caudales y presiones | Baja | Media | Alta | Alta |
+| Detectar y localizar fugas, desacoples u obstrucciones | Alta | Alta | Alta | Alta |
+| Cerrar o abrir manualmente una válvula ante una falla | Media | Alta | Media | Alta |
+| Coordinar la reparación con el personal de campo | Media | Media | Media | Alta |
+| Inspeccionar y reportar plagas en el cultivo | Media | Alta | Alta | Alta |
+| Decidir aplicaciones fitosanitarias | Baja | Alta | Media | Alta |
+| Controlar los costos de agua, energía y fertilizantes | Baja | Alta | Media | Alta |
+| Preparar información para auditorías y certificaciones | Baja | Baja | Baja | Alta |
+
+Las tareas con mayor frecuencia e importancia para ambos User Personas son recorrer el campo y detectar fugas o desacoples, que hoy dependen de revisiones manuales. Ambos también realizan el cierre manual de válvulas e inspeccionan plagas con alta importancia. La principal diferencia está en la gestión de la información: Alexis Alarcón registra caudales y presiones a diario, controla costos y prepara información para auditorías, mientras que para el Ing. Vega estas tareas son ocasionales y su prioridad es la detección rápida en campo.
 
 ### 2.3.3. User Journey Mapping
 
-Los User Journey Maps reflejan las etapas de la tarea, las acciones y puntos de contacto del usuario, sus dificultades y emociones.
+Los User Journey Maps *As-Is* se elaboraron en UXPressia y están vinculados al User Persona de cada segmento. Representan el recorrido actual, sin AgroLeak, desde la operación del riego hasta la atención de una falla, y muestran por etapa las acciones, los puntos de contacto, los problemas, las emociones y las oportunidades.
 
-**Journey Map del Segmento 1: Pequeño o mediano agricultor tecnificado**
+**Journey Map del Segmento 1: Ing. Vega**
 
-El Journey Map de Michael Quispe describe su recorrido diario en campo. Las etapas actuales incluyen: inicio de turno, recorrido físico por surcos, detección visual de anomalías (charcos o baja presión) y reporte manual. El punto más bajo (frustración) ocurre durante el recorrido a ciegas, donde se pierde tiempo vital. Las oportunidades mapeadas son la implementación de notificaciones push directas al smartphone al detectar un cambio de caudal y la provisión de un botón de acción rápida para cerrar el flujo sin tener que trasladarse a la válvula matriz.
+El recorrido tiene cuatro etapas: operación del riego, verificación manual, detección tardía de la falla y atención y corrección. El punto más bajo ocurre en la detección tardía, cuando la fuga ya provocó desperdicio de agua y sobrecosto de bombeo (E1-B, E1-C). Las oportunidades son recibir alertas por diferencia de caudal en el smartphone y cerrar la válvula a distancia (E1-D, E2-C).
 
-<img src="../assets/michael-quispe-journey-map.png" alt="User Journey Map de Michael Quispe, asistente técnico de riego" width="100%">
+<img src="../assets/ing-vega-journey-map.png" alt="User Journey Map As-Is de Ing. Vega" width="100%">
 
-**Journey Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
+**Journey Map del Segmento 2: Alexis Alarcón**
 
-El Journey Map de Ing. Vega representa cuatro etapas de la supervisión del riego: operación, verificación manual, detección tardía de incidencias y atención/corrección. La revisión manual retrasa la detección; como oportunidades se identifican alertas oportunas y control manual o remoto de la válvula.
+El recorrido tiene cinco etapas: programación semanal del riego, registro manual de lecturas, detección de incidencias y plagas, decisión e intervención, y consolidación para auditoría. El punto más bajo ocurre cuando la información llega al día siguiente y las aplicaciones fitosanitarias deben cubrir lotes completos (E3-B, E3-D). Las oportunidades son el balance de caudal en tiempo real, las alertas con fotografía y la bitácora de acciones sobre válvulas (E3-G).
 
-<img src="../assets/ing-vega-journey-map.png" alt="User Journey Map de Ing. Vega, jefe de operaciones agrícolas" width="100%">
+<img src="../assets/alexis-alarcon-journey-map.png" alt="User Journey Map As-Is de Alexis Alarcón" width="100%">
 
 ### 2.3.4. Empathy Mapping
 
-Los Empathy Maps sintetizan expresiones y comportamientos observados en las entrevistas.
+Los Empathy Maps se elaboraron en UXPressia con el User Persona al centro. Cada integrante del equipo registró sus observaciones respondiendo a las preguntas ¿con quién estamos empatizando?, ¿qué necesita hacer?, ¿qué está viendo?, ¿qué está diciendo?, ¿qué está haciendo?, ¿qué está escuchando? y ¿qué piensa y siente? Luego se identificaron los pains y gains de cada User Persona.
 
-**Empathy Map del Segmento 1: Pequeño o mediano agricultor tecnificado**
+**Empathy Map del Segmento 1: Ing. Vega**
 
-El Empathy Map de Michael Quispe revela a un usuario que **piensa y siente** urgencia por optimizar su tiempo en campo y evitar los daños colaterales de las fugas. **Ve** el desperdicio constante de agua y cultivos afectados por estrés hídrico. **Dice y hace** recorridos físicos extensos que retrasan la respuesta. Sus principales **dolores (pains)** son la latencia operativa y el esfuerzo físico innecesario. Sus **beneficios esperados (gains)** son contar con un sistema de alertas proactivas en su celular y evidencias fotográficas que le permitan ir directamente al problema.
+**Necesita** detectar a tiempo desacoples, fugas y obstrucciones, y decidir el cierre de la válvula ante una diferencia de caudal (E1-B, E1-D). **Ve** fallas que se descubren horas después y cultivos afectados por exceso o falta de riego (E1-B, E1-C). **Hace** revisiones manuales del riego y de las plagas (E1-B, E2-B). **Dice** que prefiere recibir avisos y decidir él mismo antes de automatizar el cierre (E1-D). Sus **pains** son la detección tardía y los sobrecostos de bombeo; sus **gains**, las alertas en el smartphone, la evidencia fotográfica y un ahorro comprobable antes de comprar (E1-C, E1-E, E1-F).
 
-<img src="../assets/michael-quispe-empathy-map.png" alt="Empathy Map de Michael Quispe, asistente técnico de riego" width="100%">
+<img src="../assets/ing-vega-empathy-map.png" alt="Empathy Map de Ing. Vega" width="100%">
 
-**Empathy Map del Segmento 2: Jefe de operaciones agrícolas o administrador de fundo**
+**Empathy Map del Segmento 2: Alexis Alarcón**
 
-El Empathy Map de Ing. Vega sintetiza las necesidades de supervisar el riego, detectar fugas a tiempo y conocer la evidencia de plagas para intervenir focalizadamente. Recoge frustraciones sobre los costos de bombeo y el interés en comprobar el ahorro.
+**Necesita** información confiable y oportuna para controlar costos, cumplir auditorías y focalizar las aplicaciones (E3-C, E3-G). **Ve** registros que llegan al día siguiente y reportes de plagas que tardan hasta 48 horas (E3-B, E3-D). **Hace** la programación semanal del riego y consolida datos de cuadernos en Excel (E3-B). **Dice** que cualquier cierre automático debe tener interlocks y que la reapertura requiere credenciales tras una inspección (E3-F). Sus **pains** son la falta de información en tiempo real y el riesgo en certificaciones; sus **gains**, el balance de caudal en tiempo real, las alertas con fotografía y un modelo de suscripción por hectárea (E3-G, E3-H).
 
-<img src="../assets/ing-vega-empathy-map.png" alt="Empathy Map de Ing. Vega, jefe de operaciones agrícolas" width="100%">
+<img src="../assets/alexis-alarcon-empathy-map.png" alt="Empathy Map de Alexis Alarcón" width="100%">
 
 ## 2.4. Big Picture Event Storming
 
@@ -703,48 +756,48 @@ Se delimitan los contextos a partir de las responsabilidades del dominio, agrupa
 
 <img src="../assets/step-10.jpg" alt="Paso 10: Bounded Contexts de AgroLeak" width="100%">
 
+
 ## 2.5. Ubiquitous Language
 
-El Ubiquitous Language establece términos comunes entre los usuarios del dominio, el equipo del proyecto y los artefactos de análisis y diseño. Esta primera versión se basa en el contexto del proyecto y debe contrastarse con las expresiones utilizadas por los entrevistados y con los resultados del Event Storming en Miro.
+El Ubiquitous Language reúne los términos del dominio del riego tecnificado y la sanidad vegetal que comparten los usuarios, el equipo y los artefactos del proyecto. Los términos se presentan en inglés, con su equivalente en español entre paréntesis, y se obtuvieron de las entrevistas y del Big Picture Event Storming.
 
-| Término | Definición en el dominio de AgroLeak |
+| Término | Definición |
 | :--- | :--- |
-| **Fundo** | Unidad de operación agrícola administrada por un productor, administrador o equipo de operaciones. |
-| **Parcela** | Área de cultivo dentro de un fundo que puede ser supervisada como parte de la operación agrícola. |
-| **Sector** | Área operativa del fundo a la que se asocian cultivos y dispositivos, según la organización registrada en AgroLeak. |
-| **Cultivo** | Tipo de cultivo registrado para una parcela o sector del fundo. |
-| **Tramo de riego** | Parte de la infraestructura de riego monitoreada por uno o más dispositivos; su equivalencia con el término **sector** debe confirmarse con el modelo de datos y la lógica de la aplicación. |
-| **Caudal** | Volumen de agua que circula por un punto del sistema de riego durante un intervalo de tiempo. |
-| **Lectura de caudal** | Medición reportada por un sensor en un punto del tramo de riego, con su valor, unidad y referencia temporal. |
-| **Balance de caudal** | Comparación entre el caudal medido en distintos puntos de un tramo, como la entrada y la salida. En la entrevista se mencionó el uso de litros por minuto; los puntos de medición y criterios de diferencia deben corresponder a la configuración real del sistema. |
-| **Presión de riego** | Presión registrada en el sistema de riego para supervisar sus condiciones de operación. Los rangos aceptables deben definirse según la instalación y no inferirse únicamente de una entrevista. |
-| **Programación de riego** | Planificación de los periodos o volúmenes de riego para un cultivo o sector. La entrevista indica que puede considerar la evapotranspiración, pero AgroLeak no debe presentarse como generador de esa programación salvo que esa función esté definida. |
-| **Evapotranspiración** | Pérdida de agua hacia la atmósfera por evaporación y transpiración de las plantas; puede utilizarse como dato de referencia para planificar el riego. |
-| **Telemetría** | Datos enviados por los dispositivos de campo para supervisar el estado de los sensores, el flujo de agua y otros elementos monitoreados. |
-| **Registro de campo** | Anotación manual de mediciones, observaciones o incidencias realizada durante la operación agrícola. En la entrevista, los datos de cuadernos de campo se transcribían posteriormente a Excel. |
-| **Snapshot** | Captura o conjunto puntual de datos evaluado por el sistema para mostrar el estado de las lecturas y detectar posibles condiciones anómalas. El contenido exacto debe mantenerse alineado con la implementación. |
-| **Anomalía persistente de caudal** | Diferencia entre las lecturas de entrada y salida que se mantiene durante el periodo definido por las reglas del sistema. Los umbrales y la duración deben precisarse en el diseño del producto. |
-| **Fuga** | Pérdida no deseada de agua en el sistema de riego, cuya detección puede apoyarse en la evaluación de lecturas de caudal. |
-| **Dispositivo IoT** | Sensor o actuador instalado en campo que captura mediciones o ejecuta acciones relacionadas con el monitoreo y la protección del riego. |
-| **Dispositivo asignado** | Dispositivo registrado y asociado a un sector para participar en el monitoreo o la actuación correspondiente. |
-| **Estado del dispositivo** | Condición reportada por el sistema para indicar si un dispositivo se encuentra conectado (*ONLINE*) o sin conexión (*OFFLINE*). |
-| **Modo de operación** | Configuración que determina cómo se comporta el sistema frente a condiciones detectadas. Los modos y permisos disponibles deben corresponder a los definidos en la aplicación y en las reglas del dominio. |
-| **Interlock** | Salvaguarda que condiciona o bloquea una actuación hasta que se cumplan reglas de seguridad definidas. En la entrevista se solicitó validar la persistencia de una anomalía antes de permitir una respuesta automática; la regla concreta debe acordarse en el diseño del sistema. |
-| **Gateway Edge** | Componente situado en el borde que recibe o procesa datos de dispositivos y puede ejecutar capacidades locales aun cuando la conectividad con la nube no esté disponible. |
-| **Inferencia en el borde (Edge AI)** | Procesamiento local de una imagen mediante un modelo de IA para estimar la presencia o clasificación de una plaga. |
-| **Evaluación fitosanitaria** | Inspección del cultivo para identificar y registrar la presencia de plagas. En el proceso descrito por el entrevistado, evaluadores realizan esta actividad y consolidan reportes. |
-| **Observación de plaga** | Registro asociado a una captura o inspección y, cuando corresponde, al resultado de inferencia. Una observación detectada por el sistema no equivale por sí sola a una confirmación agronómica. |
-| **Porcentaje de confianza de la inferencia** | Valor producido por un modelo que expresa su nivel de confianza en una clasificación. No debe interpretarse como certeza ni como confirmación agronómica. |
-| **Alerta** | Aviso generado por el sistema para comunicar una condición relevante, como una posible fuga, una observación de plaga u otra condición definida por las reglas. |
-| **Estado de alerta** | Estado del ciclo de vida de una alerta. El tablero contempla estados como **ACTIVE**, **ACKNOWLEDGED** y **RESOLVED**; sus transiciones deben corresponder a las acciones disponibles en la aplicación. |
-| **Comando de válvula** | Solicitud de apertura o cierre dirigida al actuador. La solicitud, el envío de la orden y el resultado confirmado son hechos distintos. |
-| **Estado de ejecución** | Resultado reportado para una actuación, por ejemplo, pendiente, confirmada o fallida. No se debe tratar una orden enviada como una actuación confirmada. |
-| **Autorización de reapertura** | Permiso requerido para volver a abrir una válvula después de una actuación de protección. El entrevistado indicó que debería darse tras una inspección física y con credenciales autorizadas; la regla y los roles permitidos deben definirse formalmente. |
-| **Bitácora de auditoría (audit log)** | Registro trazable de incidencias y acciones realizadas sobre el sistema, incluyendo las operaciones relacionadas con las válvulas cuando estén disponibles. |
-| **Eficiencia hídrica** | Indicador utilizado para evaluar la relación entre el agua empleada y la operación o producción agrícola. Su fórmula y datos de cálculo deben acordarse antes de presentarlo como métrica del producto. |
-| **Estado seguro** | Condición de protección definida para el sistema después de una situación de riesgo. El cierre solicitado y el cierre confirmado deben distinguirse; una acción no confirmada no debe registrarse como exitosa. |
-| **Sincronización idempotente** | Envío o reintento de datos almacenados localmente sin crear registros duplicados cuando una misma operación se procesa más de una vez. |
-| **Bounded Context (contexto delimitado)** | Límite dentro del cual un modelo y sus términos tienen un significado consistente. Los nombres y responsabilidades deben mantenerse alineados con los límites acordados en el paso 10 del Event Storming. |
+| **Farm (Fundo)** | Unidad de producción agrícola administrada por un productor o por el equipo de operaciones de una agroempresa. |
+| **Field (Parcela)** | Área de cultivo dentro de un fundo. |
+| **Irrigation Sector (Sector de riego)** | Parte de una parcela que se riega desde una misma válvula y en la que se supervisa el caudal. Es la unidad a la que se asocian cultivos y dispositivos; en campo también se le llama tramo de riego. |
+| **Crop (Cultivo)** | Especie y variedad sembrada en un sector, con su fecha de siembra y estado. |
+| **Drip Irrigation (Riego por goteo)** | Sistema de riego que entrega agua a las plantas mediante mangueras y goteros, impulsada por una estación de bombeo. |
+| **Pumping Station (Caseta de bombeo)** | Instalación que impulsa el agua hacia la red de riego; su consumo de energía o combustible es un costo operativo relevante. |
+| **Irrigation Schedule (Programación de riego)** | Plan de turnos y volúmenes de riego por sector, que puede definirse según la evapotranspiración del cultivo. |
+| **Evapotranspiration (Evapotranspiración)** | Cantidad de agua que pierde el cultivo por evaporación del suelo y transpiración de las plantas; se usa como referencia para programar el riego. |
+| **Flow Rate (Caudal)** | Volumen de agua que pasa por un punto de la red de riego por unidad de tiempo, expresado en litros por minuto (L/min). |
+| **Inflow / Outflow (Caudal de entrada / salida)** | Caudal medido al inicio y al final de un sector de riego. |
+| **Flow Balance (Balance de caudal)** | Diferencia entre el caudal de entrada y el de salida de un sector, expresada como porcentaje del caudal de entrada. |
+| **Irrigation Pressure (Presión de riego)** | Presión del agua en la red de riego, expresada en bar; una presión fuera del rango normal indica una falla. |
+| **Leak (Fuga)** | Pérdida de agua en la red de riego por rotura, desacople de mangueras o falla de sellos. Se identifica cuando el caudal de salida es significativamente menor que el de entrada. |
+| **Obstruction (Obstrucción)** | Bloqueo de goteros o tuberías que reduce el caudal de salida y eleva la presión de la red. |
+| **Persistent Flow Anomaly (Anomalía persistente de caudal)** | Diferencia de caudal o presión fuera de los umbrales configurados que se mantiene durante el tiempo definido; una lectura aislada no constituye una anomalía persistente. |
+| **Field Log (Registro de campo)** | Anotación manual de volúmenes, presiones e incidencias en cuadernos de campo. |
+| **IoT Device (Dispositivo IoT)** | Sensor de caudal, presión o humedad, cámara, válvula o gateway instalado en un sector. |
+| **Device Status (Estado del dispositivo)** | Condición de conexión de un dispositivo: en línea (*ONLINE*) o sin conexión (*OFFLINE*) cuando deja de reportar durante el tiempo establecido. |
+| **Shutoff Valve (Válvula de corte)** | Actuador que abre o cierra el paso de agua hacia un sector. |
+| **Valve Command (Comando de válvula)** | Orden de apertura (*OPEN*) o cierre (*CLOSE*) enviada a una válvula. |
+| **Command Status (Estado del comando)** | Resultado de un comando de válvula: pendiente (*PENDING*), confirmado (*CONFIRMED*) o fallido (*FAILED*). Un comando enviado no se considera ejecutado hasta que la válvula lo confirma. |
+| **Operation Mode (Modo de operación)** | Configuración de un sector que define cómo se actúa sobre la válvula: solo monitoreo (*MONITOR_ONLY*), actuación manual (*MANUAL*) o cierre automático protegido (*AUTO_SAFE*). |
+| **Interlock (Bloqueo de seguridad)** | Condición que debe cumplirse antes de ejecutar un cierre automático, como confirmar que la anomalía es persistente. |
+| **Reopening Authorization (Autorización de reapertura)** | Permiso que otorga un usuario autorizado para volver a abrir una válvula después de una inspección física. |
+| **Pest (Plaga)** | Organismo que daña el cultivo, como queresa, arañita roja o trips. |
+| **Phytosanitary Evaluation (Evaluación fitosanitaria)** | Inspección del cultivo realizada por evaluadores para identificar y cuantificar plagas. |
+| **Pest Observation (Observación de plaga)** | Registro de una plaga detectada en un sector, con su imagen, tipo, cantidad y nivel de confianza. |
+| **Detection Confidence (Confianza de detección)** | Porcentaje que indica qué tan seguro está el modelo de visión artificial de la plaga que identificó; no reemplaza la confirmación del evaluador. |
+| **Targeted Application (Aplicación focalizada)** | Aplicación de productos fitosanitarios solo en el sector afectado, en lugar de todo el lote. |
+| **Alert (Alerta)** | Aviso al usuario sobre una fuga, obstrucción, presión fuera de rango, dispositivo sin conexión o plaga detectada. |
+| **Alert Status (Estado de la alerta)** | Etapa de atención de una alerta: activa (*ACTIVE*), reconocida (*ACKNOWLEDGED*) o resuelta (*RESOLVED*). |
+| **Audit Log (Bitácora)** | Registro con fecha, hora y usuario de las incidencias y de las acciones realizadas sobre alertas y válvulas. |
+| **Estimated Water Loss (Pérdida estimada de agua)** | Volumen de agua perdido calculado a partir del balance de caudal durante un periodo. |
+| **Water Efficiency (Eficiencia hídrica)** | Relación entre el agua que llega efectivamente al cultivo y el agua bombeada. |
+| **Water Footprint (Huella hídrica)** | Volumen de agua utilizado en la producción, evaluado en certificaciones y auditorías ambientales. |
 
 Los nombres y definiciones de esta tabla constituyen la base del lenguaje de dominio a partir del Event Storming, la lógica de la aplicación y la entrevista del Segmento 2. Los términos recogidos de una entrevista reflejan lo expresado por ese participante; no implican por sí solos que AgroLeak ya implemente o haya aprobado esas reglas o métricas. Deben contrastarse con las demás entrevistas y mantenerse consistentes en los requisitos, diseños y diagramas. En particular, el equipo debe confirmar si **sector** y **tramo de riego** representan la misma unidad, y validar los estados y transiciones de alertas, dispositivos y comandos de válvula con la implementación.
 
